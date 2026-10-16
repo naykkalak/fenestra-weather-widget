@@ -1,4 +1,5 @@
 # Fenestra Weather Widget
+**Available on the KDE Store:** https://store.kde.org/p/2379040
 
 A weather widget for KDE Plasma 6, part of the **Fenestra** series.
 
