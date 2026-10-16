@@ -1,0 +1,282 @@
+// ==========================================================================
+// Glue script 3: create the viewer and expose the QML-facing window.* API.
+// ==========================================================================
+var _widgetAdapter = new WidgetLeafletAdapter();
+
+var config = {
+  apiFixed: API_BASE,
+  strings: STRINGS,
+  view: { lat: LAT, lon: LON, zoom: INIT_ZOOM, maxZoom: 12 },
+  layerMode: ACTIVE_LAYER,                      // 'radar' | 'satellite' | 'both'
+  colorScheme: CURRENT_COLOR,                   // clamped 0..12
+  cells: CELLS_INIT,                            // 'light' | 'dark' | '' (URL)
+  arrows: (ARROWS_ON ? (ACTIVE_THEME === 'dark' ? 'light' : 'dark') : ''),
+  alerts: ALERTS_INIT,                          // fetch + overlay alerts at boot
+  smooth: SMOOTH_INIT,
+  snow: SNOW_INIT,
+  format: FORMAT_INIT,
+  tileSize: TILESIZE_INIT,
+  theme: ACTIVE_THEME,                          // 'dark' | 'light'
+  locateMode: 'view',
+  nowMarker: true,
+  nowMarkerLabel: true,
+  locale: SYS_LOCALE,
+  hour12: HOUR12,
+  onThemeChange: function (theme) {
+    // The QML chrome only knows arrows on/off; the page derives the arrow
+    // color from the map theme, so re-derive it whenever the theme moves.
+    if (arrowsOn) viewer.setArrows(theme === 'dark' ? 'light' : 'dark');
+    if (windLayer) windLayer.setColor(windColor(theme));
+  }
+};
+
+// Whether motion arrows are currently on. Initialized from the same derivation
+// used for config.arrows above (ARROWS_ON), so onThemeChange stays correct.
+var arrowsOn = ARROWS_ON;
+
+// Capture the viewer API: every window.* setter drives the engine directly.
+var viewer = window.LibreWXR.createViewer(config, _widgetAdapter);
+
+// === QML-FACING WINDOW API ===
+window.setLayerMode = function (mode) { viewer.setLayerMode(mode); };
+
+window.setColorScheme = function (n) { viewer.setColorScheme(n); };
+
+window.setArrows = function (on) {
+    arrowsOn = !!on;
+    viewer.setArrows(arrowsOn ? (currentTheme() === 'dark' ? 'light' : 'dark') : '');
+};
+
+window.setCells = function (mode) { viewer.setCells(mode); };
+
+window.setAlerts = function (on) { viewer.setAlertsEnabled(!!on); };
+
+window.setTheme = function (theme) { viewer.setTheme(theme); };
+
+// WIDGET PATCH: live tile-options bridge for the Options panel (Smoothing /
+// Snow mask / Format / Tile size). The engine already exposes these on
+// `viewer` (see the createViewer return statement above) - only the
+// window.* facade for the QML side was missing the last four.
+window.setSmooth = function (on) { viewer.setSmooth(!!on); };
+
+window.setSnow = function (on) { viewer.setSnow(!!on); };
+
+window.setFormat = function (fmt) { viewer.setFormat(fmt); };
+
+window.setTileSize = function (size) { viewer.setTileSize(size); };
+// /WIDGET PATCH
+
+window.setBackground = function (id) {
+  if (id !== 'auto') {
+    var found = false;
+    for (var i = 0; i < BG_LIST.length; i++) {
+      if (BG_LIST[i].id === id) { found = true; break; }
+    }
+    if (!found) return; // invalid id
+  }
+  BG_CURRENT = id;
+  var theme = currentTheme();
+  if (_widgetAdapter && typeof _widgetAdapter.setBasemap === 'function') {
+    _widgetAdapter.setBasemap(theme);
+  }
+  renderBgMenu(); // keep the picker's active mark in sync with config-driven changes
+};
+
+// The widget nudges the view by 1 px to make Chromium repaint (repaint
+// nudge in RadarWebEngineViewLibreWXR.qml). Leaflet keeps the map centred
+// when it is resized, so each nudge moved the whole map by a pixel and back.
+// A change of 2 px or less now resizes without recentring.
+(function () {
+  var invalidateSize = L.Map.prototype.invalidateSize;
+  L.Map.include({
+    invalidateSize: function (options) {
+      if (this._loaded) {
+        var size = this.getSize(), c = this.getContainer();
+        if (Math.abs(c.clientWidth - size.x) <= 2 && Math.abs(c.clientHeight - size.y) <= 2)
+          options = L.extend({}, options === true ? { animate: true } : options, { pan: false });
+      }
+      return invalidateSize.call(this, options);
+    }
+  });
+})();
+
+window.fixViewport = function () {
+  var m = _widgetAdapter ? _widgetAdapter.getMap() : null;
+  if (!m) return;
+  // Reproduce the old cure for the plasmoid's WebEngineView: recalculate the
+  // container size and do an invisible 1px pan-and-back, which forces Leaflet
+  // to reset its view and Chromium to repaint the damaged surface.
+  m.invalidateSize(false);
+  if (windLayer) windLayer.nudging = true;
+  m.panBy([1, 0], { animate: false });
+  m.panBy([-1, 0], { animate: false });
+  if (windLayer) windLayer.nudging = false;
+  // The view is final now: the wind may start drawing.
+  viewportSettled = true;
+  if (windLayer) windLayer.settle();
+  document.body.classList.add('lv-ready');   // fade the whole view in (overrides.css)
+  // Timeout rearm: the engine's moveend restarts a quiet background preload,
+  // which the cancelling 1px nudge (never a real view change) safely ignores.
+  setTimeout(function () { m.invalidateSize(false); }, 400);
+};
+
+// Called by the widget when a page kept loaded comes back into view: answer
+// with document.title 'ready:<token>' once the map has its real size and the
+// layers on screen have their tiles, so the view fades in on a full map.
+// Built hidden, the page had a 0 px map and has loaded nothing yet, and the
+// popup goes through a smaller layout before its final one: wait for a size
+// that holds still for 200 ms, then for its tiles. A tile
+// that fails counts as done (a server down does not hold the fade), and the
+// answer comes after 1.5 s at the latest, so a wind request that fails
+// (Open-Meteo down, rate limit) does not hold the fade either. Hidden layers
+// (radar frames preloaded at opacity 0) are not waited for.
+window.signalWhenLoaded = function (token) {
+  var m = _widgetAdapter ? _widgetAdapter.getMap() : null;
+  var start = Date.now(), lastSize = '', still = 0;
+  var answer = function () { document.title = 'ready:' + token; };
+  if (!m) { answer(); return; }
+  var busy = function () {
+    var loading = false;
+    m.eachLayer(function (l) {
+      if (l.isLoading && (l.options.opacity === undefined || l.options.opacity > 0) && l.isLoading()) loading = true;
+      var gl = l.getMaplibreMap && l.getMaplibreMap();
+      if (gl && gl.areTilesLoaded && !gl.areTilesLoaded()) loading = true;
+    });
+    // The wind draws once its grid is in, from memory or from Open-Meteo.
+    if (windLayer && !windLayer.isDrawing()) loading = true;
+    return loading;
+  };
+  var check = function () {
+    if (Date.now() - start > 1500) { answer(); return; }
+    // Leaflet requests the tiles of a new size a moment after it gets it.
+    var size = m.getSize(), key = size.x + 'x' + size.y;
+    still = size.x > 0 && key === lastSize ? still + 1 : 0;
+    lastSize = key;
+    if (still >= 4 && !busy()) { answer(); return; }
+    setTimeout(check, 50);
+  };
+  setTimeout(check, 50);
+};
+
+// === WIND LAYER (Open-Meteo particles, glue-wind.js) ===
+var WindLayerClass = WidgetWind.createWindLayer(L);
+var _windSource = new WidgetWind.WindSource({});
+var _windDem = new WidgetWind.DemTiles({});
+var windLayer = null;
+var windLevel = WIND_LEVEL;   // '10m' | '700hPa'
+var windFps = WIND_FPS, windMaxFps = WIND_MAX_FPS;
+var windLineWidth = WIND_LINE_WIDTH;
+var viewportSettled = false;   // set by the first window.fixViewport()
+
+function windColor(theme) { return theme === 'dark' ? '#ffffff' : '#1a237e'; }
+
+window.setWind = function (on) {
+  var m = _widgetAdapter.getMap();
+  if (!m) return;
+  if (on && !windLayer) {
+    windLayer = new WindLayerClass(_windSource, _windDem, {
+      fps: windFps, maxFps: windMaxFps, relief: WIND_RELIEF, color: windColor(currentTheme()), level: windLevel,
+      lineWidth: windLineWidth
+    });
+    windLayer.addTo(m);
+    // Switched on after the page settled: nothing left to wait for.
+    if (viewportSettled) windLayer.settle();
+  } else if (!on && windLayer) {
+    m.removeLayer(windLayer);
+    windLayer = null;
+  }
+};
+
+// Frame-rate budget chosen in the widget settings (economy / balanced / smooth).
+window.setWindRate = function (fps, maxFps) {
+  windFps = fps; windMaxFps = maxFps;
+  if (windLayer) windLayer.setRate(fps, maxFps);
+};
+
+// Particle width chosen in the widget settings (CSS px).
+window.setWindWidth = function (w) {
+  windLineWidth = w;
+  if (windLayer) windLayer.setLineWidth(w);
+};
+
+// '10m' (surface, relief-aware) or '700hPa' (the flow that steers the rain).
+window.setWindLevel = function (level) {
+  windLevel = level === '700hPa' ? '700hPa' : '10m';
+  if (windLayer) windLayer.setLevel(windLevel);
+};
+
+// Popup collapsed/expanded: the page may not see a visibility change, so QML says it.
+window.setWindActive = function (active) {
+  if (windLayer) windLayer.setActive(!!active);
+};
+
+if (WIND_ON) window.setWind(true);
+
+// Fade-in fallback when nothing calls fixViewport (the page opened on its own).
+setTimeout(function () { document.body.classList.add('lv-ready'); }, 1500);
+
+// === BASE MAP PICKER (in-map, 1.7.2 style) ===
+var bgMenu = document.getElementById('bgMenu');
+var bgBtn = document.getElementById('bgBtn');
+function currentTheme() {
+  return document.body.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+}
+function renderBgMenu() {
+    if (!bgMenu) return;
+    bgMenu.innerHTML = '';
+    if (!BG_LIST.length) {
+        var picker = document.getElementById('bgPicker');
+        if (picker) picker.style.display = 'none';
+        return;
+    }
+    for (var i = 0; i < BG_LIST.length; i++) {
+        (function (entry) {
+            var row = document.createElement('div');
+            row.textContent = entry.label;
+            if (entry.id === BG_CURRENT) row.className = 'active';
+            row.addEventListener('click', function () {
+                if (entry.id === BG_CURRENT) { closeBgMenu(); return; }
+                BG_CURRENT = entry.id;
+                _widgetAdapter.setBasemap(currentTheme());
+                // Persist the pick on the QML side via the title channel
+                document.title = 'bg:' + entry.id;
+                closeBgMenu();
+                renderBgMenu();
+            });
+            bgMenu.appendChild(row);
+        })(BG_LIST[i]);
+    }
+}
+function closeBgMenu() {
+    if (bgMenu) bgMenu.classList.remove('open');
+}
+if (bgBtn) {
+    bgBtn.addEventListener('click', function (ev) {
+        ev.stopPropagation();
+        if (bgMenu) {
+            var isOpen = bgMenu.classList.contains('open');
+            if (isOpen) { closeBgMenu(); }
+            else { renderBgMenu(); bgMenu.classList.add('open'); }
+        }
+    });
+}
+document.addEventListener('click', function (ev) {
+    if (bgMenu && bgMenu.classList.contains('open') && ev.target && !(ev.target.closest && (ev.target.closest('#bgPicker')))) closeBgMenu();
+});
+renderBgMenu();
+
+// === VIEWPORT FIX WIRING (map lifecycle in the ~380px embedded webview) ===
+if (typeof ResizeObserver !== 'undefined') {
+  var _roTimer = null;
+  new ResizeObserver(function () {
+    if (_roTimer) clearTimeout(_roTimer);
+    _roTimer = setTimeout(window.fixViewport, 120);
+  }).observe(document.getElementById('lv-map'));
+}
+window.addEventListener('load', function () {
+  setTimeout(window.fixViewport, 250);
+  setTimeout(window.fixViewport, 1200);
+});
+
+// === BUILD PROVENANCE ===
+// Assembled by the advanced-weather-widget's scripts/build_librewxr_map.py.

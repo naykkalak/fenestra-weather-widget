@@ -1,0 +1,240 @@
+      /* === WIDGET COMPACT OVERRIDES === */
+      html, body { height: 100%; }
+      body { height: 100%; }
+
+      /* Replayer: tighter spacing, smaller play button, shorter scrubber.
+         Estimated height ~70-72px (10px padding + 50px content + 10px padding). */
+      .replayer {
+        padding: 10px 10px 10px;
+      }
+      .replayer-top {
+        gap: var(--space-1);
+      }
+      .play-btn {
+        width: 28px;
+        height: 28px;
+      }
+      .play-btn svg {
+        width: 12px;
+        height: 12px;
+      }
+      .scrubber-wrap {
+        padding-left: 12px;
+        gap: 2px;
+      }
+      .scrubber-track {
+        height: 28px;
+      }
+      .scrubber-ticks {
+        height: 18px;
+        margin-top: 2px;
+      }
+      .scrubber-thumb {
+        width: 14px;
+        height: 14px;
+        border-width: 2px;
+      }
+      .timestamp-display {
+        font-size: var(--font-size-sm);
+        min-width: 56px;
+      }
+      .tick-label {
+        font-size: 9px;
+      }
+
+      /* Overlays: smaller fonts and paddings so they don't dominate the map. */
+      .preload-indicator {
+        top: var(--space-2);
+        left: var(--space-2);
+        padding: var(--space-1) var(--space-2);
+        font-size: var(--font-size-xs);
+        min-width: 100px;
+      }
+      .error-overlay {
+        top: var(--space-3);
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--font-size-sm);
+      }
+      .refresh-status {
+        top: var(--space-3);
+        right: var(--space-3);
+        padding: var(--space-1) var(--space-2);
+        font-size: var(--font-size-xs);
+      }
+
+      /* Locate button: compact sizing (vendored look kept above). */
+      .locate-btn {
+        width: 38px;
+        height: 38px;
+        top: var(--space-2);
+        right: var(--space-2);
+      }
+      .locate-btn svg {
+        width: 18px;
+        height: 18px;
+      }
+
+      /* Leaflet zoom control: compact sizing. */
+      .leaflet-control-zoom {
+        margin-top: var(--space-2) !important;
+        margin-left: var(--space-2) !important;
+        margin-bottom: var(--space-2) !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      .leaflet-control-zoom a {
+        width: 32px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+        font-size: 19px !important;
+        background: var(--btn-bg) !important;
+        color: var(--text-secondary) !important;
+        border: 1px solid var(--btn-border) !important;
+      }
+      .leaflet-control-zoom a:hover {
+        background: var(--btn-hover) !important;
+      }
+      .leaflet-control-zoom-in {
+        border-radius: 8px 8px 0 0 !important;
+      }
+      .leaflet-control-zoom-out {
+        border-radius: 0 0 8px 8px !important;
+        border-top: none !important;
+      }
+      .leaflet-control-zoom a.leaflet-disabled,
+      .leaflet-control-zoom a.leaflet-disabled:hover {
+        color: var(--text-dim) !important;
+        background: var(--btn-bg) !important;
+      }
+
+      /* Leaflet rotate control (leaflet-rotate plugin, loaded in shell.html):
+         compact sizing to match the zoom control above it. Both controls
+         default to the 'topleft' corner, so Leaflet stacks this one right
+         below the zoom control with no extra positioning here - only the
+         gap and the button's own look need matching. */
+      .leaflet-control-rotate {
+        margin-top: var(--space-1) !important;
+        margin-left: var(--space-2) !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      .leaflet-control-rotate-toggle {
+        width: 32px !important;
+        height: 32px !important;
+        background: var(--btn-bg) !important;
+        border: 1px solid var(--btn-border) !important;
+        border-radius: var(--radius-sm) !important;
+      }
+      .leaflet-control-rotate-toggle:hover {
+        background: var(--btn-hover) !important;
+      }
+      /* WIDGET PATCH: leaflet-rotate's compass icon is a data-URI SVG with
+         colors hardcoded by the plugin (fill='#333' north half, '#ccc'
+         south half) for a light page background - a data URI can't read
+         our --btn-bg/--text-* custom properties, so it can't inherit the
+         widget's theme automatically. Against this widget's dark buttons
+         the dark north half all but disappears and only the light south
+         half reads, which looks exactly like "north is pointing south"
+         (that's the whole bug report: nothing about the rotation math is
+         wrong, only the icon's fixed colors were picked for the wrong
+         background). Recolored bright-on-dark for the dark theme (the
+         default - see <body data-theme="dark"> in the head above), with a
+         data-theme="light" override below that keeps the plugin's original
+         colors, which already read fine on a light background. */
+      .leaflet-control-rotate-arrow {
+        background-size: 18px 18px !important;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='29' height='29' viewBox='0 0 29 29' xmlns='http://www.w3.org/2000/svg' fill='%23f0f0f0'%3E%3Cpath d='M10.5 14l4-8 4 8h-8z'/%3E%3Cpath d='M10.5 16l4 8 4-8h-8z' fill='%235a5a5a'/%3E%3C/svg%3E") !important;
+      }
+      body[data-theme="light"] .leaflet-control-rotate-arrow {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='29' height='29' viewBox='0 0 29 29' xmlns='http://www.w3.org/2000/svg' fill='%23333'%3E%3Cpath d='M10.5 14l4-8 4 8h-8z'/%3E%3Cpath d='M10.5 16l4 8 4-8h-8z' fill='%23ccc'/%3E%3C/svg%3E") !important;
+      }
+
+      /* Base-map picker: button stacks below the 38px locate button; the
+         menu opens downward over the map. */
+      .bg-picker {
+        position: absolute;
+        top: calc(var(--space-2) + 38px + var(--space-1));
+        right: var(--space-2);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+      }
+      .bg-btn {
+        width: 38px;
+        height: 38px;
+        background: var(--btn-bg);
+        border: 1px solid var(--btn-border);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+      }
+      .bg-btn:hover {
+        background: var(--btn-hover);
+      }
+      .bg-btn svg {
+        width: 18px;
+        height: 18px;
+        fill: none;
+        stroke: var(--text-secondary);
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .bg-menu {
+        display: none;
+        background: var(--btn-bg);
+        border: 1px solid var(--btn-border);
+        border-radius: var(--radius-sm);
+        padding: 4px;
+        max-height: 200px;
+        overflow-y: auto;
+        min-width: 140px;
+      }
+      .bg-menu.open {
+        display: block;
+      }
+      .bg-menu div {
+        color: var(--text);
+        font-size: var(--font-size-sm);
+        padding: 4px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .bg-menu div:hover {
+        background: var(--btn-hover);
+      }
+      .bg-menu div.active {
+        font-weight: bold;
+        color: var(--accent);
+      }
+
+        /* Keyless dark basemap: the standard OSM raster recoloured here.
+           Scoped to the base layer's own container, never to the tile pane.
+           Leaflet gives every GridLayer its own div, so the filter cannot
+           reach the radar, satellite or alert layers. The viewer upstream
+           ships a .lv-basemap-dark rule that targets the pane instead; it is
+           left unused because RainViewer, which shares this provider list,
+           creates no panes at all and would have its radar inverted too. */
+        .base-inverted img {
+          filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9) saturate(0.8);
+        }
+
+        /* Wind particles (glue-wind.js): one canvas in its own pane, never
+           catching pointer events so the map stays draggable through it. */
+        :root { --leaflet-z-wind: 460; }
+        .lv-wind-canvas {
+          position: absolute;
+          pointer-events: none;
+        }
+
+      /* Whole-view fade-in: the page shows once the widget has settled the
+         viewport (window.fixViewport), so the map, the radar and the wind
+         come up together instead of popping in one after the other. */
+      body { opacity: 0; transition: opacity 400ms ease-out; }
+      body.lv-ready { opacity: 1; }

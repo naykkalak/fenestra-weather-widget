@@ -1,0 +1,4834 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Advanced Weather Widget package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Weather Widget\n"
+"Report-Msgid-Bugs-To: https://github.com/pnedyalkov91/advanced-weather-widget/issues\n"
+"POT-Creation-Date: 2026-10-13 06:29+0300\n"
+"PO-Revision-Date: 2026-08-09 00:00+0900\n"
+"Last-Translator: Vitneum\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: contents/ui/DetailsView.qml:3612 contents/ui/DetailsView.qml:3614
+msgid " until dawn"
+msgstr " (새벽까지)"
+
+#: contents/ui/main.qml:1858
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: contents/ui/main.qml:1802
+msgid "%1 - Today"
+msgstr "%1 - 오늘"
+
+#: contents/ui/main.qml:1875
+msgid "%1 - Tomorrow"
+msgstr "%1 - 내일"
+
+#: contents/ui/main.qml:2010
+msgid "%1 is ending"
+msgstr ""
+
+#: contents/ui/main.qml:2004
+msgid "%1 is expected"
+msgstr ""
+
+#: contents/ui/main.qml:2011
+msgid "%1 is expected to end %2."
+msgstr ""
+
+#: contents/ui/main.qml:2005
+msgid "%1 is possible %2."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:397
+msgid "%1 px"
+msgstr ""
+
+#: contents/ui/main.qml:1787
+msgid "%1 there will be %2 with a low of %3 and a high of %4."
+msgstr ""
+
+#: contents/ui/DetailsView.qml:4261
+msgid "%1h"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:4262
+msgid "%1h %2m"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:4257 contents/ui/DetailsView.qml:4260
+msgid "%1m"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1390
+msgctxt "@info %1 size %2 family"
+msgid "%1pt %2"
+msgstr "%1pt %2"
+
+#: contents/ui/js/spaceWeather.js:171 contents/ui/js/spaceWeather.js:185
+#: contents/ui/js/spaceWeather.js:197
+msgid "--"
+msgstr "--"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:561
+msgid "-180 to 180 (e.g. 23.3219)"
+msgstr "-180 ~ 180 (예: 23.3219)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:544
+msgid "-90 to 90 (e.g. 42.6977)"
+msgstr "-90 ~ 90 (예: 42.6977)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1132
+msgid "0 = auto (120 px per chip). Increase if values are truncated."
+msgstr "0 = 자동 (칩당 120 px). 값이 잘리는 경우 늘리세요."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1132
+msgid "0 = auto. Increase if items are cut off."
+msgstr "0 = 자동. 항목이 잘리는 경우 늘리세요."
+
+#: contents/ui/main.qml:1099
+msgid "1 Alert"
+msgstr "경보 1건"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:835
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:709
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:703
+msgid "12-hour format"
+msgstr "12시간 형식"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:847
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:721
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:715
+msgid "12h"
+msgstr "12시간"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:835
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:709
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:703
+msgid "24-hour format"
+msgstr "24시간 형식"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:847
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:721
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:715
+msgid "24h"
+msgstr "24시간"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:271
+msgid "256 px"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:265
+#: contents/ui/config/tabs/ConfigPanelTab.qml:419
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1433
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:292
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:63
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:73
+msgid "3D Oxygen (Bundled)"
+msgstr "3D Oxygen (내장)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:275
+msgid "512 px"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:179
+msgid "68°F"
+msgstr "68°F"
+
+#: contents/ui/main.qml:1496
+msgid "<b>Effective:</b> %1"
+msgstr "<b>발효 시각:</b> %1"
+
+#: contents/ui/main.qml:1493 contents/ui/main.qml:1570
+msgid "<b>Headline:</b> %1"
+msgstr "<b>요약:</b> %1"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:169
+msgid ""
+"<b>Hybrid-GPU / NVIDIA PRIME + Wayland crash workaround</b><br/><br/>On some hybrid-GPU laptops running Wayland, the Radar tab's embedded browser view can crash the whole Plasma shell the moment it first paints, due to a driver-level conflict between the two GPUs. This option disables GPU-accelerated compositing inside that browser view to avoid it.<br/><br/>Only enable this if you're actually experiencing that crash - it costs some rendering performance on the radar map.<br/><br/><b>This needs a log out and back in to take effect</b>, since it has to be set before Plasma starts. It also applies to the whole session, so any other app that embeds a Chromium-based browser view will pick up the same setting. Turning it back off later needs the same log out/in to fully clear it too.\n"
+"        <br/><br/>If you enable this option, the following file will be created in: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+msgstr ""
+
+#: contents/ui/main.qml:1499
+msgid "<b>Instruction:</b> %1"
+msgstr "<b>지침:</b> %1"
+
+#: contents/ui/main.qml:1502 contents/ui/main.qml:1576
+msgid "<b>Provider:</b> %1"
+msgstr "<b>제공자:</b> %1"
+
+#: contents/ui/main.qml:1491 contents/ui/main.qml:1568
+#, javascript-format
+msgid "<b>Severity:</b> %1%2"
+msgstr "<b>심각도:</b> %1%2"
+
+#: contents/ui/main.qml:1573
+msgid "<b>Starts:</b> %1"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:416
+msgid "<b>Why OWM layers may not match RainViewer radar</b><br/><br/>OWM precipitation/cloud layers are <b>static model tiles</b> - they show a smoothed NWP (Numerical Weather Prediction) output, not actual radar returns. They represent where the model <i>thinks</i> it is raining based on interpolation between weather stations and model runs.<br/><br/>RainViewer uses <b>real weather radar composites</b> from radar stations - actual measured reflectivity updated every 2-10 minutes. This discrepancy is expected and known."
+msgstr "<b>OWM 레이어와 RainViewer 레이더가 일치하지 않을 수 있는 이유</b><br/><br/>OWM 강수/구름 레이어는 <b>정적 모델 타일</b>입니다. 실제 레이더 반사파가 아니라 수치 기상 예측(NWP) 모델 출력을 보정한 결과를 보여줍니다. 즉, 기상 관측소와 모델 수행 결과 간의 보간을 통해 모델이 비가 온다고 <i>생각하는</i> 위치를 나타냅니다.<br/><br/>반면 RainViewer는 관측소의 <b>실제 기상 레이더 합성 데이터</b>를 사용합니다. 2~10분마다 업데이트되는 실제 측정 반사율입니다. 따라서 두 데이터 간의 차이는 정상적이며 알려진 현상입니다."
+
+#: contents/ui/config/configGeneral.qml:598
+msgid "AEMET - Spain only (Key Required)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:251
+msgid "AEMET API Key:"
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:395
+#: contents/ui/config/configGeneral.qml:524
+msgid "AEMET error (code %1). Check your API key."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:363
+msgid "AEMET only covers Spain - this location has no coverage."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:440
+msgid "AEMET only covers locations in Spain - other locations show \"Failed\" rather than switching provider (it's intentionally left out of Adaptive Mode too, since it's the one provider here with its own request limit). There is a limit on the number of requests to the AEMET API per minute, so don't click the refresh button too many times, as you may hit the limit and have to wait at least 1 minute before making another request.A failed request retries automatically once.<br/><br/>Fields AEMET doesn't publish at all - pressure, visibility, snow cover, and a daily accumulated precipitation total - show as \"N/A\" here rather than a bug. UV is a daily figure only, not hour-by-hour, and wind can be missing for days further out where AEMET's own forecast confidence drops off.<br/><br/>Free key: <a href='https://opendata.aemet.es/centrodedescargas/altaUsuario'>opendata.aemet.es</a>. New keys expire 3 months after creation (AEMET's policy, changed July 2026) - you'll need to request a new one when that happens.<br/><br/>Please don't refresh too often, as AEMET has a request limit per minute. If you hit it, you'll have to wait at least 1 minute before making another request."
+msgstr ""
+
+#: contents/ui/ForecastView.qml:867
+msgid "AEMET provides hourly forecasts for up to 48 hours. Daily forecast is still available for this date."
+msgstr ""
+
+#: contents/ui/WeatherService.qml:1123
+msgid "AEMET: request failed - retrying automatically."
+msgstr ""
+
+#: contents/ui/WeatherService.qml:1120
+msgid "AEMET: request limit reached - retrying automatically in a minute."
+msgstr ""
+
+#: contents/ui/ForecastView.qml:869
+msgid "AEMET: request limit reached for the moment. This will retry automatically - please wait a minute."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:195
+msgid "AI-powered weather intelligence. API key required below."
+msgstr "AI 기반 기상 정보 서비스입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:289
+msgid "API error"
+msgstr "API 오류"
+
+#: contents/ui/config/configGeneral.qml:457
+msgid "API key is empty."
+msgstr "API 키가 비어 있습니다."
+
+#: contents/ui/js/airQuality.js:171
+msgid "AQHI"
+msgstr "AQHI (대기질 건강 지수)"
+
+#: contents/ui/js/airQuality.js:169
+msgid "AQI"
+msgstr "AQI (대기질 지수)"
+
+#: contents/ui/DetailsView.qml:2110 contents/ui/js/spaceWeather.js:175
+msgid "Active"
+msgstr "활성"
+
+#: contents/ui/config/configGeneral.qml:159
+msgid "Active - GPU compositing is currently disabled for the radar map in this session."
+msgstr "활성화됨 - 현재 세션의 레이더 맵에 대한 GPU 가속 합성이 비활성화되어 있습니다."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:376
+msgid "Adaptive (Open-Meteo)"
+msgstr "적응형 (Open-Meteo)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:104
+msgid "Adaptive (auto-fallback)"
+msgstr "적응형 (자동 폴백)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:495
+msgid "Add Location Manually"
+msgstr "수동으로 위치 추가"
+
+#: contents/ui/CompactView.qml:930 contents/ui/CompactView.qml:1275
+msgid "Add a location"
+msgstr "위치 추가"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:176
+msgid "Advanced (all tabs)"
+msgstr "고급 (모든 탭)"
+
+#: contents/ui/main.qml:1838
+msgid "Afternoon"
+msgstr "오후"
+
+#: contents/ui/config/configAppearance.qml:1876
+#: contents/ui/config/configAppearance.qml:1999
+#: contents/ui/config/configAppearance.qml:2122
+#: contents/ui/config/tabs/ConfigMiscTab.qml:426
+#: contents/ui/DetailsView.qml:365 contents/ui/SimpleView.qml:266
+msgid "Air Quality"
+msgstr "대기질"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:483
+msgid "Air Quality index standard:"
+msgstr ""
+
+#: contents/ui/TooltipContent.qml:470
+msgid "Air Quality:"
+msgstr "대기질:"
+
+#: contents/ui/config/configAppearance.qml:1877
+#: contents/ui/config/configAppearance.qml:2000
+#: contents/ui/config/configAppearance.qml:2123
+msgid "Air quality index"
+msgstr "대기질 지수"
+
+#: contents/ui/js/airQuality.js:91
+msgid "Air quality is acceptable."
+msgstr "대기질이 무난합니다."
+
+#: contents/ui/js/airQuality.js:103
+msgid "Air quality is acceptable; there may be a risk for people unusually sensitive to air pollution."
+msgstr ""
+
+#: contents/ui/js/airQuality.js:95
+msgid "Air quality is extremely poor."
+msgstr "대기질이 매우 최악입니다."
+
+#: contents/ui/js/airQuality.js:92
+msgid "Air quality is fair."
+msgstr "대기질이 보통입니다."
+
+#: contents/ui/js/airQuality.js:93
+msgid "Air quality is poor."
+msgstr "대기질이 나쁩니다."
+
+#: contents/ui/js/airQuality.js:102
+msgid "Air quality is satisfactory, and air pollution poses little or no risk."
+msgstr ""
+
+#: contents/ui/js/airQuality.js:90
+msgid "Air quality is satisfactory."
+msgstr "대기질이 만족스러운 수준입니다."
+
+#: contents/ui/js/airQuality.js:94
+msgid "Air quality is very poor."
+msgstr "대기질이 매우 나쁩니다."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:351
+msgid "Air quality options"
+msgstr "대기질 옵션"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:653
+#: contents/ui/DetailsView.qml:1518 contents/ui/main.qml:1038
+msgid "Alder"
+msgstr "오리나무"
+
+#: contents/ui/config/configNotifications.qml:418
+msgid "Alert sound:"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:483
+#: contents/ui/config/configAppearance.qml:1897
+#: contents/ui/config/configAppearance.qml:2020
+#: contents/ui/config/configAppearance.qml:2143 contents/ui/DetailsView.qml:368
+#: contents/ui/SimpleView.qml:269
+msgid "Alerts"
+msgstr "기상 경보"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:73
+msgid "Alerts provider:"
+msgstr "경보 제공자:"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:132
+msgid "Alerts provider: <a href='https://alerts.kde.org/'>FOSS Public Alert Server</a><br/><br/>KDE's FOSS Public Alert Server collects official severe-weather warnings in CAP format from agencies worldwide and matches them to your exact location. Alert notifications work the same as with the native provider."
+msgstr "경보 제공자: <a href='https://alerts.kde.org/'>FOSS 오픈 공공 경보 서버</a><br/><br/>KDE의 FOSS 공공 경보 서버는 전 세계 기관의 공식 악천후 경보를 CAP 형식으로 수집하여 정확한 위치와 매칭합니다. 경보 알림은 기본 제공자와 동일하게 작동합니다."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:122
+msgid "Alerts provider: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR is a free, open-source weather API that aggregates official CAP alerts worldwide (WMO Severe Weather Information Centre, NOAA NWS, and others) and matches them to your exact location. Alert notifications work the same as with the native provider."
+msgstr "경보 제공자: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR은 전 세계 공식 CAP 경보(WMO 세계기상기구, NOAA NWS 등)를 수집하여 사용자 위치에 맞춰 제공하는 무료 오픈소스 기상 API입니다. 경보 알림은 기본 제공자와 동일하게 작동합니다."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:112
+msgid "Alerts provider: <a href='https://www.meteoalarm.org/'>EUMETNET MeteoAlarm</a> + <a href='https://www.weather.gov/'>NOAA NWS</a><br/><br/>European locations use the official MeteoAlarm feeds (38 countries), US locations use the NOAA National Weather Service alerts API, with met.no MetAlerts as a fallback. If your weather provider delivers its own alerts (e.g. WeatherAPI.com, Pirate Weather), those are used directly."
+msgstr "경보 제공자: <a href='https://www.meteoalarm.org/'>EUMETNET MeteoAlarm</a> + <a href='https://www.weather.gov/'>NOAA NWS</a><br/><br/>유럽 지역은 공식 MeteoAlarm 피드(38개국), 미국 지역은 NOAA 국립기상청 경보 API를 사용하며, 폴백으로 met.no MetAlerts를 활용합니다. 기상 제공자(예: WeatherAPI.com, Pirate Weather)가 자체 경보를 제공하는 경우 해당 데이터가 직접 사용됩니다."
+
+#: contents/ui/TooltipContent.qml:485
+msgid "Alerts:"
+msgstr "경보:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1177
+msgid "All days show hourly forecast when opening the tab"
+msgstr "탭을 열 때 모든 날짜의 시간별 예보 표시"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1154
+msgid "All days start collapsed"
+msgstr "모든 날짜를 접힌 상태로 시작"
+
+#: contents/ui/config/configNotifications.qml:472
+msgid "All files (*)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:349
+msgid "All tabs"
+msgstr "모든 탭"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1202
+msgid "Already-passed hours are removed from today's hourly forecast"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1201
+msgid "Already-passed hours for today stay in place, greyed out, instead of being removed"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:548
+msgid "Also notify about routine test alerts"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:354
+msgid "Alt: %1 %2"
+msgstr "고도: %1 %2"
+
+#: contents/ui/config/configLocation.qml:1879
+msgid "Alt: %1 m"
+msgstr "고도: %1 m"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:189
+msgid "Alternative provider. API key required below."
+msgstr "대체 기상 제공자입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "Altitude (%1):"
+msgstr "고도 (%1):"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:594
+msgid "Altitude is optional, but strongly recommended for accurate forecasts. MET Norway (met.no) uses it to correct temperature and pressure for elevation; leaving it at 0 for a mountain location will return sea-level values."
+msgstr "고도 입력은 선택 사항이지만 정확한 예보를 위해 강력히 권장됩니다. 노르웨이 기상청(MET Norway/met.no)은 고도를 기반으로 기온과 기압을 보정하므로 산악 지역에서 0으로 둘 경우 해수면 기준 값이 반환됩니다."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:550
+msgid "Altitude:"
+msgstr "고도:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:406
+msgid "An API key is required for %1. Weather data cannot be retrieved without it."
+msgstr "%1을(를) 사용하려면 API 키가 필요합니다. 키가 없으면 기상 데이터를 가져올 수 없습니다."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1005
+msgid "Animate row scrolling"
+msgstr "행 스크롤 애니메이션 사용"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:462
+msgid "Animate the wind on the map (Open-Meteo)"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1821
+msgid "Apparent (feels-like) temperature"
+msgstr "체감 온도"
+
+#: contents/ui/config/configAppearance.qml:1923
+#: contents/ui/config/configAppearance.qml:2060
+msgid "Apparent temperature"
+msgstr "체감 온도"
+
+#: contents/config/config.qml:57
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:190
+msgid "Appearance"
+msgstr "모양"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:50
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:39
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:38
+msgid "Apply Settings?"
+msgstr "설정을 적용하시겠습니까?"
+
+#: contents/ui/config/configLocation.qml:1236
+msgid "Apply detected location"
+msgstr "감지된 위치 적용"
+
+#: contents/ui/config/configAppearance.qml:490
+msgid "Apply everywhere"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:402
+msgid "Apply icon theme"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:498
+msgid "Apply only here"
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1445
+msgid "Are you sure? This is your last saved location. If you remove it, the widget will no longer show weather information."
+msgstr "정말 삭제하시겠습니까? 마지막으로 저장된 위치입니다. 제거하면 위젯에 더 이상 날씨 정보가 표시되지 않습니다."
+
+#: contents/ui/DetailsView.qml:3614
+msgid "Around midnight - "
+msgstr "자정 무렵 - "
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:442
+msgid "Arrows"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1835
+#: contents/ui/config/configAppearance.qml:1937
+#: contents/ui/config/configAppearance.qml:2081
+msgid "Atmospheric pressure"
+msgstr "기압"
+
+#: contents/ui/config/configNotifications.qml:472
+msgid "Audio files (*.wav *.ogg *.oga *.mp3 *.flac)"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:720
+#: contents/ui/DetailsView.qml:2060
+msgid "Aurora Visibility"
+msgstr "오로라 관측 가능성"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:341
+#: contents/ui/config/tabs/ConfigPanelTab.qml:482
+#: contents/ui/config/tabs/ConfigPanelTab.qml:575
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1075
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:159
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:209
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:617
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:655
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:860
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:901
+msgid "Auto"
+msgstr "자동"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:76
+msgid "Auto (detect on save)"
+msgstr "자동 (저장 시 감지)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:267
+msgid "Auto (device)"
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1590
+msgid "Auto-detection first asks GeoClue2, the system location service, for your current position. If system location is unavailable, the widget estimates your location from your public IP address, which is usually less precise and only updates when detection runs again."
+msgstr "자동 감지는 먼저 시스템 위치 서비스인 GeoClue2에 현재 위치를 요청합니다. 시스템 위치 서비스를 사용할 수 없는 경우 공용 IP 주소를 통해 위치를 추정하지만, 정확도가 떨어지며 다시 감지할 때만 업데이트됩니다."
+
+#: contents/ui/config/configLocation.qml:1550
+msgid "Auto-detection is limited without QtLocation and QtPositioning. It will fall back to IP-based detection, which may be less accurate and will not update in real time as you move. If you want to improve auto-detection accuracy, please install the required packages for your distribution. For more details, see the install guide."
+msgstr "QtLocation 및 QtPositioning 패키지가 없으면 자동 감지 기능이 제한됩니다. IP 기반 감지로 대체되므로 정확도가 떨어질 수 있고 이동 시 실시간으로 업데이트되지 않습니다. 정확도를 높이려면 사용하는 배포판에 맞는 패키지를 설치하세요. 자세한 내용은 설치 가이드를 참조하세요."
+
+#: contents/ui/config/configLocation.qml:810
+msgid "Auto-detection updated coordinates."
+msgstr "자동 감지로 좌표가 업데이트되었습니다."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1137
+msgid "Auto-open hourly forecast:"
+msgstr "시간별 예보 자동 열기:"
+
+#: contents/ui/components/MapBackgroundChoices.qml:42
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1342
+msgid "Automatic"
+msgstr "자동"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:495
+msgid "Automatic (based on location)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:524
+msgid "Automatic uses US AQI worldwide, switching to European CAQI or Canadian AQHI based on your location's country."
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1574
+msgid "Automatically detect location"
+msgstr "위치 자동 감지"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:366
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:126
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:124
+msgid "Available"
+msgstr "사용 가능"
+
+#: contents/ui/config/configNotifications.qml:82 contents/ui/main.qml:1132
+msgid "Avalanche"
+msgstr "눈사태"
+
+#: contents/ui/js/airQuality.js:123
+msgid "Avoid strenuous outdoor activities."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:562
+msgid "BBC Weather (free)"
+msgstr "BBC Weather (무료)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:100
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:484
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:270
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:311
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:84
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:83
+msgid "Back"
+msgstr "뒤로"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:952
+msgid "Badge Background Color"
+msgstr "배지 배경색"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:873
+msgid "Badge background:"
+msgstr "배지 배경:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:924
+msgid "Badge opacity:"
+msgstr "배지 불투명도:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:797
+msgid "Badge position:"
+msgstr "배지 위치:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:850
+msgid "Badge spacing:"
+msgstr "배지 간격:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:354
+msgid "Balanced (10 to 20 fps)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:291
+msgid "Behavior"
+msgstr "동작"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:654
+#: contents/ui/DetailsView.qml:1520 contents/ui/main.qml:1039
+msgid "Birch"
+msgstr "자작나무"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:250
+msgid "Black and White"
+msgstr "흑백"
+
+#: contents/ui/config/configAppearance.qml:1189
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:536
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:526
+msgid "Both  07:17 / 18:03"
+msgstr "둘 다  07:17 / 18:03"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:464
+msgid "Both (sunrise & sunset)"
+msgstr "둘 다 (일출 및 일몰)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:829
+msgid "Bottom Center"
+msgstr "하단 중앙"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:817
+msgid "Bottom Left"
+msgstr "하단 왼쪽"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:813
+msgid "Bottom Right"
+msgstr "하단 오른쪽"
+
+#: contents/ui/config/configAppearance.qml:985
+#: contents/ui/config/configAppearance.qml:1137
+#: contents/ui/config/configAppearance.qml:1255
+#: contents/ui/config/configAppearance.qml:1298
+#: contents/ui/config/configAppearance.qml:1423
+#: contents/ui/config/configAppearance.qml:1466
+#: contents/ui/config/configNotifications.qml:437
+msgid "Browse…"
+msgstr "찾아보기…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1158
+msgid "Bullet  •"
+msgstr "글머리 기호  •"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:936
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:784
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:775
+msgid "Button guide"
+msgstr "버튼 가이드"
+
+#: contents/ui/DetailsView.qml:2099
+msgid "Bz (Magnetic Field)"
+msgstr "Bz (자기장 남북 성분)"
+
+#: contents/ui/js/airQuality.js:172
+msgid "CAQI"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:594
+msgid "CO"
+msgstr "일산화탄소 (CO)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:463
+#: contents/ui/config/tabs/ConfigMiscTab.qml:507
+msgid "Canadian AQHI (1-10+)"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:506
+#: contents/ui/config/configAppearance.qml:1034
+#: contents/ui/config/configLocation.qml:1472
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:85
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:68
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:67
+msgid "Cancel"
+msgstr "취소"
+
+#: contents/ui/config/configLocation.qml:1943
+msgid "Cancel rename"
+msgstr "이름 변경 취소"
+
+#: contents/ui/DetailsView.qml:1324
+msgid "Carbon Monoxide (CO)"
+msgstr "일산화탄소 (CO)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1361
+msgid "Cards"
+msgstr "카드형"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:835
+msgid "Cards (2 columns)"
+msgstr "카드형 (2열)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:845
+msgid "Cards height:"
+msgstr "카드 높이:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:312
+msgid "Celsius (°C)"
+msgstr "섭씨 (°C)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Changes staged. Click the main Apply button to save."
+msgstr "변경 사항이 임시 저장되었습니다. 저장하려면 메인 '적용' 버튼을 누르세요."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:191
+msgid "Check Status"
+msgstr "상태 확인"
+
+#: contents/ui/config/configGeneral.qml:285
+#: contents/ui/config/configLocation.qml:481
+msgid "Checking location availability…"
+msgstr "위치 서비스 사용 가능 여부 확인 중…"
+
+#: contents/ui/config/configGeneral.qml:233
+#: contents/ui/config/tabs/ConfigRadarTab.qml:191
+msgid "Checking…"
+msgstr "확인 중…"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:201
+msgid "Chinese weather provider with global coverage. API key required below."
+msgstr "전 세계를 지원하는 중국 기상 서비스입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/config/configNotifications.qml:471
+msgid "Choose Alert Sound"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1262
+msgid "Choose Simple Mode Font"
+msgstr "간단 모드 글꼴 선택"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1372
+msgctxt "@action:button"
+msgid "Choose Style…"
+msgstr "스타일 선택…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1301
+msgid "Choose a Panel Font"
+msgstr "패널 글꼴 선택"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:978
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:818
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:804
+msgid "Choose a custom icon for this item"
+msgstr "이 항목의 사용자 지정 아이콘 선택"
+
+#: contents/ui/config/configLocation.qml:1663
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:317
+msgid "Choose on Map"
+msgstr "지도에서 선택"
+
+#: contents/ui/config/configLocation.qml:1260
+msgid "Choose on map"
+msgstr "지도에서 선택"
+
+#: contents/ui/config/configAppearance.qml:1842
+msgid "City / location name"
+msgstr "도시 / 위치 이름"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:365
+msgid "Clear"
+msgstr "지우기"
+
+#: contents/ui/config/configAppearance.qml:666
+msgid "Clear (day)"
+msgstr "맑음 (낮)"
+
+#: contents/ui/config/configAppearance.qml:671
+msgid "Clear (night)"
+msgstr "맑음 (밤)"
+
+#: contents/ui/main.qml:2232
+msgid "Clear night"
+msgstr "맑은 밤"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:48
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:610
+#: contents/ui/main.qml:2232
+msgid "Clear sky"
+msgstr "쾌청함"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:693
+msgid "Click \"Test across providers\" to check if the coordinates are serviceable by each supported weather provider. Providers requiring an API key that is not configured will be skipped."
+msgstr "'제공자별 테스트'를 클릭하여 지원되는 기상 서비스에서 해당 좌표를 지원하는지 확인하세요. API 키가 설정되지 않은 서비스는 건너뜁니다."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:575
+msgid "Click on the map to select a location"
+msgstr "지도 위를 클릭하여 위치를 선택하세요"
+
+#: contents/ui/TooltipContent.qml:261
+msgid "Click to configure a location"
+msgstr "위치를 설정하려면 클릭하세요"
+
+#: contents/ui/components/RadarWebEngineView.qml:130
+msgid "Clouds"
+msgstr "구름"
+
+#: contents/ui/config/configNotifications.qml:80 contents/ui/main.qml:1130
+msgid "Coastal event"
+msgstr "해안 재해"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:669
+msgid "Color by temperature:"
+msgstr "기온에 따른 색상:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:684
+msgid "Color the panel temperature with the same cold to hot scale as the forecast curve, instead of a fixed color."
+msgstr "고정된 색상 대신 예보 곡선의 저온-고온 스케일에 따라 패널 기온 색상을 표시합니다."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1027
+msgid "Colorful (KDE color icons)"
+msgstr "컬러 (KDE 컬러 아이콘)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1574
+msgid "Compass in forecast:"
+msgstr "예보에 나침반 표시:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:218
+#: contents/ui/config/tabs/ConfigPanelTab.qml:243
+msgid "Compressed"
+msgstr "압축형"
+
+#: contents/ui/config/configAppearance.qml:1791
+#: contents/ui/config/configAppearance.qml:2052 contents/ui/DetailsView.qml:361
+msgid "Condition"
+msgstr "기상 상태"
+
+#: contents/ui/config/configAppearance.qml:880
+msgid "Condition Icons"
+msgstr "기상 상태 아이콘"
+
+#: contents/ui/TooltipContent.qml:422
+msgid "Condition:"
+msgstr "상태:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:991
+msgid "Configure display mode options"
+msgstr "표시 모드 옵션 설정"
+
+#: contents/ui/config/configAppearance.qml:1076
+msgid "Configure icon - %1"
+msgstr "아이콘 설정 - %1"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:368
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:388
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:433
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:453
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:428
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:448
+msgid "Configure icon…"
+msgstr "아이콘 설정…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:451
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:234
+msgid "Configure weather icons…"
+msgstr "날씨 아이콘 설정…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1059
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1580
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:445
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:998
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1050
+msgid "Configure…"
+msgstr "설정…"
+
+#: contents/ui/config/configLocation.qml:1935
+msgid "Confirm rename"
+msgstr "이름 변경 확인"
+
+#: contents/ui/config/configLocation.qml:1190
+msgid "Confirm your location"
+msgstr "위치 확인"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:290
+msgid "Connection failed"
+msgstr "연결 실패"
+
+#: contents/ui/config/configGeneral.qml:545
+msgid "Connection failed (HTTP %1)."
+msgstr "연결 실패 (HTTP %1)."
+
+#: contents/ui/config/configGeneral.qml:538
+msgid "Connection successful! %1 key is valid."
+msgstr "연결 성공! %1 키가 유효합니다."
+
+#: contents/ui/js/airQuality.js:121
+msgid "Consider reducing or rescheduling strenuous outdoor activities if you experience symptoms such as coughing or throat irritation."
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:331
+msgid "Coordinates"
+msgstr "좌표"
+
+#: contents/ui/config/configNotifications.qml:466
+msgid "Couldn't play that sound file: %1"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:510
+msgid "Critical notifications are still shown even when Do Not Disturb is enabled, or while you're playing a game or watching a fullscreen video (if those options are enabled in System Settings → Notifications)."
+msgstr "긴급 알림은 '방해 금지 모드'가 활성화되어 있거나 게임 중 또는 전체 화면 동영상 시청 중에도 표시됩니다 (시스템 설정 → 알림에서 설정된 경우)."
+
+#: contents/ui/config/configAppearance.qml:1912
+#: contents/ui/config/configAppearance.qml:2035
+#: contents/ui/config/configAppearance.qml:2158
+msgid "Current date and/or time"
+msgstr "현재 날짜 및/또는 시각"
+
+#: contents/ui/config/configAppearance.qml:1849
+msgid "Current moon phase"
+msgstr "현재 달의 위상"
+
+#: contents/ui/config/configAppearance.qml:1799
+#: contents/ui/config/configAppearance.qml:2046
+msgid "Current temperature"
+msgstr "현재 기온"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:300
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:243
+msgid "Custom (set each unit manually)"
+msgstr "사용자 지정 (각 단위를 수동 설정)"
+
+#: contents/ui/config/configAppearance.qml:908
+msgid "Custom per-condition icons"
+msgstr "기상 상태별 사용자 지정 아이콘"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:781
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:861
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:655
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:735
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:649
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:729
+#: contents/ui/config/tabs/ConfigPanelTab.qml:427
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1035
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1178
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:75
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:443
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:509
+msgid "Custom…"
+msgstr "사용자 지정…"
+
+#: contents/ui/components/MapBackgroundChoices.qml:46
+msgid "CyclOSM (cycling)"
+msgstr "CyclOSM (자전거)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1213
+msgid "Daily Forecast Settings"
+msgstr "일별 예보 설정"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:191
+msgid "Dark Sky-compatible API with US alerts. API key required below."
+msgstr "미국 기상 경보를 지원하는 Dark Sky 호환 API입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:496
+msgid "Dark map"
+msgstr "어두운 지도"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1166
+msgid "Dash  –"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:479
+msgid "Data Refresh"
+msgstr "데이터 새로 고침"
+
+#: contents/ui/config/configAppearance.qml:1911
+#: contents/ui/config/configAppearance.qml:2034
+#: contents/ui/config/configAppearance.qml:2157 contents/ui/DetailsView.qml:370
+msgid "Date / Time"
+msgstr "날짜 / 시각"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:354
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:419
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:414
+msgid "Date / Time options"
+msgstr "날짜 / 시각 옵션"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:406
+msgid "Date and time in header:"
+msgstr "헤더의 날짜 및 시각:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:421
+msgid "Date format:"
+msgstr "날짜 형식:"
+
+#: contents/ui/TooltipContent.qml:625
+msgid "Date/Time:"
+msgstr "날짜/시각:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:766
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:640
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:634
+msgid "Date:"
+msgstr "날짜:"
+
+#: contents/ui/DetailsView.qml:3610
+msgid "Dawn approaching - "
+msgstr "동트는 중 - "
+
+#: contents/ui/DetailsView.qml:3590
+msgid "Day"
+msgstr "낮"
+
+#: contents/ui/DetailsView.qml:3618
+msgid "Daylight over"
+msgstr "일몰 완료"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:650
+#: contents/ui/config/tabs/ConfigPanelTab.qml:773
+msgid "Default"
+msgstr "기본값"
+
+#: contents/ui/config/configNotifications.qml:425
+msgid "Default (built-in siren)"
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1910
+msgid "Default location (click to unset)"
+msgstr "기본 위치 (해제하려면 클릭)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:305
+msgid "Default tab:"
+msgstr "기본 탭:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:624
+msgid "Dense drizzle"
+msgstr "짙은 이슬비"
+
+#: contents/ui/DetailsView.qml:2434 contents/ui/DetailsView.qml:2436
+msgid "Description"
+msgstr "설명"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:320 contents/ui/FullView.qml:582
+msgid "Details"
+msgstr "상세 정보"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:941
+msgid "Details Items"
+msgstr "상세 정보 항목"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:955
+msgid "Details items:"
+msgstr "상세 정보 항목:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:821
+msgid "Details layout:"
+msgstr "상세 정보 레이아웃:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:350
+msgid "Details only"
+msgstr "상세 정보만"
+
+#: contents/ui/main.qml:407
+msgid "Detect / change location"
+msgstr "위치 감지 / 변경"
+
+#: contents/ui/FullView.qml:407
+msgid "Detect / change location…"
+msgstr "위치 감지 / 변경…"
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "Detecting…"
+msgstr "감지 중…"
+
+#: contents/ui/config/configAppearance.qml:1957 contents/ui/DetailsView.qml:358
+#: contents/ui/SimpleView.qml:261
+msgid "Dew Point"
+msgstr "이슬점"
+
+#: contents/ui/config/configAppearance.qml:1958
+msgid "Dew point temperature"
+msgstr "이슬점 온도"
+
+#: contents/ui/TooltipContent.qml:446
+msgid "Dew point:"
+msgstr "이슬점:"
+
+#: contents/ui/config/configNotifications.qml:577
+msgid "Disable a type to silence it, or give it its own repeat interval. The interval is used only when 'Repeat reminder until dismissed' is on."
+msgstr "특정 유형을 비활성화하여 끄거나 자체 반복 간격을 지정하세요. 반복 간격은 '닫을 때까지 알림 반복'이 활성화된 경우에만 작동합니다."
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:488
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:483
+msgid "Disable item"
+msgstr "항목 비활성화"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:688
+#: contents/ui/config/tabs/ConfigPanelTab.qml:709
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:92
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:253
+msgid "Disabled"
+msgstr "비활성화됨"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:69
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:58
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:57
+msgid "Discard"
+msgstr "취소"
+
+#: contents/ui/main.qml:557
+msgid "Dismiss"
+msgstr "닫기"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:73
+msgid "Display"
+msgstr "표시"
+
+#: contents/ui/config/configAppearance.qml:1174
+#: contents/ui/config/configAppearance.qml:1330
+#: contents/ui/config/tabs/ConfigPanelTab.qml:124
+#: contents/ui/config/tabs/ConfigPanelTab.qml:161
+msgid "Display mode:"
+msgstr "표시 모드:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:135
+msgid "Displaying °C and °F together"
+msgstr "°C 및 °F 함께 표시"
+
+#: contents/ui/config/configAppearance.qml:1884
+#: contents/ui/config/configAppearance.qml:2007
+#: contents/ui/config/configAppearance.qml:2130
+msgid "Dominant pollen type and index"
+msgstr "주요 꽃가루 종류 및 지수"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:802
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:790
+msgid "Drag to reorder enabled items"
+msgstr "드래그하여 활성화된 항목의 순서 변경"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:951
+msgid "Drag to reorder shown items"
+msgstr "드래그하여 표시된 항목의 순서 변경"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:53
+#: contents/ui/main.qml:2246
+msgid "Drizzle"
+msgstr "이슬비"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:116
+msgid "Dual temperature"
+msgstr "이중 기온 단위"
+
+#: contents/ui/main.qml:1474
+msgctxt "Alert severity"
+msgid "EXTREME"
+msgstr "매우 위험"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:462
+msgid "Each QWeather project has a unique API host. Find yours at console.qweather.com under your project settings."
+msgstr "QWeather 프로젝트마다 고유한 API 호스트가 있습니다. console.qweather.com의 프로젝트 설정에서 확인하세요."
+
+#: contents/ui/config/configNotifications.qml:542
+msgid "Each alert is shown only once, without Dismiss and Postpone buttons."
+msgstr "각 경보는 '닫기' 및 '미루기' 버튼 없이 한 번만 표시됩니다."
+
+#: contents/ui/config/configNotifications.qml:286
+msgid "Each notification type can be enabled independently, with its own daily time where applicable."
+msgstr "각 알림 유형은 개별적으로 활성화할 수 있으며 해당하는 경우 자체 매일 알림 시각을 설정할 수 있습니다."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:350
+msgid "Economy (8 to 10 fps)"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:495
+msgid "Edit Saved Location"
+msgstr "저장된 위치 편집"
+
+#: contents/ui/config/configLocation.qml:1965
+msgid "Edit location details"
+msgstr "위치 세부 정보 편집"
+
+#: contents/ui/DetailsView.qml:2439
+msgid "Effective"
+msgstr "발효 시각"
+
+#: contents/ui/RadarView.qml:268
+msgid "Embedded radar paused"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:297
+msgid "Enable alert notifications"
+msgstr "경보 알림 활성화"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:568
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:633
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:697
+msgid "Enable all"
+msgstr "모두 활성화"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:488
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:483
+msgid "Enable item"
+msgstr "항목 활성화"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:830
+msgid "Enable or disable this item"
+msgstr "이 항목 활성화 또는 비활성화"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:848
+msgid "Enable or disable this item on the panel"
+msgstr "패널에서 이 항목 활성화 또는 비활성화"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:126
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:124
+#: contents/ui/config/tabs/ConfigPanelTab.qml:688
+#: contents/ui/config/tabs/ConfigPanelTab.qml:709
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:92
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:253
+msgid "Enabled"
+msgstr "활성화됨"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:395
+msgid "Enter Location"
+msgstr "위치 입력"
+
+#: contents/ui/config/configLocation.qml:1677
+msgid "Enter Manually"
+msgstr "수동 입력"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Enter a location name and valid coordinates, then click the main Apply button."
+msgstr "위치 이름과 올바른 좌표를 입력한 다음, 메인 '적용' 버튼을 누르세요."
+
+#: contents/ui/config/configLocation.qml:1681
+msgid "Enter exact latitude, longitude, and optional elevation for a more local forecast. You can copy coordinates from OpenStreetMap, GeoNames, or Google Maps."
+msgstr "더 정확한 지역 예보를 위해 위도, 경도 및 고도(선택 사항)를 입력하세요. OpenStreetMap, GeoNames, Google 지도에서 좌표를 복사할 수 있습니다."
+
+#: contents/ui/config/configLocation.qml:1250
+msgid "Enter manually"
+msgstr "수동 입력"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:289
+msgid "Enter your AEMET API key"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:275
+msgid "Enter your OpenWeatherMap API key"
+msgstr "OpenWeatherMap API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:277
+msgid "Enter your Pirate Weather API key"
+msgstr "Pirate Weather API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:287
+msgid "Enter your QWeather API key"
+msgstr "QWeather API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:283
+msgid "Enter your StormGlass API key"
+msgstr "StormGlass API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:281
+msgid "Enter your Tomorrow.io API key"
+msgstr "Tomorrow.io API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:279
+msgid "Enter your Visual Crossing API key"
+msgstr "Visual Crossing API 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:290
+msgid "Enter your WeatherAPI.com key"
+msgstr "WeatherAPI.com 키를 입력하세요"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:285
+msgid "Enter your Weatherbit API key"
+msgstr "Weatherbit API 키를 입력하세요"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:354
+msgid "Error (code %1)"
+msgstr "오류 (코드 %1)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:451
+#: contents/ui/config/tabs/ConfigMiscTab.qml:503
+msgid "European CAQI (0-100+)"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:3612
+msgid "Evening - "
+msgstr "저녁 - "
+
+#: contents/ui/js/airQuality.js:105
+msgid "Everyone may begin to experience health effects; sensitive groups may experience more serious effects."
+msgstr ""
+
+#: contents/ui/js/spaceWeather.js:198
+msgid "Excellent"
+msgstr "매우 양호"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1161
+msgid "Expand all days:"
+msgstr "모든 날짜 펼치기:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1249
+msgid "Expand widget to fill available panel space"
+msgstr "사용 가능한 패널 공간을 채우도록 위젯 확장"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:886
+msgid "Expanded cards height:"
+msgstr "펼친 카드 높이:"
+
+#: contents/ui/DetailsView.qml:2441
+msgid "Expires"
+msgstr "만료 시각"
+
+#: contents/ui/js/airQuality.js:95 contents/ui/js/spaceWeather.js:172
+#: contents/ui/js/spaceWeather.js:186 contents/ui/main.qml:1004
+msgid "Extreme"
+msgstr "극심함"
+
+#: contents/ui/js/spaceWeather.js:91
+msgid "Extreme geomagnetic storm."
+msgstr "극심한 지자기 폭풍."
+
+#: contents/ui/js/airQuality.js:95
+msgid "Extremely Poor"
+msgstr "매우 최악"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:92
+msgid "FOSS Public Alert Server"
+msgstr "FOSS 공공 경보 서버"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:316
+msgid "Fahrenheit (°F)"
+msgstr "화씨 (°F)"
+
+#: contents/ui/WeatherService.qml:1156
+msgid "Failed to load weather providers"
+msgstr "기상 정보 제공자를 불러오지 못했습니다"
+
+#: contents/ui/WeatherService.qml:1142
+msgid "Failed: %1"
+msgstr "실패: %1"
+
+#: contents/ui/WeatherService.qml:1140
+msgid "Failed: %1 — retrying…"
+msgstr ""
+
+#: contents/ui/js/airQuality.js:91
+msgid "Fair"
+msgstr "보통"
+
+#: contents/ui/config/configAppearance.qml:1820
+#: contents/ui/config/configAppearance.qml:1922
+#: contents/ui/config/configAppearance.qml:2059 contents/ui/DetailsView.qml:353
+#: contents/ui/SimpleView.qml:258
+msgid "Feels Like"
+msgstr "체감 온도"
+
+#: contents/ui/TooltipContent.qml:419
+msgid "Feels like:"
+msgstr "체감:"
+
+#: contents/ui/FullView.qml:92 contents/ui/SimpleView.qml:59
+msgid "Feels like: %1"
+msgstr "체감 온도: %1"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:345
+msgid "Fill panel"
+msgstr "패널 채우기"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1240
+msgid "Fill panel:"
+msgstr "패널 채우기:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:375
+msgid "Find"
+msgstr "찾기"
+
+#: contents/ui/main.qml:2467
+msgid "First Quarter"
+msgstr "상현달"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:893
+msgid "First day of week:"
+msgstr "한 주의 시작 요일:"
+
+#: contents/ui/DetailsView.qml:2167
+msgid "Flare Warning"
+msgstr "태양 플레어 경보"
+
+#: contents/ui/config/configAppearance.qml:263
+#: contents/ui/config/tabs/ConfigPanelTab.qml:415
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1429
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:288
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:62
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:72
+msgid "Flat Color (Bundled)"
+msgstr "플랫 컬러 (내장)"
+
+#: contents/ui/config/configNotifications.qml:84 contents/ui/main.qml:1134
+msgid "Flood"
+msgstr "홍수"
+
+#: contents/ui/config/configAppearance.qml:705
+#: contents/ui/config/configNotifications.qml:77
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:52
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:618
+#: contents/ui/main.qml:1127 contents/ui/main.qml:2240
+msgid "Fog"
+msgstr "안개"
+
+#: contents/ui/config/configAppearance.qml:259
+msgid "Font icons"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1421
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:280
+msgid "Font icons (default)"
+msgstr "글꼴 아이콘 (기본값)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:559
+msgid "Font size:"
+msgstr "글꼴 크기:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:367
+msgid "Footer:"
+msgstr "바닥글:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:282
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:118
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:321 contents/ui/FullView.qml:583
+msgid "Forecast"
+msgstr "일기 예보"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1111
+msgid "Forecast days:"
+msgstr "예보 일수:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:351
+msgid "Forecast only"
+msgstr "예보만"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1558
+msgid "Forecast:"
+msgstr "예보:"
+
+#: contents/ui/config/configNotifications.qml:81 contents/ui/main.qml:1131
+msgid "Forest fire"
+msgstr "산불"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:537
+msgid "Format:"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:207
+msgid "Free BBC Weather service (data from the Met Office). No API key needed."
+msgstr "무료 BBC Weather 서비스(영국 기상청 데이터)입니다. API 키가 필요 없습니다."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:205
+msgid "Free Norwegian Meteorological Institute service. No API key needed."
+msgstr "무료 노르웨이 기상청 서비스입니다. API 키가 필요 없습니다."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:208
+msgid "Free and open-source. No API key needed. Recommended."
+msgstr "무료 오픈소스 서비스입니다. API 키가 필요 없어 권장됩니다."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:54
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:626
+#: contents/ui/main.qml:2252
+msgid "Freezing drizzle"
+msgstr "동결성 이슬비"
+
+#: contents/ui/config/configAppearance.qml:733
+msgid "Freezing drizzle (day)"
+msgstr "동결성 이슬비 (낮)"
+
+#: contents/ui/config/configAppearance.qml:738
+msgid "Freezing drizzle (night)"
+msgstr "동결성 이슬비 (밤)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:56
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:634
+#: contents/ui/main.qml:2262
+msgid "Freezing rain"
+msgstr "어는비 (빙우)"
+
+#: contents/ui/config/configAppearance.qml:744
+msgid "Freezing rain (day)"
+msgstr "어는비 (낮)"
+
+#: contents/ui/config/configAppearance.qml:749
+msgid "Freezing rain (night)"
+msgstr "어는비 (밤)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:905
+msgid "Friday"
+msgstr "금요일"
+
+#: contents/ui/main.qml:2471
+msgid "Full Moon"
+msgstr "보름달 (보름)"
+
+#: contents/ui/DetailsView.qml:2828
+msgid "Future alerts"
+msgstr "향후 발효될 경보"
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "GPS / GeoClue2 unavailable (install qt6-qtlocation for best accuracy). Using IP-based detection."
+msgstr "GPS / GeoClue2를 사용할 수 없습니다 (최상의 정확도를 위해 qt6-qtlocation 설치 권장). IP 기반 위치 감지를 사용합니다."
+
+#: contents/config/config.qml:52
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:110
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1098
+msgid "General"
+msgstr "일반"
+
+#: contents/ui/config/configLocation.qml:884
+msgid "GeoClue2 unavailable, trying system location…"
+msgstr "GeoClue2를 사용할 수 없어 시스템 위치 서비스를 시도하는 중…"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:717
+#: contents/ui/DetailsView.qml:1946
+msgid "Geomagnetic Storm"
+msgstr "지자기 폭풍"
+
+#: contents/ui/config/configNotifications.qml:701 contents/ui/main.qml:2133
+msgid "Geomagnetic activity"
+msgstr "지자기 활동"
+
+#: contents/ui/main.qml:2130
+msgid "Geomagnetic activity is expected to be %1 (Kp %2)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:262
+msgid "Glow intensity:"
+msgstr "네온/광원 강도:"
+
+#: contents/ui/js/airQuality.js:90 contents/ui/js/airQuality.js:102
+msgid "Good"
+msgstr "좋음"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:655
+#: contents/ui/DetailsView.qml:1522 contents/ui/main.qml:1040
+msgid "Grass"
+msgstr "잔디/잔디꽃가루"
+
+#: contents/ui/js/airQuality.js:107
+msgid "Hazardous"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:2431
+msgid "Headline"
+msgstr "요약"
+
+#: contents/ui/js/airQuality.js:106
+msgid "Health alert: everyone may experience more serious health effects."
+msgstr ""
+
+#: contents/ui/js/airQuality.js:107
+msgid "Health warning of emergency conditions: everyone is more likely to be affected."
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:163
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Heavy"
+msgstr "강함"
+
+#: contents/ui/main.qml:2248
+msgid "Heavy drizzle"
+msgstr "강한 이슬비"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:632
+#: contents/ui/main.qml:2258
+msgid "Heavy rain"
+msgstr "강한 비"
+
+#: contents/ui/main.qml:2276
+msgid "Heavy showers"
+msgstr "강한 소나기"
+
+#: contents/ui/main.qml:2268
+msgid "Heavy snow"
+msgstr "함박눈/강한 눈"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:652
+msgid "Heavy snow showers"
+msgstr "강한 소낙눈"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:640
+msgid "Heavy snowfall"
+msgstr "강한 강설"
+
+#: contents/ui/main.qml:2286
+msgid "Heavy thunderstorm with hail"
+msgstr "우박을 동반한 강한 뇌우"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:144
+msgid "Hidden"
+msgstr "숨김"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:419
+msgid "Hide from details"
+msgstr "상세 정보에서 숨기기"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:407
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:476
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:471
+msgid "Hide prefix icon"
+msgstr "접두사 아이콘 숨기기"
+
+#: contents/ui/DetailsView.qml:1114 contents/ui/FullView.qml:521
+#: contents/ui/js/airQuality.js:122 contents/ui/js/pollen.js:44
+#: contents/ui/js/spaceWeather.js:187 contents/ui/js/spaceWeather.js:199
+#: contents/ui/main.qml:1002 contents/ui/main.qml:1034
+msgid "High"
+msgstr "높음"
+
+#: contents/ui/js/airQuality.js:122
+msgid "High Risk"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:199
+msgid "High precision forecast provider. API key required below."
+msgstr "고밀도 정밀 예보 제공자입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/config/configNotifications.qml:78 contents/ui/main.qml:1128
+msgid "High temperature"
+msgstr "고온 경보"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:615
+msgid "Highlight snow and wintry precipitation with a distinct color"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:193
+msgid "Historical and forecast data provider. API key required below."
+msgstr "과거 및 예보 기상 데이터 제공자입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:210
+msgid "Horizontal"
+msgstr "수평"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1332
+msgid "Hourly Forecast Settings"
+msgstr "시간별 예보 설정"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1350
+msgid "Hourly layout:"
+msgstr "시간별 레이아웃:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:975
+msgid "How often the rows scroll to reveal the next item"
+msgstr "다음 항목을 표시하기 위해 행이 스크롤되는 주기"
+
+#: contents/ui/components/MapBackgroundChoices.qml:45
+msgid "Humanitarian (HOT)"
+msgstr "Humanitarian (HOT)"
+
+#: contents/ui/config/configAppearance.qml:1827
+#: contents/ui/config/configAppearance.qml:1929
+#: contents/ui/config/configAppearance.qml:2073 contents/ui/DetailsView.qml:354
+#: contents/ui/SimpleView.qml:259
+msgid "Humidity"
+msgstr "습도"
+
+#: contents/ui/TooltipContent.qml:440
+msgid "Humidity:"
+msgstr "습도:"
+
+#: contents/ui/config/configLocation.qml:1003
+#: contents/ui/config/configLocation.qml:1034
+msgid "IP geolocation"
+msgstr "IP 위치 추정"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:265
+msgid "Icon and temperature"
+msgstr "아이콘과 기온"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:305
+msgid "Icon first"
+msgstr "아이콘 먼저"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:240
+msgid "Icon glow:"
+msgstr "아이콘 네온 효과:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:273
+msgid "Icon only"
+msgstr "아이콘만"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:466
+msgid "Icon size:"
+msgstr "아이콘 크기:"
+
+#: contents/ui/config/configAppearance.qml:897
+msgid "Icon source:"
+msgstr "아이콘 소스:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1405
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:264
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:717
+msgid "Icon theme:"
+msgstr "아이콘 테마:"
+
+#: contents/ui/config/configAppearance.qml:1115
+msgid "Icon:"
+msgstr "아이콘:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:257
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:705
+msgid "Icons"
+msgstr "아이콘"
+
+#: contents/ui/js/airQuality.js:120
+msgid "Ideal air quality for outdoor activities."
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1226
+msgid "If this looks correct, apply it. Otherwise, choose your location manually."
+msgstr "이 위치가 맞다면 적용하세요. 그렇지 않으면 수동으로 위치를 선택하세요."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:431
+msgid "If you have just registered a new OpenWeatherMap API key, it might take up to 2 hours for it to become active. Please try again later if it doesn't work immediately."
+msgstr "새로 등록한 OpenWeatherMap API 키의 경우 활성화까지 최대 2시간이 걸릴 수 있습니다. 즉시 작동하지 않는 경우 나중에 다시 시도하세요."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:235
+msgid "Imperial (°F, mph, inHg, in)"
+msgstr "야드파운드법 (°F, mph, inHg, in)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:180
+msgid "In a vertical panel, long item labels may be truncated. Consider using \"Simple\" mode, increasing the panel width, or reducing the font size."
+msgstr "수직 패널에서는 항목 이름이 길면 잘릴 수 있습니다. \"간단\" 모드를 사용하거나, 패널 너비를 늘리거나, 글꼴 크기를 줄이는 것을 고려해 보세요."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:416
+msgid ""
+"Individual dropdowns are editable only in Custom mode.\n"
+"Other presets set units automatically."
+msgstr ""
+"개별 드롭다운은 사용자 지정 모드에서만 수정할 수 있습니다.\n"
+"다른 프리셋은 단위를 자동으로 설정합니다."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:294
+msgid "Individual units"
+msgstr "개별 단위 설정"
+
+#: contents/ui/config/configLocation.qml:1173
+msgid ""
+"Install it for your distribution:\n"
+"  • Fedora / RHEL / Arch: qt6-qtlocation\n"
+"  • openSUSE: qt6-location\n"
+"  • Debian / Kubuntu / KDE Neon: qml6-module-qtlocation and qml6-module-qtpositioning\n"
+"\n"
+"You can still search for a location or enter coordinates manually. Note that auto-detection will continue to work using an IP fallback, but it may be less accurate and won’t update in real time as you move around."
+msgstr ""
+"사용 중인 배포판에 맞게 설치하세요:\n"
+"  • Fedora / RHEL / Arch: qt6-qtlocation\n"
+"  • openSUSE: qt6-location\n"
+"  • Debian / Kubuntu / KDE Neon: qml6-module-qtlocation 및 qml6-module-qtpositioning\n"
+"\n"
+"패키지 없이도 위치 검색이나 수동 좌표 입력이 가능합니다. 자동 감지는 IP 폴백 방식으로 작동하지만, 정확도가 떨어질 수 있고 이동 시 실시간으로 업데이트되지 않습니다."
+
+#: contents/ui/RadarView.qml:359
+msgid ""
+"Install it for your distribution:\n"
+"- Fedora / RHEL: qt6-qtwebengine\n"
+"- openSUSE / Arch: qt6-webengine\n"
+"- Debian / Kubuntu / KDE Neon: qml6-module-qtwebengine"
+msgstr ""
+"사용 중인 배포판에 맞게 설치하세요:\n"
+"- Fedora / RHEL: qt6-qtwebengine\n"
+"- openSUSE / Arch: qt6-webengine\n"
+"- Debian / Kubuntu / KDE Neon: qml6-module-qtwebengine"
+
+#: contents/ui/DetailsView.qml:2443
+msgid "Instruction"
+msgstr "지침"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:492
+msgid "Interval:"
+msgstr "새로 고침 간격:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:368
+msgid "Invalid API key (HTTP %1)"
+msgstr "유효하지 않은 API 키 (HTTP %1)"
+
+#: contents/ui/config/configGeneral.qml:542
+msgid "Invalid API key. Please check and try again."
+msgstr "유효하지 않은 API 키입니다. 확인 후 다시 시도하세요."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:360
+msgid "Invalid response"
+msgstr "잘못된 응답"
+
+#: contents/ui/config/configGeneral.qml:400
+#: contents/ui/config/configGeneral.qml:529
+msgid "Invalid response from AEMET."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:516
+msgid "Invalid response from QWeather."
+msgstr "QWeather의 응답이 유효하지 않습니다."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1209
+msgid "Item spacing:"
+msgstr "항목 간격:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1110
+msgid "Item width:"
+msgstr "항목 너비:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:289
+msgid "Items Order:"
+msgstr "항목 순서:"
+
+#: contents/ui/config/configAppearance.qml:269
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1441
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:60
+msgid "KDE Icon Theme"
+msgstr "KDE 아이콘 테마"
+
+#: contents/ui/config/configAppearance.qml:254
+#: contents/ui/config/tabs/ConfigPanelTab.qml:394
+#: contents/ui/config/tabs/ConfigPanelTab.qml:403
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:69
+msgid "KDE Icon Theme (Colorful)"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:256
+#: contents/ui/config/tabs/ConfigPanelTab.qml:398
+#: contents/ui/config/tabs/ConfigPanelTab.qml:407
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:70
+msgid "KDE Icon Theme (Symbolic)"
+msgstr ""
+
+#: contents/ui/RadarView.qml:278
+msgid "KDE Plasma was started with MangoHud injected into it. The overlay can crash the whole desktop shell when the web-based radar starts, so the radar was not loaded."
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:903
+msgid "KDE System Icons (automatic, follows weather code)"
+msgstr "KDE 시스템 아이콘 (자동, 날씨 코드 준수)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:775
+msgid "KDE icon themes don't fully support many item icons. You can set your own icons by clicking \"Set your own icons\"."
+msgstr "KDE 아이콘 테마는 일부 항목 아이콘을 완벽히 지원하지 않을 수 있습니다. \"직접 아이콘 설정...\"을 클릭하여 별도로 지정할 수 있습니다."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:61
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:50
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:49
+msgid "Keep Changes"
+msgstr "변경 사항 유지"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:56
+msgid "Keep the changes you made to Details Items?"
+msgstr "상세 정보 항목의 변경 사항을 유지하시겠습니까?"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:45
+msgid "Keep the changes you made to Panel Items?"
+msgstr "패널 항목의 변경 사항을 유지하시겠습니까?"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:44
+msgid "Keep the changes you made to Tooltip Items?"
+msgstr "툴팁 항목의 변경 사항을 유지하시겠습니까?"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:124
+msgid "Keep the radar loaded in the background"
+msgstr ""
+
+#: contents/ui/FullView.qml:393
+msgid "Keep widget open"
+msgstr "위젯 열어두기"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:357
+msgid "Knots (kn)"
+msgstr "노트 (kn)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:718
+#: contents/ui/DetailsView.qml:1981
+msgid "Kp Index"
+msgstr "Kp 지수 (지자기 활동도)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1240
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1442
+msgid "Kp index/G forecast:"
+msgstr "Kp 지수/지자기 폭풍 예보:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:486
+#: contents/ui/config/tabs/ConfigPanelTab.qml:579
+msgid "Large"
+msgstr ""
+
+#: contents/ui/main.qml:2475
+msgid "Last Quarter"
+msgstr "하현달"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:535
+msgid "Lat:"
+msgstr "위도:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:350
+msgid "Lat: %1°"
+msgstr "위도: %1°"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:354
+msgid "Latitude"
+msgstr "위도"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:541
+msgid "Latitude:"
+msgstr "위도:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:150
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:804
+msgid "Layout"
+msgstr "레이아웃"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:194
+#: contents/ui/config/tabs/ConfigPanelTab.qml:234
+msgid "Layout type:"
+msgstr "레이아웃 유형:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:324
+msgid "Leave this empty to use the public server. Set it to your own address if you run a self-hosted LibreWXR instance."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:88
+#: contents/ui/config/tabs/ConfigRadarTab.qml:266
+msgid "LibreWXR"
+msgstr "LibreWXR"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:298
+msgid "LibreWXR server:"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:161
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Light"
+msgstr "약함"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:620
+#: contents/ui/main.qml:2244
+msgid "Light drizzle"
+msgstr "약한 이슬비"
+
+#: contents/ui/main.qml:2250
+msgid "Light freezing drizzle"
+msgstr "약한 동결성 이슬비"
+
+#: contents/ui/main.qml:2260
+msgid "Light freezing rain"
+msgstr "약한 어는비"
+
+#: contents/ui/main.qml:2254
+msgid "Light rain"
+msgstr "약한 비"
+
+#: contents/ui/config/configAppearance.qml:711
+msgid "Light rain / Drizzle (day)"
+msgstr "약한 비 / 이슬비 (낮)"
+
+#: contents/ui/config/configAppearance.qml:716
+msgid "Light rain / Drizzle (night)"
+msgstr "약한 비 / 이슬비 (밤)"
+
+#: contents/ui/main.qml:2272
+msgid "Light showers"
+msgstr "약한 소나기"
+
+#: contents/ui/main.qml:2264
+msgid "Light snow"
+msgstr "약한 눈"
+
+#: contents/ui/config/configAppearance.qml:755
+msgid "Light snow (day)"
+msgstr "약한 눈 (낮)"
+
+#: contents/ui/config/configAppearance.qml:760
+msgid "Light snow (night)"
+msgstr "약한 눈 (밤)"
+
+#: contents/ui/main.qml:2278
+msgid "Light snow showers"
+msgstr "약한 소낙눈"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:979
+msgid "Lines:"
+msgstr "줄 수:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:836
+msgid "List"
+msgstr "목록형"
+
+#: contents/ui/RadarView.qml:300
+msgid "Load embedded radar anyway"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:620
+msgid "Loading details…"
+msgstr "상세 정보 불러오는 중…"
+
+#: contents/ui/ForecastView.qml:375
+msgid "Loading forecast…"
+msgstr "예보 불러오는 중…"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:285
+msgid "Loading frames"
+msgstr "프레임 불러오는 중"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:284
+msgid "Loading frame…"
+msgstr "프레임 불러오는 중…"
+
+#: contents/ui/ForecastView.qml:870
+msgid "Loading hourly data…"
+msgstr "시간별 데이터 불러오는 중…"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "Loading locations…"
+msgstr "위치 정보 불러오는 중…"
+
+#: contents/ui/RadarView.qml:234
+msgid "Loading radar…"
+msgstr "레이더 불러오는 중…"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:283
+msgid "Loading…"
+msgstr "불러오는 중…"
+
+#: contents/config/config.qml:47
+msgid "Location"
+msgstr "위치"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:502
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:90
+msgid "Location '%1' is already in your saved list. You can apply the selected location, but it will not be saved again."
+msgstr "위치 '%1'은(는) 이미 저장된 목록에 있습니다. 선택한 위치를 적용할 수 있지만 중복 저장되지는 않습니다."
+
+#: contents/ui/config/configAppearance.qml:1841
+msgid "Location Name"
+msgstr "위치 이름"
+
+#: contents/ui/config/configLocation.qml:808
+msgid "Location auto-detected."
+msgstr "위치가 자동으로 감지되었습니다."
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "Location detection is depending on system configuration and permissions."
+msgstr "위치 감지는 시스템 설정 및 권한 상태에 따라 달라집니다."
+
+#: contents/ui/config/configGeneral.qml:407
+#: contents/ui/config/configGeneral.qml:416
+#: contents/ui/config/configLocation.qml:538
+msgid "Location is available on %1."
+msgstr "%1에서 이 위치 정보를 사용할 수 있습니다."
+
+#: contents/ui/config/configGeneral.qml:410
+#: contents/ui/config/configGeneral.qml:419
+#: contents/ui/config/configLocation.qml:541
+msgid "Location is not available on %1 (HTTP %2). Try a different provider or location."
+msgstr "%1에서 위치 정보를 이용할 수 없습니다 (HTTP %2). 다른 제공자나 위치를 선택하세요."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:331
+msgid "Location name"
+msgstr "위치 이름"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:530
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:105
+msgid "Location name:"
+msgstr "위치 이름:"
+
+#: contents/ui/config/configLocation.qml:1587
+msgid "Location package notice"
+msgstr "위치 패키지 관련 안내"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:559
+msgid "Location search by %1 · Map data © %2"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Location staged. Click the main Apply button to save."
+msgstr "위치가 임시 설정되었습니다. 저장하려면 메인 '적용' 버튼을 누르세요."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:329
+msgid "Location:"
+msgstr "위치:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:173
+#: contents/ui/config/tabs/ConfigRadarTab.qml:231
+msgid "Log Out Now…"
+msgstr "지금 로그아웃…"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:542
+msgid "Lon:"
+msgstr "경도:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:351
+msgid "Lon: %1°"
+msgstr "경도: %1°"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:366
+msgid "Longitude"
+msgstr "경도"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:558
+msgid "Longitude:"
+msgstr "경도:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:501
+msgid "Looking up location…"
+msgstr "위치 검색 중…"
+
+#: contents/ui/DetailsView.qml:1114 contents/ui/FullView.qml:541
+#: contents/ui/js/airQuality.js:120 contents/ui/js/pollen.js:42
+#: contents/ui/js/spaceWeather.js:189 contents/ui/js/spaceWeather.js:201
+#: contents/ui/main.qml:1000 contents/ui/main.qml:1032
+msgid "Low"
+msgstr "낮음"
+
+#: contents/ui/js/airQuality.js:120
+msgid "Low Risk"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:79 contents/ui/main.qml:1129
+msgid "Low temperature"
+msgstr "저온 경보"
+
+#: contents/ui/main.qml:1479
+msgctxt "Alert severity"
+msgid "MINIMAL"
+msgstr "미미함"
+
+#: contents/ui/main.qml:1477
+msgctxt "Alert severity"
+msgid "MINOR"
+msgstr "약함"
+
+#: contents/ui/main.qml:1476
+msgctxt "Alert severity"
+msgid "MODERATE"
+msgstr "보통"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:721
+msgid "Magnetic Field (Bz)"
+msgstr "자기장 (Bz)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1011
+msgid "Main icon style:"
+msgstr "메인 아이콘 스타일:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:49
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:612
+#: contents/ui/main.qml:2234
+msgid "Mainly clear"
+msgstr "대체로 맑음"
+
+#: contents/ui/config/configAppearance.qml:677
+msgid "Mainly clear (day)"
+msgstr "대체로 맑음 (낮)"
+
+#: contents/ui/config/configAppearance.qml:682
+msgid "Mainly clear (night)"
+msgstr "대체로 맑음 (밤)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:349
+#: contents/ui/config/tabs/ConfigPanelTab.qml:490
+#: contents/ui/config/tabs/ConfigPanelTab.qml:583
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1342
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:163
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:213
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:618
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:656
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:861
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:902
+msgid "Manual"
+msgstr "수동"
+
+#: contents/ui/components/RadarWebEngineView.qml:153
+msgid "Map background"
+msgstr "지도 배경"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:197
+msgid "Marine and weather data provider. API key required below."
+msgstr "해양 및 기상 데이터 제공자입니다. 아래에 API 키 입력이 필요합니다."
+
+#: contents/ui/js/airQuality.js:104
+msgid "Members of sensitive groups may experience health effects; the general public is less likely to be affected."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:84
+msgid "MeteoAlarm + NOAA NWS (Native)"
+msgstr "MeteoAlarm + NOAA NWS (기본)"
+
+#: contents/ui/config/configAppearance.qml:267
+#: contents/ui/config/tabs/ConfigPanelTab.qml:423
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1437
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:296
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:64
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:74
+msgid "Meteocons (Bundled)"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:231
+msgid "Metric (°C, km/h, hPa, mm)"
+msgstr "미터법 (°C, km/h, hPa, mm)"
+
+#: contents/ui/js/pollen.js:43
+msgid "Mild symptoms in highly sensitive individuals."
+msgstr "민감성 질환자에게 경미한 증상이 발생할 수 있습니다."
+
+#: contents/ui/js/pollen.js:42
+msgid "Minimal to no risk."
+msgstr "위험이 거의 없거나 매우 낮습니다."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:642
+msgid "Minimum height:"
+msgstr "최소 높이:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:604
+msgid "Minimum width:"
+msgstr "최소 너비:"
+
+#: contents/ui/js/spaceWeather.js:95
+msgid "Minor geomagnetic storm."
+msgstr "약한 지자기 폭풍."
+
+#: contents/ui/config/configAppearance.qml:2471
+msgid "Misc"
+msgstr "기타"
+
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Mod"
+msgstr "보통"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:163
+msgid "Mode:"
+msgstr "모드:"
+
+#: contents/ui/components/RadarWebEngineView.qml:162
+#: contents/ui/js/airQuality.js:92 contents/ui/js/airQuality.js:103
+#: contents/ui/js/airQuality.js:121 contents/ui/js/pollen.js:43
+#: contents/ui/js/spaceWeather.js:188 contents/ui/js/spaceWeather.js:200
+#: contents/ui/main.qml:1001 contents/ui/main.qml:1033
+msgid "Moderate"
+msgstr "보통"
+
+#: contents/ui/js/airQuality.js:121
+msgid "Moderate Risk"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:622
+msgid "Moderate drizzle"
+msgstr "보통 이슬비"
+
+#: contents/ui/js/spaceWeather.js:94
+msgid "Moderate geomagnetic storm."
+msgstr "보통 지자기 폭풍."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:630
+msgid "Moderate rain"
+msgstr "보통 비"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:646
+msgid "Moderate rain showers"
+msgstr "보통 소나기"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:638
+msgid "Moderate snowfall"
+msgstr "보통 강설"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:904
+msgid "Monday"
+msgstr "월요일"
+
+#: contents/ui/DetailsView.qml:360
+msgid "Moon"
+msgstr "달"
+
+#: contents/ui/config/configAppearance.qml:1848
+msgid "Moon Phase"
+msgstr "달의 위상"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:500
+msgid "Moon mode:"
+msgstr "달 표시 모드:"
+
+#: contents/ui/config/configAppearance.qml:1971
+#: contents/ui/config/configAppearance.qml:2094
+msgid "Moon phase and moonrise/moonset"
+msgstr "달의 위상 및 월출/월몰"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:568
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:562
+msgid "Moon phase mode:"
+msgstr "달 위상 모드:"
+
+#: contents/ui/config/configAppearance.qml:1353
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:521
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:584
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:578
+msgid "Moon phase only"
+msgstr "달의 위상만"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:350
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:418
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:413
+msgid "Moon phase options"
+msgstr "달 위상 옵션"
+
+#: contents/ui/config/configAppearance.qml:1972
+#: contents/ui/config/configAppearance.qml:2095
+msgid "Moon phase, moonrise & moonset"
+msgstr "달의 위상, 월출 및 월몰"
+
+#: contents/ui/TooltipContent.qml:501 contents/ui/TooltipContent.qml:543
+#: contents/ui/TooltipContent.qml:565
+msgid "Moon:"
+msgstr "달:"
+
+#: contents/ui/DetailsView.qml:3827 contents/ui/DetailsView.qml:3832
+#: contents/ui/DetailsView.qml:4150 contents/ui/DetailsView.qml:4155
+msgid "Moonrise"
+msgstr "월출"
+
+#: contents/ui/config/configAppearance.qml:1357
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:525
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:588
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:582
+msgid "Moonrise & moonset only"
+msgstr "월출 및 월몰만"
+
+#: contents/ui/config/configAppearance.qml:1404
+msgid "Moonrise icon:"
+msgstr "월출 아이콘:"
+
+#: contents/ui/config/configAppearance.qml:1361
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:529
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:596
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:590
+msgid "Moonrise only"
+msgstr "월출만"
+
+#: contents/ui/DetailsView.qml:3825 contents/ui/DetailsView.qml:4148
+msgid "Moonrise/Moonset"
+msgstr "월출/월몰"
+
+#: contents/ui/TooltipContent.qml:504 contents/ui/TooltipContent.qml:526
+#: contents/ui/TooltipContent.qml:533 contents/ui/TooltipContent.qml:557
+#: contents/ui/TooltipContent.qml:566
+msgid "Moonrise:"
+msgstr "월출:"
+
+#: contents/ui/DetailsView.qml:3829 contents/ui/DetailsView.qml:3832
+#: contents/ui/DetailsView.qml:4152 contents/ui/DetailsView.qml:4155
+msgid "Moonset"
+msgstr "월몰"
+
+#: contents/ui/config/configAppearance.qml:1447
+msgid "Moonset icon:"
+msgstr "월몰 아이콘:"
+
+#: contents/ui/config/configAppearance.qml:1365
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:533
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:600
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:594
+msgid "Moonset only"
+msgstr "월몰만"
+
+#: contents/ui/TooltipContent.qml:508 contents/ui/TooltipContent.qml:523
+#: contents/ui/TooltipContent.qml:533 contents/ui/TooltipContent.qml:554
+#: contents/ui/TooltipContent.qml:567
+msgid "Moonset:"
+msgstr "월몰:"
+
+#: contents/ui/main.qml:1837
+msgid "Morning"
+msgstr "아침"
+
+#: contents/ui/js/pollen.js:44
+msgid "Most allergy sufferers will experience discomfort."
+msgstr "대부분의 알레르기 환자가 불편함을 느낍니다."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:656
+#: contents/ui/DetailsView.qml:1524 contents/ui/main.qml:1041
+msgid "Mugwort"
+msgstr "쑥"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:141
+msgid "Multiple lines (tall panel)"
+msgstr "여러 줄 (높은 패널)"
+
+#: contents/ui/ForecastView.qml:1451 contents/ui/ForecastView.qml:2056
+#: contents/ui/main.qml:907 contents/ui/main.qml:940 contents/ui/main.qml:953
+#: contents/ui/main.qml:961 contents/ui/main.qml:969 contents/ui/main.qml:997
+#: contents/ui/main.qml:1060
+msgid "N/A"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1891
+#: contents/ui/config/configAppearance.qml:2014
+#: contents/ui/config/configAppearance.qml:2137
+msgid "NOAA Kp index and geomagnetic activity"
+msgstr "NOAA Kp 지수 및 지자기 활동"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:591
+msgid "NO₂"
+msgstr "이산화질소 (NO₂)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:519
+msgid "Need the coordinates for a place? You can look them up at <a href=\"https://www.mapcoordinates.net/\">mapcoordinates.net</a>."
+msgstr "장소의 좌표가 필요하신가요? <a href=\"https://www.mapcoordinates.net/\">mapcoordinates.net</a>에서 찾아볼 수 있습니다."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1236
+msgid "Negative spacing pulls panel items closer together than their natural gap and can make icons or text overlap."
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:370
+msgid "Network error"
+msgstr "네트워크 오류"
+
+#: contents/ui/main.qml:2463
+msgid "New Moon"
+msgstr "신월 (삭)"
+
+#: contents/ui/DetailsView.qml:3587
+msgid "Night"
+msgstr "밤"
+
+#: contents/ui/DetailsView.qml:1318
+msgid "Nitrogen Dioxide (NO₂)"
+msgstr "이산화질소 (NO₂)"
+
+#: contents/ui/config/configLocation.qml:1372
+msgid "No"
+msgstr "아니요"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:286
+msgid "No data"
+msgstr "데이터 없음"
+
+#: contents/ui/DetailsView.qml:620
+msgid "No details data"
+msgstr "상세 정보 데이터 없음"
+
+#: contents/ui/ForecastView.qml:375
+msgid "No forecast data"
+msgstr "예보 데이터 없음"
+
+#: contents/ui/js/spaceWeather.js:96
+msgid "No geomagnetic storm activity."
+msgstr "지자기 폭풍 활동 없음."
+
+#: contents/ui/ForecastView.qml:1406 contents/ui/ForecastView.qml:1410
+#: contents/ui/ForecastView.qml:2031 contents/ui/ForecastView.qml:2035
+msgid "No info"
+msgstr "정보 없음"
+
+#: contents/ui/ForecastView.qml:674
+msgid "No information"
+msgstr "정보 없음"
+
+#: contents/ui/FullView.qml:234
+msgid "No location set"
+msgstr "설정된 위치 없음"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:287
+msgid "No radar data"
+msgstr "레이더 데이터 없음"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:288
+msgid "No satellite data"
+msgstr "위성 데이터 없음"
+
+#: contents/ui/config/configLocation.qml:1711
+msgid "No saved locations. Save the current location to quickly switch between places."
+msgstr "저장된 위치가 없습니다. 위치를 빠르게 전환하려면 현재 위치를 저장하세요."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "No weather stations found for '%1'"
+msgstr "'%1'에 대한 기상 관측소를 찾을 수 없습니다"
+
+#: contents/ui/components/RadarWebEngineView.qml:160
+#: contents/ui/components/RadarWebEngineView.qml:849
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:331
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1170
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:353
+#: contents/ui/js/spaceWeather.js:202 contents/ui/main.qml:1097
+#: contents/ui/main.qml:1099
+msgid "None"
+msgstr "없음"
+
+#: contents/ui/config/configLocation.qml:670
+msgid "None Selected"
+msgstr "선택 안 함"
+
+#: contents/ui/DetailsView.qml:1114
+msgid "Normal"
+msgstr "보통"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:372
+msgid "Not available (HTTP %1)"
+msgstr "사용할 수 없음 (HTTP %1)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:507
+msgid "Not available: the selected base map already has a fixed light or dark style."
+msgstr "사용 불가: 선택한 기본 지도가 이미 고정된 라이트 또는 다크 스타일을 가지고 있습니다."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:744
+msgid "Not tested"
+msgstr "테스트 안 됨"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1394
+msgid "Note: size may be reduced if the panel is not thick enough."
+msgstr "참고: 패널 두께가 충분하지 않으면 크기가 줄어들 수 있습니다."
+
+#: contents/config/config.qml:62 contents/ui/config/configNotifications.qml:277
+msgid "Notifications"
+msgstr "알림"
+
+#: contents/ui/config/configNotifications.qml:516
+msgid "Notify about upcoming alerts before they start"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:656
+msgid "Notify about upcoming rain/storms"
+msgstr "다가오는 비/폭풍 알림"
+
+#: contents/ui/config/configNotifications.qml:670
+msgid "Notify about upcoming snow"
+msgstr "다가오는 눈 알림"
+
+#: contents/ui/config/configNotifications.qml:684
+msgid "Notify with today's UV forecast"
+msgstr "오늘의 자외선 예보 알림"
+
+#: contents/ui/config/configNotifications.qml:616
+msgid "Notify with today's forecast"
+msgstr "오늘의 예보 알림"
+
+#: contents/ui/config/configNotifications.qml:704
+msgid "Notify with today's geomagnetic activity forecast"
+msgstr "오늘의 지자기 활동 예보 알림"
+
+#: contents/ui/config/configNotifications.qml:636
+msgid "Notify with tomorrow's forecast"
+msgstr "내일의 예보 알림"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:381
+#, javascript-format
+msgid "Now: %1%2"
+msgstr "현재: %1%2"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:992
+msgid "Number of item rows visible at once. Resize the panel height in KDE settings to match."
+msgstr "한 번에 표시할 항목 행 수입니다. 이에 맞게 KDE 설정에서 패널 높이를 조절하세요."
+
+#: contents/ui/config/configAppearance.qml:1026
+msgid "OK"
+msgstr "확인"
+
+#: contents/ui/config/configGeneral.qml:145
+msgid "Off - the workaround script has been removed, so it won't load on your next login. This session already started with GPU compositing disabled though, and your system isn't systemd-managed, so there's no way to clear that live - it stays disabled (including anything you open freshly in this session) until you log out and back in."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:147
+msgid "Off - the workaround script has been removed, so it won't load on your next login. This session already started with GPU compositing disabled though, so it stays that way (and anything already open, like a terminal, keeps showing the old value) until you log out and back in."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:143
+msgid "Off - the workaround script has been removed, so it won't load on your next login. Your system uses systemd, so anything launched fresh from here on may already reflect the cleared value - but anything already open (like a terminal you still have up) keeps showing the old one regardless, and a full log out and back in is the only guaranteed way to clear it everywhere."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:203
+msgid "Official Spanish meteorological agency - Spain locations only! API key required below."
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:657
+#: contents/ui/DetailsView.qml:1526 contents/ui/main.qml:1042
+msgid "Olive"
+msgstr "올리브나무"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1178
+msgid "Only the clicked day expands"
+msgstr "클릭한 날짜만 펼치기"
+
+#: contents/ui/config/configLocation.qml:1177
+#: contents/ui/config/configLocation.qml:1554 contents/ui/RadarView.qml:374
+msgid "Open install guide"
+msgstr "설치 가이드 열기"
+
+#: contents/ui/RadarView.qml:293 contents/ui/RadarView.qml:381
+msgid "Open radar in browser"
+msgstr "브라우저에서 레이더 열기"
+
+#: contents/ui/config/configGeneral.qml:554
+msgid "Open-Meteo (recommended, free)"
+msgstr "Open-Meteo (권장, 무료)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:51
+msgid "OpenFreeMap Dark"
+msgstr ""
+
+#: contents/ui/components/MapBackgroundChoices.qml:50
+msgid "OpenFreeMap Fiord (dark)"
+msgstr ""
+
+#: contents/ui/components/MapBackgroundChoices.qml:49
+msgid "OpenFreeMap Liberty (light)"
+msgstr ""
+
+#: contents/ui/components/MapBackgroundChoices.qml:48
+msgid "OpenFreeMap Positron (light)"
+msgstr ""
+
+#: contents/ui/components/MapBackgroundChoices.qml:44
+msgid "OpenStreetMap (dark)"
+msgstr ""
+
+#: contents/ui/components/MapBackgroundChoices.qml:43
+msgid "OpenStreetMap (standard)"
+msgstr "OpenStreetMap (표준)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:47
+msgid "OpenTopoMap (topographic)"
+msgstr "OpenTopoMap (지형도)"
+
+#: contents/ui/config/configGeneral.qml:566
+msgid "OpenWeatherMap (Key Required)"
+msgstr "OpenWeatherMap (API 키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:237
+msgid "OpenWeatherMap API Key:"
+msgstr "OpenWeatherMap API 키:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1153
+msgid "Opens today's hourly forecast automatically (or the next available day)"
+msgstr "오늘의 시간별 예보를 자동으로 엽니다 (또는 확인 가능한 다음 날짜)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:513
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:355
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:420
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:415
+msgid "Options"
+msgstr "옵션"
+
+#: contents/ui/config/configNotifications.qml:322
+#: contents/ui/config/configNotifications.qml:371
+msgid "Orange"
+msgstr "주황색 경보"
+
+#: contents/ui/config/configAppearance.qml:699
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:51
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:616
+#: contents/ui/main.qml:2238
+msgid "Overcast"
+msgstr "흐림"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:478
+msgid "Overlay detected storm cells on the map"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:1320
+msgid "Ozone (O₃)"
+msgstr "오존 (O₃)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:592
+msgid "O₃"
+msgstr "오존 (O₃)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:590
+msgid "PM10"
+msgstr "미세먼지 (PM10)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:589
+msgid "PM2.5"
+msgstr "초미세먼지 (PM2.5)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:418
+msgid "Palette:"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:2459
+#: contents/ui/config/tabs/ConfigMiscTab.qml:203
+msgid "Panel"
+msgstr "패널"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:96
+msgid "Panel Items"
+msgstr "패널 항목"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:120
+msgid "Panel display settings"
+msgstr "패널 표시 설정"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1318
+msgid "Panel font:"
+msgstr "패널 글꼴:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1254
+msgid "Panel items settings"
+msgstr "패널 항목 설정"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1537
+msgid "Panel items:"
+msgstr "패널 항목:"
+
+#: contents/ui/config/configAppearance.qml:119
+msgid "Panel › Icon theme"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:163
+msgid "Panel › Multi-line layout › Main icon style"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:133
+msgid "Panel › Simple layout › Weather icon style"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:377
+msgid "Particle width:"
+msgstr ""
+
+#: contents/ui/DetailsView.qml:1316
+msgid "Particulate Matter (PM10)"
+msgstr "미세먼지 (PM10)"
+
+#: contents/ui/DetailsView.qml:1314
+msgid "Particulate Matter (PM2.5)"
+msgstr "초미세먼지 (PM2.5)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:50
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:614
+#: contents/ui/main.qml:2236 contents/ui/main.qml:2288
+msgid "Partly cloudy"
+msgstr "구름 조금"
+
+#: contents/ui/config/configAppearance.qml:688
+msgid "Partly cloudy (day)"
+msgstr "구름 조금 (낮)"
+
+#: contents/ui/config/configAppearance.qml:693
+msgid "Partly cloudy (night)"
+msgstr "구름 조금 (밤)"
+
+#: contents/ui/components/RadarWebEngineView.qml:157
+msgid "Pause"
+msgstr "일시정지"
+
+#: contents/ui/config/configNotifications.qml:568
+msgid "Per alert type:"
+msgstr "경보 유형별:"
+
+#: contents/ui/config/configAppearance.qml:1341
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:509
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:576
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:570
+msgid "Phase + moonrise & moonset"
+msgstr "위상 + 월출 및 월몰"
+
+#: contents/ui/config/configAppearance.qml:1345
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:513
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:580
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:574
+msgid "Phase + upcoming rise/set"
+msgstr "위상 + 다음 월출/월몰"
+
+#: contents/ui/config/configLocation.qml:1667
+msgid "Pick an exact spot on the map for a more local forecast, such as your neighborhood block or a specific landmark."
+msgstr "동네 단위나 특정 랜드마크 등 더 국소적인 예보를 위해 지도에서 정확한 지점을 선택하세요."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1162
+msgid "Pipe  |"
+msgstr "파이프  |"
+
+#: contents/ui/config/configGeneral.qml:574
+msgid "Pirate Weather (Key Required)"
+msgstr "Pirate Weather (API 키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:239
+msgid "Pirate Weather API Key:"
+msgstr "Pirate Weather API 키:"
+
+#: contents/ui/components/RadarWebEngineView.qml:156
+msgid "Play"
+msgstr "재생"
+
+#: contents/ui/config/configNotifications.qml:403
+msgid "Plays a sound alongside the notification for alerts of that severity. A switch greyed out here means that severity is turned off above, so it never notifies - with or without sound. By default only Red and Purple play a sound."
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1883
+#: contents/ui/config/configAppearance.qml:2006
+#: contents/ui/config/configAppearance.qml:2129 contents/ui/DetailsView.qml:366
+#: contents/ui/SimpleView.qml:267
+msgid "Pollen"
+msgstr "꽃가루"
+
+#: contents/ui/DetailsView.qml:1673
+msgid "Pollen data not available for this location."
+msgstr "이 위치에서는 꽃가루 데이터를 사용할 수 없습니다."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:352
+msgid "Pollen options"
+msgstr "꽃가루 옵션"
+
+#: contents/ui/TooltipContent.qml:475
+msgid "Pollen:"
+msgstr "꽃가루:"
+
+#: contents/ui/js/airQuality.js:93
+msgid "Poor"
+msgstr "나쁨"
+
+#: contents/ui/main.qml:566
+msgid "Postpone"
+msgstr "미루기"
+
+#: contents/ui/SimpleView.qml:264
+msgid "Precip Sum"
+msgstr "누적 강수량"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1412
+msgid "Precip probability:"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1274
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1480
+msgid "Precip sum:"
+msgstr "누적 강수량:"
+
+#: contents/ui/TooltipContent.qml:460
+msgid "Precip. Sum:"
+msgstr "누적 강수량:"
+
+#: contents/ui/config/configAppearance.qml:1855
+#: contents/ui/config/configAppearance.qml:1978
+#: contents/ui/config/configAppearance.qml:2101 contents/ui/DetailsView.qml:362
+#: contents/ui/SimpleView.qml:263
+msgid "Precipitation"
+msgstr "강수 확률/강수"
+
+#: contents/ui/config/configAppearance.qml:1862
+#: contents/ui/config/configAppearance.qml:1985
+#: contents/ui/config/configAppearance.qml:2108 contents/ui/DetailsView.qml:363
+msgid "Precipitation Sum"
+msgstr "누적 강수량"
+
+#: contents/ui/config/configAppearance.qml:1856
+#: contents/ui/config/configAppearance.qml:1979
+#: contents/ui/config/configAppearance.qml:2102
+msgid "Precipitation rate (mm/h)"
+msgstr "강수 강도 (mm/h)"
+
+#: contents/ui/TooltipContent.qml:455
+msgid "Precipitation:"
+msgstr "강수:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:241
+msgid "Prefix style:"
+msgstr "접두사 스타일:"
+
+#: contents/ui/components/RadarWebEngineView.qml:133
+#: contents/ui/config/configAppearance.qml:1834
+#: contents/ui/config/configAppearance.qml:1936
+#: contents/ui/config/configAppearance.qml:2080 contents/ui/DetailsView.qml:355
+#: contents/ui/SimpleView.qml:260
+msgid "Pressure"
+msgstr "기압"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1227
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1427
+msgid "Pressure forecast:"
+msgstr "기압 예보:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:373
+#: contents/ui/TooltipContent.qml:443
+msgid "Pressure:"
+msgstr "기압:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:179
+msgid "Preview: 20°C"
+msgstr "미리보기: 20°C"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:156
+msgid "Primary unit shown first (e.g. °C / °F)"
+msgstr "기본 단위를 먼저 표시 (예: °C / °F)"
+
+#: contents/ui/config/configGeneral.qml:618 contents/ui/DetailsView.qml:2445
+msgid "Provider"
+msgstr "제공자"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:676
+msgid "Provider availability"
+msgstr "제공자 사용 가능 여부"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:187
+#: contents/ui/config/tabs/ConfigProviderTab.qml:189
+#: contents/ui/config/tabs/ConfigProviderTab.qml:191
+#: contents/ui/config/tabs/ConfigProviderTab.qml:193
+#: contents/ui/config/tabs/ConfigProviderTab.qml:195
+#: contents/ui/config/tabs/ConfigProviderTab.qml:197
+#: contents/ui/config/tabs/ConfigProviderTab.qml:199
+#: contents/ui/config/tabs/ConfigProviderTab.qml:201
+#: contents/ui/config/tabs/ConfigProviderTab.qml:203
+#: contents/ui/config/tabs/ConfigProviderTab.qml:205
+#: contents/ui/config/tabs/ConfigProviderTab.qml:207
+#: contents/ui/config/tabs/ConfigProviderTab.qml:208
+msgid "Provider website:"
+msgstr "제공자 웹사이트:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:128
+#: contents/ui/DetailsView.qml:2185 contents/ui/DetailsView.qml:2928
+msgid "Provider:"
+msgstr "제공자:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:377
+msgid "Provider: %1"
+msgstr "제공자: %1"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:122
+msgid ""
+"Providers are tried in order until one succeeds:\n"
+"Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+" If you want to choose a specific provider, please turn off Adaptive Mode.\n"
+"Open-Meteo is always tried first - it is free and requires no API key. AEMET is intentionally not part of this list, as it only covers Spain and is not suitable for global use."
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:332
+#: contents/ui/config/configNotifications.qml:385
+msgid "Purple"
+msgstr "보라색 경보"
+
+#: contents/ui/config/configGeneral.qml:594
+msgid "QWeather (Key Required)"
+msgstr "QWeather (API 키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:446
+msgid "QWeather API Host:"
+msgstr "QWeather API 호스트:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:249
+msgid "QWeather API Key:"
+msgstr "QWeather API 키:"
+
+#: contents/ui/config/configGeneral.qml:511
+msgid "QWeather error (code %1). Check your API key."
+msgstr "QWeather 오류 (코드 %1). API 키를 확인하세요."
+
+#: contents/ui/ForecastView.qml:865
+msgid "QWeather provides hourly forecasts for up to 168 hours (7 days). Daily forecast is still available for this date."
+msgstr "QWeather는 최대 168시간(7일) 동안의 시간별 예보를 제공합니다. 해당 날짜의 일별 예보는 계속 확인할 수 있습니다."
+
+#: contents/ui/config/configLocation.qml:1130
+msgid "QtLocation and QtPositioning are not installed"
+msgstr "QtLocation 및 QtPositioning 패키지가 설치되지 않음"
+
+#: contents/ui/RadarView.qml:334
+msgid "QtWebEngine is not installed"
+msgstr "QtWebEngine 패키지가 설치되지 않음"
+
+#: contents/ui/js/spaceWeather.js:177
+msgid "Quiet"
+msgstr "조용함/평온"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:234
+#: contents/ui/components/RadarWebEngineView.qml:128
+#: contents/ui/config/configGeneral.qml:622
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:322 contents/ui/FullView.qml:584
+msgid "Radar"
+msgstr "레이더"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:244
+msgid "Radar + Satellite"
+msgstr "레이더 + 위성"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:86
+msgid "Radar Settings"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:352
+msgid "Radar only"
+msgstr "레이더만"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:249
+msgid "Radar provider:"
+msgstr "레이더 제공자:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:291
+msgid "Radar provider: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR is a free, open-source weather radar API. It combines real radar composites from NOAA, Canadian, and European sources with a global model fallback, and provides the past 2 hours of radar data plus a short nowcast. It also offers a free satellite (infrared) layer.<br/><br/>Layer mode, radar color scheme, and motion arrows are selected directly in the Radar tab. The map follows your Plasma light/dark theme automatically."
+msgstr "레이더 제공자: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR은 무료 오픈소스 기상 레이더 API입니다. 미국 NOAA, 캐나다 및 유럽의 실제 레이더 합성 데이터에 글로벌 모델 폴백을 결합하여 지난 2시간의 레이더 데이터와 단기 초단기 예보를 제공합니다. 또한 무료 위성(적외선) 레이어도 함께 제공됩니다.<br/><br/>레이어 모드, 레이더 색상표, 이동 화살표는 레이더 탭에서 직접 선택할 수 있으며 지도는 Plasma 라이트/다크 테마를 자동으로 따릅니다."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:281
+msgid "Radar provider: <a href='https://www.rainviewer.com/'>Rain Viewer</a><br/><br/>The widget uses the free RainViewer API, which provides the past 2 hours of weather radar data in 10-minute intervals. Radar forecast is not supported.<br/><br/>Rain Viewer does not guarantee the availability of radar data. They do not conclude contracts with owners of this data. The reason is that the owners can ask them to remove their data from Rain Viewer, change the format, or stop sharing the data. They are trying to keep radar data for as long as possible, but sometimes the owners just stop providing the images."
+msgstr "레이더 제공자: <a href='https://www.rainviewer.com/'>Rain Viewer</a><br/><br/>위젯은 무료 RainViewer API를 사용하여 10분 간격으로 지난 2시간 동안의 기상 레이더 데이터를 제공합니다. 레이더 예보는 지원되지 않습니다.<br/><br/>Rain Viewer는 레이더 데이터의 제공 가능 여부를 보장하지 않습니다. 데이터 소유자와 계약을 맺지 않기 때문입니다. 소유자가 데이터 삭제, 형식 변경, 공유 중단을 요청할 수 있으며 가능한 오래 유지하려 하지만 제공이 갑자기 중단될 수 있습니다."
+
+#: contents/ui/FullView.qml:751 contents/ui/FullView.qml:753
+msgid "Radar:"
+msgstr "레이더:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:658
+#: contents/ui/DetailsView.qml:1528 contents/ui/main.qml:1043
+msgid "Ragweed"
+msgstr "돼지풀"
+
+#: contents/ui/components/RadarWebEngineView.qml:129
+#: contents/ui/config/configNotifications.qml:83
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:55
+#: contents/ui/main.qml:1133 contents/ui/main.qml:1952
+#: contents/ui/main.qml:2256
+msgid "Rain"
+msgstr "비"
+
+#: contents/ui/config/configAppearance.qml:722
+msgid "Rain (day)"
+msgstr "비 (낮)"
+
+#: contents/ui/config/configAppearance.qml:727
+msgid "Rain (night)"
+msgstr "비 (밤)"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:262
+msgid "Rain Viewer"
+msgstr "Rain Viewer"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:59
+msgid "Rain showers"
+msgstr "소나기"
+
+#: contents/ui/config/configNotifications.qml:653
+msgid "Rain/Storm"
+msgstr "비/폭풍"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:163
+msgid "Read-only while Adaptive mode is on - turn it off above to choose a specific provider."
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:158
+msgid "Real-time"
+msgstr "실시간"
+
+#: contents/ui/components/RadarWebEngineView.qml:155
+msgid "Recent"
+msgstr "최근"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:576
+msgid "Recommended - e.g. 560"
+msgstr "권장 - 예: 560"
+
+#: contents/ui/config/configNotifications.qml:327
+#: contents/ui/config/configNotifications.qml:378
+msgid "Red"
+msgstr "빨간색 경보"
+
+#: contents/ui/js/airQuality.js:122
+msgid "Reduce or reschedule strenuous outdoor activities, especially if you experience symptoms."
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1609 contents/ui/FullView.qml:430
+#: contents/ui/main.qml:413
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:486
+msgid "Refresh weather automatically"
+msgstr "날씨 정보 자동 새로 고침"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:857
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:731
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:725
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:504
+msgid "Region default"
+msgstr "지역 기본값"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:777
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:651
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:645
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:436
+msgid "Region default (long)"
+msgstr "지역 기본값 (길게)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:776
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:650
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:644
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:437
+msgid "Region default (short)"
+msgstr "지역 기본값 (짧게)"
+
+#: contents/ui/config/configAppearance.qml:1930
+#: contents/ui/config/configAppearance.qml:2074
+msgid "Relative humidity %"
+msgstr "상대 습도 %"
+
+#: contents/ui/config/configAppearance.qml:1828
+msgid "Relative humidity percentage"
+msgstr "상대 습도 백분율"
+
+#: contents/ui/config/configLocation.qml:1420
+msgid "Remove last location?"
+msgstr "마지막 위치를 삭제하시겠습니까?"
+
+#: contents/ui/config/configLocation.qml:1983
+msgid "Remove saved location"
+msgstr "저장된 위치 삭제"
+
+#: contents/ui/config/configLocation.qml:1952
+msgid "Rename location"
+msgstr "위치 이름 변경"
+
+#: contents/ui/config/configNotifications.qml:532
+msgid "Repeat reminder until dismissed"
+msgstr "닫을 때까지 알림 반복"
+
+#: contents/ui/config/configLocation.qml:870
+msgid "Requesting location via GeoClue2…"
+msgstr "GeoClue2를 통해 위치 요청 중…"
+
+#: contents/ui/config/configLocation.qml:858
+msgid "Requesting location… (%1)"
+msgstr "위치 요청 중… (%1)"
+
+#: contents/ui/config/configAppearance.qml:995
+#: contents/ui/config/configAppearance.qml:1267
+#: contents/ui/config/configAppearance.qml:1310
+#: contents/ui/config/configAppearance.qml:1435
+#: contents/ui/config/configAppearance.qml:1478
+#: contents/ui/config/configNotifications.qml:453
+#: contents/ui/config/tabs/ConfigPanelTab.qml:660
+#: contents/ui/config/tabs/ConfigPanelTab.qml:782
+#: contents/ui/config/tabs/ConfigPanelTab.qml:917
+msgid "Reset"
+msgstr "초기화"
+
+#: contents/ui/config/configAppearance.qml:1012
+msgid "Reset All to Defaults"
+msgstr "모두 기본값으로 초기화"
+
+#: contents/ui/config/configAppearance.qml:1153
+msgid "Reset to default"
+msgstr "기본값으로 초기화"
+
+#: contents/ui/main.qml:2242
+msgid "Rime fog"
+msgstr "상착안개 (서리안개)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:77
+msgid "Round values:"
+msgstr "값 반올림:"
+
+#: contents/ui/config/configNotifications.qml:560
+msgid "Routine tests (for example \"Required Weekly Test\") are ignored: no notification and no sound."
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:559
+msgid "Routine tests (for example \"Required Weekly Test\") will show a notification, but never play an alert sound."
+msgstr ""
+
+#: contents/ui/main.qml:1475
+msgctxt "Alert severity"
+msgid "SEVERE"
+msgstr "심각"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:593
+msgid "SO₂"
+msgstr "이산화황 (SO₂)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:239
+msgid "Satellite"
+msgstr "위성"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:906
+msgid "Saturday"
+msgstr "토요일"
+
+#: contents/ui/config/configLocation.qml:1695
+msgid "Saved locations"
+msgstr "저장된 위치"
+
+#: contents/ui/config/configGeneral.qml:162
+msgid "Saved, but not active yet - log out and back in for it to take effect."
+msgstr "저장되었으나 아직 활성화되지 않았습니다. 적용하려면 로그아웃 후 다시 로그인하세요."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:996
+msgid "Scroll animation:"
+msgstr "스크롤 애니메이션:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:962
+msgid "Scroll interval (sec):"
+msgstr "스크롤 간격 (초):"
+
+#: contents/ui/config/configLocation.qml:1655
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:276
+msgid "Search Location"
+msgstr "위치 검색"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "Search a weather station to set your location"
+msgstr "위치를 설정하려면 기상 관측소를 검색하세요"
+
+#: contents/ui/config/configLocation.qml:1659
+msgid "Search by city or place name. Results show the location name, region, and country, and are suitable for general city-level forecasts rather than exact street-level placement."
+msgstr "도시나 장소 이름으로 검색하세요. 검색 결과에는 위치 이름, 지역, 국가가 표시되며 세부 도로 단위보다는 일반적인 도시 단위 예보에 적합합니다."
+
+#: contents/ui/config/configLocation.qml:1647
+msgid "Search for a location or choose it on the map."
+msgstr "위치를 검색하거나 지도에서 선택하세요."
+
+#: contents/ui/config/configLocation.qml:1245
+msgid "Search location"
+msgstr "위치 검색"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:345
+msgid "Search location…"
+msgstr "위치 검색…"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:156
+msgid "Secondary unit shown first (e.g. °F / °C)"
+msgstr "보조 단위를 먼저 표시 (예: °F / °C)"
+
+#: contents/ui/config/configNotifications.qml:526
+msgid "Sends a single, low-priority heads-up as soon as a future alert is published (e.g. \"Heat warning starts tomorrow at 11:00\"). The normal alert notification above still fires separately once it actually becomes active."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:161
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1143
+msgid "Separator:"
+msgstr "구분 기호:"
+
+#: contents/ui/js/pollen.js:45
+msgid "Serious risk; avoid outdoor activities."
+msgstr "심각한 위험 수치입니다. 야외 활동을 자제하세요."
+
+#: contents/ui/config/configLocation.qml:1317
+msgid "Set <b>%1</b> as your default location?"
+msgstr "<b>%1</b>을(를) 기본 위치로 설정하시겠습니까?"
+
+#: contents/ui/FullView.qml:243
+msgid "Set Location…"
+msgstr "위치 설정…"
+
+#: contents/ui/config/configLocation.qml:1910
+msgid "Set as default location"
+msgstr "기본 위치로 설정"
+
+#: contents/ui/config/configLocation.qml:1290
+msgid "Set as default?"
+msgstr "기본값으로 설정하시겠습니까?"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1527
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:386
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:779
+msgid "Set your own icons…"
+msgstr "직접 아이콘 설정…"
+
+#: contents/ui/config/configAppearance.qml:480
+msgid "Settings where this theme is not available keep their current theme."
+msgstr ""
+
+#: contents/ui/js/spaceWeather.js:92
+msgid "Severe geomagnetic storm."
+msgstr "심각한 지자기 폭풍."
+
+#: contents/ui/config/configNotifications.qml:311
+msgid "Severities:"
+msgstr "심각도:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1290
+msgid "Shadow Color"
+msgstr "그림자 색상"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:742
+msgid "Shadow color:"
+msgstr "그림자 색상:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:715
+msgid "Shadow intensity:"
+msgstr "그림자 강도:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:964
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:817
+msgid "Show / hide the prefix icon"
+msgstr "접두사 아이콘 표시 / 숨기기"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:833
+msgid "Show / hide the prefix icon on the panel"
+msgstr "패널의 접두사 아이콘 표시 / 숨기기"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:102
+msgid "Show Radar tab in widget"
+msgstr "위젯에 레이더 탭 표시"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1124
+msgid "Show Today:"
+msgstr "오늘 날씨 표시:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:491
+msgid "Show WMO alerts on the map"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:431
+msgid "Show air quality standards:"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:121
+msgid "Show both units:"
+msgstr "두 단위 모두 표시:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:419
+msgid "Show in details"
+msgstr "상세 정보에 표시"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:185
+msgid "Show in:"
+msgstr "표시 방식:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:449
+msgid "Show motion arrows on the map"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:159
+msgid "Show my location"
+msgstr "내 위치 표시"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:1004
+msgid "Show or hide this detail item"
+msgstr "이 세부 항목 표시 또는 숨기기"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1185
+msgid "Show past weather info for today:"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:626
+msgid "Show pollen types in expanded view:"
+msgstr "확장 보기에서 꽃가루 유형 표시:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:561
+msgid "Show pollutants in expanded view:"
+msgstr "확장 보기에서 오염 물질 표시:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:407
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:476
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:471
+msgid "Show prefix icon"
+msgstr "접두사 아이콘 표시"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:690
+msgid "Show space weather items in expanded view:"
+msgstr "확장 보기에서 우주 기상 항목 표시:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:96
+msgid "Show temperature unit:"
+msgstr "온도 단위 표시:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:630
+msgid "Show the wind at about 3000 m (700 hPa), the flow that steers the rain, instead of the surface wind at 10 m"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:520
+msgid "Show tile options: smoothing, snow mask, format and tile size"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:380
+msgid "Show update time and provider"
+msgstr "업데이트 시간 및 제공업체 표시"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:360
+msgid "Show/hide key"
+msgstr "표시/숨기기 키"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:249
+msgid "Show:"
+msgstr "표시:"
+
+#: contents/ui/main.qml:2274
+msgid "Showers"
+msgstr "소나기"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:135
+msgid "Showing primary unit only"
+msgstr "기본 단위만 표시 중"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:110
+msgid "Showing ° only"
+msgstr "° 만 표시 중"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:110
+msgid "Showing °C / °F after values"
+msgstr "값 뒤에 °C / °F 표시 중"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:144
+msgid "Shown"
+msgstr "표시됨"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:177
+msgid "Simple"
+msgstr "간단히"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:145
+#: contents/ui/config/tabs/ConfigPanelTab.qml:170
+msgid "Simple (icon + temperature)"
+msgstr "간단히 (아이콘 + 온도)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:941
+msgid "Simple Mode Items"
+msgstr "간단 모드 항목"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1540
+msgid "Simple Widget"
+msgstr "간단한 위젯"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1007
+msgid "Simple chips:"
+msgstr "간단한 칩:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:187
+msgid "Simple display mode settings"
+msgstr "간단한 표시 모드 설정"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:137
+msgid "Single line (all items at once)"
+msgstr "한 줄로 표시 (모든 항목 한 번에)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1462
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:321
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:737
+msgid "Size:"
+msgstr "크기:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:309
+msgid "Skipped - API key not configured"
+msgstr "건너뜀 - API 키가 설정되지 않음"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:628
+msgid "Slight rain"
+msgstr "약한 비"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:644
+msgid "Slight rain showers"
+msgstr "약한 소나기"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:650
+msgid "Slight snow showers"
+msgstr "약한 눈 소나기"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:636
+msgid "Slight snowfall"
+msgstr "약한 눈"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1174
+msgid "Small circle  ⚬"
+msgstr "작은 원  ⚬"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:358
+msgid "Smooth (20 to 30 fps)"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:601
+msgid "Smooth radar tile edges"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:593
+msgid "Smoothing"
+msgstr ""
+
+#: contents/ui/config/configNotifications.qml:667
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:57
+#: contents/ui/main.qml:2266
+msgid "Snow"
+msgstr "눈"
+
+#: contents/ui/config/configAppearance.qml:766
+msgid "Snow (day)"
+msgstr "눈 (낮)"
+
+#: contents/ui/config/configAppearance.qml:771
+msgid "Snow (night)"
+msgstr "눈 (밤)"
+
+#: contents/ui/config/configAppearance.qml:1904
+#: contents/ui/config/configAppearance.qml:2027
+#: contents/ui/config/configAppearance.qml:2150 contents/ui/DetailsView.qml:369
+#: contents/ui/SimpleView.qml:270
+msgid "Snow Cover"
+msgstr "적설량"
+
+#: contents/ui/TooltipContent.qml:490
+msgid "Snow Cover:"
+msgstr "적설량:"
+
+#: contents/ui/config/configAppearance.qml:1905
+#: contents/ui/config/configAppearance.qml:2028
+#: contents/ui/config/configAppearance.qml:2151
+msgid "Snow depth (cm/in)"
+msgstr "적설 깊이 (cm/in)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:58
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:642
+#: contents/ui/main.qml:2270
+msgid "Snow grains"
+msgstr "싸락눈"
+
+#: contents/ui/main.qml:2039
+msgid "Snow is ending"
+msgstr ""
+
+#: contents/ui/main.qml:2034
+msgid "Snow is expected"
+msgstr ""
+
+#: contents/ui/main.qml:2040
+msgid "Snow is expected to end %1."
+msgstr ""
+
+#: contents/ui/main.qml:2035
+msgid "Snow is possible %1."
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:607
+msgid "Snow mask"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:60
+#: contents/ui/main.qml:2280
+msgid "Snow showers"
+msgstr "눈 소나기"
+
+#: contents/ui/config/configNotifications.qml:75 contents/ui/main.qml:1125
+msgid "Snow/Ice"
+msgstr "눈/빙결"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:719
+#: contents/ui/DetailsView.qml:2021
+msgid "Solar Wind"
+msgstr "태양풍"
+
+#: contents/ui/config/configNotifications.qml:358
+msgid "Sounds:"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1890
+#: contents/ui/config/configAppearance.qml:2013
+#: contents/ui/config/configAppearance.qml:2136 contents/ui/DetailsView.qml:367
+#: contents/ui/SimpleView.qml:268
+msgid "Space Weather"
+msgstr "우주 기상"
+
+#: contents/ui/TooltipContent.qml:480
+msgid "Space Weather:"
+msgstr "우주 기상:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:353
+msgid "Space weather options"
+msgstr "우주 기상 옵션"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:187
+msgid "Standard provider. API key required below."
+msgstr "표준 제공업체입니다. 아래에 API 키가 필요합니다."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1058
+msgid "Stats items:"
+msgstr "통계 항목:"
+
+#: contents/ui/components/RadarWebEngineView.qml:164
+#: contents/ui/components/RadarWebEngineView.qml:849
+#: contents/ui/js/spaceWeather.js:174
+msgid "Storm"
+msgstr "폭풍"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:467
+msgid "Storm cells"
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:586
+msgid "StormGlass (Key Required)"
+msgstr "StormGlass (키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:245
+msgid "StormGlass API Key:"
+msgstr "StormGlass API 키:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1362
+msgid "Strip"
+msgstr "스트립"
+
+#: contents/ui/js/spaceWeather.js:173
+msgid "Strong"
+msgstr "강함"
+
+#: contents/ui/js/spaceWeather.js:93
+msgid "Strong geomagnetic storm."
+msgstr "강한 지자기 폭풍입니다."
+
+#: contents/ui/DetailsView.qml:1322
+msgid "Sulfur Dioxide (SO₂)"
+msgstr "이산화황 (SO₂)"
+
+#: contents/ui/config/configAppearance.qml:1951
+#: contents/ui/config/configAppearance.qml:2088
+msgid "Sun rise & set times"
+msgstr "일출 및 일몰 시간"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:455
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:523
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:518
+msgid "Sun times mode:"
+msgstr "일출/일몰 시간 모드:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:349
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:417
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:412
+msgid "Sun times options"
+msgstr "일출/일몰 시간 옵션"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:903
+msgid "Sunday"
+msgstr "일요일"
+
+#: contents/ui/DetailsView.qml:3360 contents/ui/DetailsView.qml:3364
+#: contents/ui/DetailsView.qml:3704 contents/ui/DetailsView.qml:3708
+#: contents/ui/ForecastView.qml:1250
+msgid "Sunrise"
+msgstr "일출"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:390
+msgid "Sunrise / Sunset:"
+msgstr "일출 / 일몰:"
+
+#: contents/ui/config/configAppearance.qml:1806
+msgid "Sunrise and sunset times"
+msgstr "일출 및 일몰 시간"
+
+#: contents/ui/config/configAppearance.qml:1236
+msgid "Sunrise icon:"
+msgstr "일출 아이콘:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:468
+msgid "Sunrise only"
+msgstr "일출만"
+
+#: contents/ui/config/configAppearance.qml:1193
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:540
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:534
+msgid "Sunrise only  07:17"
+msgstr "일출만  07:17"
+
+#: contents/ui/config/configAppearance.qml:1805
+#: contents/ui/config/configAppearance.qml:1950
+#: contents/ui/config/configAppearance.qml:2087 contents/ui/DetailsView.qml:357
+msgid "Sunrise/Sunset"
+msgstr "일출/일몰"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1374
+msgid "Sunrise/sunset markers:"
+msgstr "일출/일몰 표시기:"
+
+#: contents/ui/TooltipContent.qml:593 contents/ui/TooltipContent.qml:609
+#: contents/ui/TooltipContent.qml:614
+msgid "Sunrise:"
+msgstr "일출:"
+
+#: contents/ui/DetailsView.qml:3362 contents/ui/DetailsView.qml:3364
+#: contents/ui/DetailsView.qml:3706 contents/ui/DetailsView.qml:3708
+msgid "Sunset"
+msgstr "일몰"
+
+#: contents/ui/config/configAppearance.qml:1279
+msgid "Sunset icon:"
+msgstr "일몰 아이콘:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:472
+msgid "Sunset only"
+msgstr "일몰만"
+
+#: contents/ui/config/configAppearance.qml:1197
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:544
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:538
+msgid "Sunset only   18:03"
+msgstr "일몰만   18:03"
+
+#: contents/ui/TooltipContent.qml:597 contents/ui/TooltipContent.qml:606
+#: contents/ui/TooltipContent.qml:614
+msgid "Sunset:"
+msgstr "일몰:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:140
+msgid "Swap order:"
+msgstr "순서 바꾸기:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:507
+msgid "Switch between the light and dark map style. Until first toggled, the map follows the Plasma theme."
+msgstr "밝은 지도 스타일과 어두운 지도 스타일 간에 전환합니다. 처음 전환하기 전까지 지도는 Plasma 테마를 따릅니다."
+
+#: contents/ui/FullView.qml:346
+msgid "Switch location"
+msgstr "위치 전환"
+
+#: contents/ui/config/configAppearance.qml:261
+#: contents/ui/config/tabs/ConfigPanelTab.qml:411
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1425
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:284
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:61
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:71
+msgid "Symbolic (Bundled)"
+msgstr "심볼릭 (내장)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1031
+msgid "Symbolic (follows theme colour)"
+msgstr "심볼릭 (테마 색상 따름)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:952
+msgid "System Tray Badge Background Color"
+msgstr "시스템 트레이 배지 배경색"
+
+#: contents/ui/config/configLocation.qml:897
+msgid "System location unavailable, trying IP geolocation…"
+msgstr "시스템 위치를 사용할 수 없어 IP 지오로케이션을 시도하는 중…"
+
+#: contents/ui/config/configAppearance.qml:2459
+msgid "System tray"
+msgstr "시스템 트레이"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:120
+msgid "System tray display settings"
+msgstr "시스템 트레이 표시 설정"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:187
+msgid "System tray icon settings"
+msgstr "시스템 트레이 아이콘 설정"
+
+#: contents/ui/config/configAppearance.qml:119
+msgid "System tray › Icon theme"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:133
+msgid "System tray › Simple layout › Weather icon style"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:131
+#: contents/ui/config/configAppearance.qml:1798
+#: contents/ui/config/configAppearance.qml:2045
+msgid "Temperature"
+msgstr "기온"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1279
+msgid "Temperature Color"
+msgstr "기온 색상"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:790
+msgid "Temperature badge"
+msgstr "기온 배지"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:616
+msgid "Temperature color:"
+msgstr "기온 색상:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:309
+msgid "Temperature first"
+msgstr "기온 먼저"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:269
+msgid "Temperature only"
+msgstr "기온만"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:694
+msgid "Temperature shadow:"
+msgstr "기온 그림자:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:299
+#: contents/ui/TooltipContent.qml:416
+msgid "Temperature:"
+msgstr "기온:"
+
+#: contents/ui/config/configNotifications.qml:443
+msgid "Test"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:393
+msgid "Test API Key"
+msgstr "API 키 테스트"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:639
+msgid "Test across providers"
+msgstr "제공업체 전체 테스트"
+
+#: contents/ui/config/configGeneral.qml:461
+msgid "Testing connection…"
+msgstr "연결 테스트 중…"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:314
+#: contents/ui/config/tabs/ConfigProviderTab.qml:393
+msgid "Testing…"
+msgstr "테스트 중…"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:257
+msgid "Text labels (Temperature, Wind…)"
+msgstr "텍스트 레이블 (기온, 바람…)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1354
+msgid "Text will follow the system font and expand to fill the available space."
+msgstr "텍스트는 시스템 글꼴을 따르며 가용한 공간을 채우도록 확장됩니다."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:371
+msgid "The Radar tab can animate the wind as moving particles (switch it on there). The wind data comes from <a href='https://open-meteo.com/'>Open-Meteo</a>, independently of the LibreWXR server. This sets the frame rate: lower it on a slow computer, raise it if strong winds look jerky."
+msgstr ""
+
+#: contents/ui/RadarView.qml:344
+msgid "The Radar tab requires the QtWebEngine package, which is not installed on this system."
+msgstr "레이더 탭을 사용하려면 QtWebEngine 패키지가 필요하지만 이 시스템에 설치되어 있지 않습니다."
+
+#: contents/ui/config/configLocation.qml:371
+msgid "The auto-detected location is already in your saved list."
+msgstr "자동 감지된 위치가 이미 저장된 목록에 있습니다."
+
+#: contents/ui/config/configAppearance.qml:922
+msgid "The condition icon will automatically reflect the current weather using your KDE system icon theme. No customisation is needed."
+msgstr "상태 아이콘은 KDE 시스템 아이콘 테마를 사용하여 현재 날씨를 자동으로 반영합니다. 별도의 사용자 지정이 필요하지 않습니다."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1254
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1458
+msgid "The geomagnetic (Kp/G) forecast is only available up to 3 days ahead"
+msgstr "지자기(Kp/G) 예보는 최대 3일 앞까지만 제공됩니다"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:453
+msgid "The map could not be loaded. Check your internet connection."
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:463
+msgid "The map needs QtWebEngine, which is not installed. You can still search for a location above."
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:1160
+msgid "The map picker requires the QtLocation and QtPositioning packages, which are not installed on this system."
+msgstr "지도 선택기를 사용하려면 QtLocation 및 QtPositioning 패키지가 필요하지만 이 시스템에 설치되어 있지 않습니다."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:133
+msgid "The radar map is prepared in the background after login and stays ready while the popup is closed, so the Radar tab opens at once. It uses more memory and starts QtWebEngine with Plasma."
+msgstr ""
+
+#: contents/ui/config/configGeneral.qml:165
+msgid "The workaround script wasn't found on disk. Try toggling the option off and on again."
+msgstr "디스크에서 우회 스크립트를 찾을 수 없습니다. 옵션을 껐다가 다시 켜보세요."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:908
+msgid "Theme default"
+msgstr "테마 기본값"
+
+#: contents/ui/config/configAppearance.qml:2507
+#: contents/ui/config/configAppearance.qml:2548
+msgid "These settings only apply when the widget is placed in a panel or the system tray - they have no effect on the desktop."
+msgstr ""
+
+#: contents/ui/config/configLocation.qml:182
+msgid "This location is already in your saved list."
+msgstr "이 위치는 이미 저장된 목록에 있습니다."
+
+#: contents/ui/config/configNotifications.qml:76
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:61
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:654
+#: contents/ui/main.qml:1126 contents/ui/main.qml:2282
+msgid "Thunderstorm"
+msgstr "뇌우"
+
+#: contents/ui/config/configAppearance.qml:777
+msgid "Thunderstorm (day)"
+msgstr "뇌우 (낮)"
+
+#: contents/ui/config/configAppearance.qml:782
+msgid "Thunderstorm (night)"
+msgstr "뇌우 (밤)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:62
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:656
+#: contents/ui/main.qml:2284
+msgid "Thunderstorm with hail"
+msgstr "우박을 동반한 뇌우"
+
+#: contents/ui/config/configAppearance.qml:788
+msgid "Thunderstorm with hail (day)"
+msgstr "우박을 동반한 뇌우 (낮)"
+
+#: contents/ui/config/configAppearance.qml:793
+msgid "Thunderstorm with hail (night)"
+msgstr "우박을 동반한 뇌우 (밤)"
+
+#: contents/ui/config/configAppearance.qml:799
+msgid "Thunderstorm, heavy hail (day)"
+msgstr "뇌우, 강한 우박 (낮)"
+
+#: contents/ui/config/configAppearance.qml:804
+msgid "Thunderstorm, heavy hail (night)"
+msgstr "뇌우, 강한 우박 (밤)"
+
+#: contents/ui/main.qml:1952
+msgid "Thunderstorms"
+msgstr "뇌우"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:565
+msgid "Tile size:"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:489
+msgid "Time format:"
+msgstr "시간 형식:"
+
+#: contents/ui/config/configNotifications.qml:224
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:826
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:700
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:694
+msgid "Time:"
+msgstr "시간:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:333
+msgid "Timed out"
+msgstr "시간 초과"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:599
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:557
+msgid "Timezone:"
+msgstr "시간대:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:407
+msgid "To unlock additional map layers (Rain, Clouds, Temperature, Wind, Pressure): disable Adaptive mode from the 'Provider' tab, select OpenWeatherMap as your weather provider, and enter your API key above. When you are ready, you can enable Adaptive mode again."
+msgstr ""
+
+#: contents/ui/ForecastView.qml:533 contents/ui/main.qml:1801
+#: contents/ui/SimpleView.qml:423
+msgid "Today"
+msgstr "오늘"
+
+#: contents/ui/config/configAppearance.qml:1863
+#: contents/ui/config/configAppearance.qml:1986
+#: contents/ui/config/configAppearance.qml:2109
+msgid "Today's total precipitation (mm/in)"
+msgstr "오늘의 총 강수량 (mm/in)"
+
+#: contents/ui/config/configNotifications.qml:613
+msgid "Today's weather"
+msgstr "오늘의 날씨"
+
+#: contents/ui/main.qml:1874
+msgid "Tomorrow"
+msgstr "내일"
+
+#: contents/ui/config/configNotifications.qml:633
+msgid "Tomorrow forecast"
+msgstr "내일 예보"
+
+#: contents/ui/config/configGeneral.qml:582
+msgid "Tomorrow.io (Key Required)"
+msgstr "Tomorrow.io (키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:243
+msgid "Tomorrow.io API Key:"
+msgstr "Tomorrow.io API 키:"
+
+#: contents/ui/main.qml:1839
+msgid "Tonight"
+msgstr "오늘 밤"
+
+#: contents/ui/config/configAppearance.qml:2467
+#: contents/ui/config/tabs/ConfigMiscTab.qml:208
+msgid "Tooltip"
+msgstr "툴팁"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:94
+msgid "Tooltip Items"
+msgstr "툴팁 항목"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:193
+msgid "Tooltip height:"
+msgstr "툴팁 높이:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:396
+msgid "Tooltip items"
+msgstr "툴팁 항목"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:98
+msgid "Tooltip items settings"
+msgstr "툴팁 항목 설정"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:402
+msgid "Tooltip items:"
+msgstr "툴팁 항목:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:143
+msgid "Tooltip width:"
+msgstr "툴팁 너비:"
+
+#: contents/ui/config/configAppearance.qml:225
+msgid "Tooltip › Icon theme"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:78
+msgid "Tooltip:"
+msgstr "툴팁:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:833
+msgid "Top Center"
+msgstr "상단 중앙"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:825
+msgid "Top Left"
+msgstr "상단 좌측"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:821
+msgid "Top Right"
+msgstr "상단 우측"
+
+#: contents/ui/config/configNotifications.qml:500
+msgid "Treat alert notifications as critical"
+msgstr "경보 알림을 긴급 알림으로 취급"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:120
+msgid "Truncate (single line)"
+msgstr "자르기 (한 줄)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:523
+msgid "Turn off all three switches above to pick a single standard here instead."
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:474
+msgid "Turn on any combination to show them side by side instead of a single standard below."
+msgstr ""
+
+#: contents/ui/main.qml:1478
+msgctxt "Alert severity"
+msgid "UNKNOWN"
+msgstr "알 수 없음"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:439
+#: contents/ui/config/tabs/ConfigMiscTab.qml:499
+msgid "US AQI (0-500)"
+msgstr ""
+
+#: contents/ui/js/airQuality.js:104
+msgid "USG"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1869
+#: contents/ui/config/configAppearance.qml:1992
+#: contents/ui/config/configAppearance.qml:2115 contents/ui/DetailsView.qml:364
+#: contents/ui/SimpleView.qml:265
+msgid "UV Index"
+msgstr "자외선 지수"
+
+#: contents/ui/TooltipContent.qml:465
+msgid "UV Index:"
+msgstr "자외선 지수:"
+
+#: contents/ui/config/configNotifications.qml:681 contents/ui/main.qml:2088
+msgid "UV index"
+msgstr "자외선 지수"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1261
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1465
+msgid "UV index forecast:"
+msgstr "자외선 지수 예보:"
+
+#: contents/ui/main.qml:2085
+msgid "UV index will be %1 (%2)"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1870
+#: contents/ui/config/configAppearance.qml:1993
+#: contents/ui/config/configAppearance.qml:2116
+msgid "Ultraviolet index"
+msgstr "자외선 지수"
+
+#: contents/ui/config/configLocation.qml:936
+#: contents/ui/config/configLocation.qml:1043
+msgid "Unable to detect location. All methods failed."
+msgstr "위치를 감지할 수 없습니다. 모든 방법이 실패했습니다."
+
+#: contents/ui/js/airQuality.js:105
+msgid "Unhealthy"
+msgstr ""
+
+#: contents/ui/js/airQuality.js:104
+msgid "Unhealthy for Sensitive Groups"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:220
+msgid "Unit preset:"
+msgstr "단위 프리셋:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:215
+msgid "Units"
+msgstr "단위"
+
+#: contents/ui/config/configLocation.qml:1852
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:657
+#: contents/ui/FullView.qml:370
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:501
+msgid "Unknown location"
+msgstr "알 수 없는 위치"
+
+#: contents/ui/FullView.qml:393
+msgid "Unpin widget"
+msgstr "위젯 고정 해제"
+
+#: contents/ui/js/spaceWeather.js:176
+msgid "Unsettled"
+msgstr "불안정"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:476
+msgid "Upcoming (auto)"
+msgstr "다가오는 항목 (자동)"
+
+#: contents/ui/config/configAppearance.qml:1185
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:532
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:530
+msgid "Upcoming (next sunrise or sunset)"
+msgstr "다가오는 항목 (다음 일출 또는 일몰)"
+
+#: contents/ui/config/configAppearance.qml:1349
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:517
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:592
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:586
+msgid "Upcoming rise/set only"
+msgstr "다가오는 일출/일몰만"
+
+#: contents/ui/main.qml:1583
+msgid "Upcoming: %1"
+msgstr ""
+
+#: contents/ui/WeatherService.qml:263
+msgid "Update timed out. Click the refresh button to retry."
+msgstr ""
+
+#: contents/ui/WeatherService.qml:991
+msgid "Updated %1 day ago"
+msgid_plural "Updated %1 days ago"
+msgstr[0] "%1일 전 업데이트됨"
+msgstr[1] "%1일 전 업데이트됨"
+
+#: contents/ui/WeatherService.qml:989
+msgid "Updated %1 hour ago"
+msgid_plural "Updated %1 hours ago"
+msgstr[0] "%1시간 전 업데이트됨"
+msgstr[1] "%1시간 전 업데이트됨"
+
+#: contents/ui/WeatherService.qml:986
+msgid "Updated %1 minute ago"
+msgid_plural "Updated %1 minutes ago"
+msgstr[0] "%1분 전 업데이트됨"
+msgstr[1] "%1분 전 업데이트됨"
+
+#: contents/ui/WeatherService.qml:984
+msgid "Updated just now"
+msgstr "방금 업데이트됨"
+
+#: contents/ui/FullView.qml:414
+msgid "Updating…"
+msgstr "업데이트 중…"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:544
+msgid "Use 24-hour format:"
+msgstr "24시간 형식 사용:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:239
+msgid "Use KDE locale settings"
+msgstr "KDE 로케일 설정 사용"
+
+#: contents/ui/config/configLocation.qml:1625
+msgid "Use manual location"
+msgstr "수동 위치 사용"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:902
+msgid "Use region defaults"
+msgstr "지역 기본값 사용"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1517
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:376
+msgid "Uses KDE system icons by default. Click the button to customise each item's icon."
+msgstr "기본적으로 KDE 시스템 아이콘을 사용합니다. 각 항목의 아이콘을 사용자 지정하려면 버튼을 클릭하세요."
+
+#: contents/ui/js/airQuality.js:123
+msgid "V.High"
+msgstr ""
+
+#: contents/ui/js/airQuality.js:94
+msgid "V.Poor"
+msgstr "매우 나쁨"
+
+#: contents/ui/js/airQuality.js:106
+msgid "V.Unhealthy"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:91
+msgid "Values are rounded to whole numbers"
+msgstr "값이 정수로 반올림됨"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:91
+msgid "Values show decimal places"
+msgstr "값이 소수점으로 표시됨"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:214
+msgid "Vertical"
+msgstr "수직"
+
+#: contents/ui/js/pollen.js:45 contents/ui/main.qml:1003
+#: contents/ui/main.qml:1035
+msgid "Very High"
+msgstr "매우 높음"
+
+#: contents/ui/js/airQuality.js:123
+msgid "Very High Risk"
+msgstr ""
+
+#: contents/ui/js/airQuality.js:94
+msgid "Very Poor"
+msgstr "매우 나쁨"
+
+#: contents/ui/js/airQuality.js:106
+msgid "Very Unhealthy"
+msgstr ""
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:648
+msgid "Violent rain showers"
+msgstr "격렬한 소나기"
+
+#: contents/ui/config/configAppearance.qml:1964 contents/ui/DetailsView.qml:359
+#: contents/ui/SimpleView.qml:262
+msgid "Visibility"
+msgstr "시정"
+
+#: contents/ui/config/configAppearance.qml:1965
+msgid "Visibility distance"
+msgstr "시정 거리"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1287
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1495
+#: contents/ui/TooltipContent.qml:450
+msgid "Visibility:"
+msgstr "시정:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:334
+msgid "Visible tabs:"
+msgstr "표시되는 탭:"
+
+#: contents/ui/config/configGeneral.qml:578
+msgid "Visual Crossing (Key Required)"
+msgstr "Visual Crossing (키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:241
+msgid "Visual Crossing API Key:"
+msgstr "Visual Crossing API 키:"
+
+#: contents/ui/main.qml:2477
+msgid "Waning Crescent"
+msgstr "그믐달"
+
+#: contents/ui/main.qml:2473
+msgid "Waning Gibbous"
+msgstr "기울어가는 보름달"
+
+#: contents/ui/main.qml:2465
+msgid "Waxing Crescent"
+msgstr "초승달"
+
+#: contents/ui/main.qml:2469
+msgid "Waxing Gibbous"
+msgstr "차오르는 보름달"
+
+#: contents/ui/config/configLocation.qml:1219
+msgid "We detected your coordinates: <b>%1°, %2°</b>."
+msgstr "좌표가 감지되었습니다: <b>%1°, %2°</b>."
+
+#: contents/ui/config/configLocation.qml:1219
+msgid "We detected your location as: <b>%1</b>."
+msgstr "위치가 감지되었습니다: <b>%1</b>."
+
+#: contents/ui/config/configGeneral.qml:626
+msgid "Weather Alerts"
+msgstr "날씨 경보"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:68
+msgid "Weather Alerts Provider"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:68
+msgid "Weather Provider"
+msgstr "날씨 제공업체"
+
+#: contents/ui/TooltipContent.qml:232
+msgid "Weather Widget"
+msgstr "날씨 위젯"
+
+#: contents/ui/main.qml:1493 contents/ui/main.qml:1570
+msgid "Weather alert"
+msgstr "날씨 경보"
+
+#: contents/ui/config/configAppearance.qml:1898
+#: contents/ui/config/configAppearance.qml:2021
+#: contents/ui/config/configAppearance.qml:2144
+#: contents/ui/config/configNotifications.qml:294
+msgid "Weather alerts"
+msgstr "날씨 경보"
+
+#: contents/ui/config/configAppearance.qml:2053
+msgid "Weather condition text"
+msgstr "날씨 상태 텍스트"
+
+#: contents/ui/config/configAppearance.qml:1792
+msgid "Weather icon + condition text"
+msgstr "날씨 아이콘 + 상태 텍스트"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:378
+msgid "Weather icon style:"
+msgstr "날씨 아이콘 스타일:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:204
+msgid "Weather icon theme:"
+msgstr "날씨 아이콘 테마:"
+
+#: contents/ui/WeatherService.qml:1058
+msgid "Weather provider:"
+msgstr "날씨 제공업체:"
+
+#: contents/ui/config/configNotifications.qml:347
+msgid ""
+"Weather-alert severity levels, from lowest to highest:\n"
+"\n"
+"🟡 Yellow - Minor: be aware of the conditions.\n"
+"🟠 Orange - Moderate: be prepared.\n"
+"🔴 Red - Severe: take action.\n"
+"🟣 Purple - Extreme: extraordinarily dangerous, take action immediately.\n"
+"\n"
+"Turn a level off to stop receiving notifications for alerts of that severity."
+msgstr ""
+"날씨 경보 심각도 단계 (낮음에서 높음 순):\n"
+"\n"
+"🟡 노랑 - 주의: 날씨 상황에 유의하세요.\n"
+"🟠 주황 - 경고: 대비하세요.\n"
+"🔴 빨강 - 심각: 조치를 취하세요.\n"
+"🟣 보라 - 극심: 매우 위험하므로 즉시 조치를 취하세요.\n"
+"\n"
+"해당 심각도의 알림 수신을 중지하려면 단계를 비활성화하세요."
+
+#: contents/ui/config/configGeneral.qml:570
+msgid "WeatherAPI.com (Key Required)"
+msgstr "WeatherAPI.com (키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:252
+msgid "WeatherAPI.com API Key:"
+msgstr "WeatherAPI.com API 키:"
+
+#: contents/ui/config/configGeneral.qml:590
+msgid "Weatherbit (Key Required)"
+msgstr "Weatherbit (키 필요)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:247
+msgid "Weatherbit API Key:"
+msgstr "Weatherbit API 키:"
+
+#: contents/ui/DetailsView.qml:2447
+msgid "Website"
+msgstr "웹사이트"
+
+#: contents/ui/config/configAppearance.qml:2463
+#: contents/ui/config/tabs/ConfigMiscTab.qml:198
+msgid "Widget"
+msgstr "위젯"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:590
+msgid "Widget Size"
+msgstr "위젯 크기"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:325
+msgid "Widget panel area:"
+msgstr "위젯 패널 영역:"
+
+#: contents/ui/config/configAppearance.qml:210
+msgid "Widget › Details › Icon theme"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:181
+msgid "Widget › General › Weather icon theme"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:132
+#: contents/ui/config/configAppearance.qml:1812
+#: contents/ui/config/configAppearance.qml:1943
+#: contents/ui/config/configAppearance.qml:2066
+#: contents/ui/config/configNotifications.qml:74
+#: contents/ui/DetailsView.qml:356 contents/ui/main.qml:1124
+msgid "Wind"
+msgstr "바람"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:333
+msgid "Wind animation:"
+msgstr ""
+
+#: contents/ui/config/configAppearance.qml:1944
+#: contents/ui/config/configAppearance.qml:2067
+msgid "Wind speed + direction"
+msgstr "풍속 + 풍향"
+
+#: contents/ui/config/configAppearance.qml:1813
+msgid "Wind speed and direction"
+msgstr "풍속 및 풍향"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:332
+msgid "Wind speed:"
+msgstr "풍속:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1300
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1510
+#: contents/ui/TooltipContent.qml:427
+msgid "Wind:"
+msgstr "바람:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:454
+msgid "Winds"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:621
+msgid "Winds aloft"
+msgstr ""
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:150
+msgid "Workaround radar map crashes on hybrid-GPU systems (EXPERIMENTAL)"
+msgstr "하이브리드 GPU 시스템에서 레이더 지도 충돌 문제 우회 (실험적)"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:124
+msgid "Wrap to next line"
+msgstr "다음 줄로 줄바꿈"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:722
+#: contents/ui/DetailsView.qml:2158
+msgid "X-ray Flare Class"
+msgstr "X선 플레어 등급"
+
+#: contents/ui/config/configNotifications.qml:317
+#: contents/ui/config/configNotifications.qml:364
+msgid "Yellow"
+msgstr "노랑"
+
+#: contents/ui/config/configLocation.qml:1326
+msgid "Yes"
+msgstr "예"
+
+#: contents/ui/config/configLocation.qml:1454
+msgid "Yes, remove it"
+msgstr "예, 삭제합니다"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:484
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:582
+msgid "You can see date/time format reference at: <a href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method\">Qt documentation</a>"
+msgstr "날짜/시간 형식 참조는 다음에서 확인할 수 있습니다: <a href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method\">Qt 문서</a>"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1325
+msgid "You may need to increase the widget's width to see all the selected information"
+msgstr "선택한 모든 정보를 보려면 위젯의 너비를 늘려야 할 수도 있습니다"
+
+#: contents/ui/config/configAppearance.qml:435
+msgid "You selected <b>%1</b>. Apply it to every icon theme setting where it is available?"
+msgstr ""
+
+#: contents/ui/components/LocationMapPickerView.qml:54
+msgid "Zoom in"
+msgstr "확대"
+
+#: contents/ui/components/LocationMapPickerView.qml:54
+msgid "Zoom out"
+msgstr "축소"
+
+#: contents/ui/main.qml:2056
+msgid "a decrease from yesterday"
+msgstr "어제보다 감소"
+
+#: contents/ui/main.qml:1830
+msgid "a few clouds"
+msgstr "구름 조금"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "already set"
+msgstr ""
+
+#: contents/ui/main.qml:2055
+msgid "an increase from yesterday"
+msgstr "어제보다 증가"
+
+#: contents/ui/main.qml:1831
+msgid "clear skies"
+msgstr "맑음"
+
+#: contents/ui/main.qml:1829
+msgid "cloudy skies"
+msgstr "구름 많음"
+
+#: contents/ui/main.qml:1064
+msgid "cm"
+msgstr "cm"
+
+#: contents/ui/main.qml:1826
+msgid "drizzle"
+msgstr "이슬비"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:533
+msgid "e.g. Sofia, Bulgaria"
+msgstr "예: 불가리아 소피아"
+
+#: contents/ui/main.qml:2065 contents/ui/main.qml:2110
+msgid "extreme"
+msgstr "극심"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "feet"
+msgstr "피트"
+
+#: contents/ui/main.qml:1827
+msgid "fog"
+msgstr "안개"
+
+#: contents/ui/main.qml:1824
+msgid "freezing rain"
+msgstr "어는 비"
+
+#: contents/ui/main.qml:1434
+msgid "from %1"
+msgstr "%1부터"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:353
+msgid "ft"
+msgstr "ft"
+
+#: contents/ui/DetailsView.qml:1576 contents/ui/DetailsView.qml:1711
+msgid "grains/m³"
+msgstr "개/m³"
+
+#: contents/ui/components/RadarWebEngineView.qml:862
+#: contents/ui/config/tabs/ConfigMiscTab.qml:386 contents/ui/js/weather.js:608
+msgid "hPa"
+msgstr "hPa"
+
+#: contents/ui/main.qml:2063
+msgid "high"
+msgstr "높음"
+
+#: contents/ui/main.qml:964 contents/ui/main.qml:1063
+msgid "in"
+msgstr "in"
+
+#: contents/ui/main.qml:1957
+msgid "in the next few hours"
+msgstr ""
+
+#: contents/ui/components/RadarWebEngineView.qml:850 contents/ui/main.qml:956
+msgid "in/h"
+msgstr "in/h"
+
+#: contents/ui/components/RadarWebEngineView.qml:860
+#: contents/ui/config/tabs/ConfigMiscTab.qml:394 contents/ui/js/weather.js:607
+msgid "inHg"
+msgstr "inHg"
+
+#: contents/ui/main.qml:973 contents/ui/SimpleView.qml:281
+#: contents/ui/TooltipContent.qml:449
+msgid "km"
+msgstr "km"
+
+#: contents/ui/components/RadarWebEngineView.qml:855
+#: contents/ui/config/tabs/ConfigMiscTab.qml:345 contents/ui/js/weather.js:601
+msgid "km/h"
+msgstr "km/h"
+
+#: contents/ui/DetailsView.qml:2027
+msgid "km/s"
+msgstr "km/s"
+
+#: contents/ui/components/RadarWebEngineView.qml:856
+#: contents/ui/js/weather.js:600
+msgid "kn"
+msgstr "kn"
+
+#: contents/ui/DetailsView.qml:3618
+msgid "left"
+msgstr "남음"
+
+#: contents/ui/main.qml:2061
+msgid "low"
+msgstr "낮음"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:353
+msgid "m"
+msgstr "m"
+
+#: contents/ui/components/RadarWebEngineView.qml:857
+#: contents/ui/config/tabs/ConfigMiscTab.qml:353 contents/ui/js/weather.js:599
+msgid "m/s"
+msgstr "m/s"
+
+#: contents/ui/config/configGeneral.qml:558
+msgid "met.no (free)"
+msgstr "met.no (무료)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "meters"
+msgstr "미터"
+
+#: contents/ui/js/airQuality.js:282
+msgid "mg/m³"
+msgstr "mg/m³"
+
+#: contents/ui/main.qml:972
+msgid "mi"
+msgstr "mi"
+
+#: contents/ui/main.qml:2106
+msgid "minor"
+msgstr "경미"
+
+#: contents/ui/config/configNotifications.qml:603
+#: contents/ui/config/tabs/ConfigProviderTab.qml:510
+msgid "minutes"
+msgstr "분"
+
+#: contents/ui/main.qml:965
+msgid "mm"
+msgstr "mm"
+
+#: contents/ui/components/RadarWebEngineView.qml:850 contents/ui/main.qml:957
+msgid "mm/h"
+msgstr "mm/h"
+
+#: contents/ui/components/RadarWebEngineView.qml:861
+#: contents/ui/config/tabs/ConfigMiscTab.qml:390 contents/ui/js/weather.js:606
+msgid "mmHg"
+msgstr "mmHg"
+
+#: contents/ui/main.qml:2062 contents/ui/main.qml:2107
+msgid "moderate"
+msgstr "보통"
+
+#: contents/ui/components/RadarWebEngineView.qml:854
+#: contents/ui/config/tabs/ConfigMiscTab.qml:349 contents/ui/js/weather.js:598
+msgid "mph"
+msgstr "mph"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "not available - left unchanged"
+msgstr ""
+
+#: contents/ui/main.qml:1828
+msgid "overcast skies"
+msgstr "흐림"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1128
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:186
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:236
+msgid "px"
+msgstr "px"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:372
+msgid "px height"
+msgstr "px 높이"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:372
+msgid "px width"
+msgstr "px 너비"
+
+#: contents/ui/main.qml:2105
+msgid "quiet"
+msgstr "조용함"
+
+#: contents/ui/main.qml:1825
+msgid "rain"
+msgstr "비"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "selected here"
+msgstr ""
+
+#: contents/ui/main.qml:2109
+msgid "severe"
+msgstr "심각"
+
+#: contents/ui/main.qml:1823
+msgid "showers"
+msgstr "소나기"
+
+#: contents/ui/main.qml:1819
+msgid "showers and thunderstorms"
+msgstr "소나기 및 뇌우"
+
+#: contents/ui/main.qml:2057
+msgid "similar to yesterday"
+msgstr "어제와 비슷함"
+
+#: contents/ui/main.qml:1822
+msgid "snow"
+msgstr "눈"
+
+#: contents/ui/main.qml:1821
+msgid "snow showers"
+msgstr "눈 소나기"
+
+#: contents/ui/main.qml:2108
+msgid "strong"
+msgstr "강함"
+
+#: contents/ui/config/configLocation.qml:971
+msgid "system location"
+msgstr "시스템 위치"
+
+#: contents/ui/main.qml:1960
+msgid "this afternoon"
+msgstr "오늘 오후"
+
+#: contents/ui/main.qml:1959
+msgid "this morning"
+msgstr "오늘 아침"
+
+#: contents/ui/main.qml:1820
+msgid "thunderstorms"
+msgstr "뇌우"
+
+#: contents/ui/main.qml:1961
+msgid "tonight"
+msgstr "오늘 밤"
+
+#: contents/ui/main.qml:1435
+msgid "until %1"
+msgstr "%1까지"
+
+#: contents/ui/DetailsView.qml:3615
+msgid "until dawn"
+msgstr "새벽까지"
+
+#: contents/ui/main.qml:2064
+msgid "very high"
+msgstr "매우 높음"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "will be changed"
+msgstr ""
+
+#: contents/ui/main.qml:1442 contents/ui/main.qml:1799
+#: contents/ui/main.qml:1872
+msgid "your location"
+msgstr "사용자 위치"
+
+#: contents/ui/js/airQuality.js:283
+msgid "µg/m³"
+msgstr "µg/m³"
+
+#~ msgid ""
+#~ "<b>Hybrid-GPU / NVIDIA PRIME + Wayland crash workaround</b><br/><br/>On some hybrid-GPU laptops running Wayland, the Radar tab's embedded browser view can crash the whole Plasma shell the moment it first paints, due to a driver-level conflict between the two GPUs. This option disables GPU-accelerated compositing inside that browser view to avoid it.<br/><br/>Only enable this if you're actually experiencing that crash - it costs some rendering performance on the radar map.<br/><br/><b>This needs a log out and back in to take effect</b>, since it has to be set before Plasma starts. It also applies to the whole session, so any other app that embeds a Chromium-based browser view will pick up the same setting.\n"
+#~ "                <br/><br/>If you enable this option, the following file will be created in: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+#~ msgstr ""
+#~ "<b>하이브리드 GPU / NVIDIA PRIME + Wayland 충돌 우회법</b><br/><br/>Wayland 환경의 일부 하이브리드 GPU 노트북에서는 두 GPU 간의 드라이버 수준 충돌로 인해 레이더 탭의 임베디드 브라우저가 화면을 그리는 순간 Plasma 셸 전체가 튕길 수 있습니다. 이 옵션은 해당 브라우저 뷰 내의 GPU 가속 합성 기능을 비활성화하여 충돌을 방지합니다.<br/><br/>실제로 충돌 현상을 겪고 있는 경우에만 활성화하세요. 레이더 맵의 렌더링 성능이 일부 저하될 수 있습니다.<br/><br/>Plasma가 시작되기 전에 설정되어야 하므로 <b>적용하려면 로그아웃 후 다시 로그인해야 합니다</b>. 또한 세션 전체에 적용되므로 크로미움 기반 브라우저 뷰를 내장한 다른 앱에도 동일하게 적용됩니다.\n"
+#~ "                <br/><br/>이 옵션을 활성화하면 다음 위치에 파일이 생성됩니다: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+
+#~ msgid "Colorful"
+#~ msgstr "컬러"
+
+#~ msgid "KDE Symbolic"
+#~ msgstr "KDE 심볼릭"
+
+#~ msgid ""
+#~ "Providers are tried in order until one succeeds:\n"
+#~ "Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+#~ "Open-Meteo is always tried first - it is free and requires no API key."
+#~ msgstr ""
+#~ "성공할 때까지 순서대로 기상 제공자를 시도합니다:\n"
+#~ "Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+#~ "Open-Meteo는 무료이며 API 키가 필요 없어 항상 최우선으로 시도됩니다."
+
+#~ msgid "Radar color scheme:"
+#~ msgstr "레이더 색상표:"
+
+#~ msgid "Space"
+#~ msgstr "공백"
+
+#~ msgid "Symbolic"
+#~ msgstr "심볼릭"
+
+#~ msgid "To unlock additional map layers (Rain, Clouds, Temperature, Wind, Pressure): disable Adaptive mode, select OpenWeatherMap as your weather provider, and enter your API key above. When you are ready, you can enable Adaptive mode again."
+#~ msgstr "추가 지도 레이어(비, 구름, 기온, 바람, 기압)를 잠금 해제하려면: 적응형 모드를 비활성화하고, 날씨 제공업체로 OpenWeatherMap을 선택한 뒤 위쪽에 API 키를 입력하세요. 준비가 되면 적응형 모드를 다시 활성화할 수 있습니다."
+
+#~ msgid "Update timed out. Tap to retry."
+#~ msgstr "업데이트 시간 초과. 탭하여 다시 시도하세요."
+
+#~ msgid "%1 ending"
+#~ msgstr "%1 종료 중"
+
+#~ msgid "%1 expected"
+#~ msgstr "%1 예상됨"
+
+#~ msgid "%1 expected to end %2."
+#~ msgstr "%1이(가) %2에 종료될 것으로 예상됩니다."
+
+#~ msgid "%1 possible %2."
+#~ msgstr "%1 가능성 (%2)."
+
+#~ msgid "Carto Dark Matter (dark)"
+#~ msgstr "Carto Dark Matter (어둡게)"
+
+#~ msgid "Carto Positron (light)"
+#~ msgstr "Carto Positron (밝게)"
+
+#~ msgid "Dash  -"
+#~ msgstr "대시  -"
+
+#~ msgid "Not supported"
+#~ msgstr "지원되지 않음"
+
+#~ msgid "Show precipitation motion arrows"
+#~ msgstr "강수 이동 화살표 표시"
+
+#~ msgid "Snow ending"
+#~ msgstr "눈 그침"
+
+#~ msgid "Snow expected"
+#~ msgstr "눈 예보"
+
+#~ msgid "Snow expected to end %1."
+#~ msgstr "%1에 눈이 그칠 것으로 예상됩니다."
+
+#~ msgid "Snow possible %1."
+#~ msgstr "%1에 눈이 내릴 가능성이 있습니다."
+
+#~ msgid "Wind arrows"
+#~ msgstr "바람 화살표"
+
+#~ msgid "in the next hours"
+#~ msgstr "수 시간 내에"
+
+#~ msgid "%1 will be %2 with a low of %3 and a high of %4."
+#~ msgstr "%1 날씨는 %2(이)며, 최저 기온은 %3, 최고 기온은 %4입니다."
+
+#~ msgid "Geomagnetic activity will be %1 (Kp %2)"
+#~ msgstr "지자기 활동 수치: %1 (Kp %2)"
+
+#~ msgid "UV will be %1 (%2)"
+#~ msgstr "자외선 지수가 %1 (%2)에 이를 것으로 예상됩니다"

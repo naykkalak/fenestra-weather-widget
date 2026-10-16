@@ -1,0 +1,4788 @@
+# Swedish translation of Advanced Weather Widget.
+# Copyright (C) 2026 Advanced Weather Widget contributors
+# This file is distributed under the same license as the Advanced Weather Widget package.
+# Toni Karppi <toni@karppi.se>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Weather Widget\n"
+"Report-Msgid-Bugs-To: https://github.com/pnedyalkov91/advanced-weather-widget/issues\n"
+"POT-Creation-Date: 2026-10-13 06:29+0300\n"
+"PO-Revision-Date: 2026-10-03 00:00+0000\n"
+"Last-Translator: Toni Karppi\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: contents/ui/DetailsView.qml:3612 contents/ui/DetailsView.qml:3614
+msgid " until dawn"
+msgstr " fram till gryningen"
+
+#: contents/ui/main.qml:1858
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: contents/ui/main.qml:1802
+msgid "%1 - Today"
+msgstr "%1 – i dag"
+
+#: contents/ui/main.qml:1875
+msgid "%1 - Tomorrow"
+msgstr "%1 – i morgon"
+
+#: contents/ui/main.qml:2010
+msgid "%1 is ending"
+msgstr "%1 avtar"
+
+#: contents/ui/main.qml:2004
+msgid "%1 is expected"
+msgstr "%1 väntas"
+
+#: contents/ui/main.qml:2011
+msgid "%1 is expected to end %2."
+msgstr "%1 väntas upphöra %2."
+
+#: contents/ui/main.qml:2005
+msgid "%1 is possible %2."
+msgstr "%1 kan förekomma %2."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:397
+msgid "%1 px"
+msgstr "%1 px"
+
+#: contents/ui/main.qml:1787
+msgid "%1 there will be %2 with a low of %3 and a high of %4."
+msgstr "%1 blir det %2 med som lägst %3 och som högst %4."
+
+#: contents/ui/DetailsView.qml:4261
+msgid "%1h"
+msgstr "%1h"
+
+#: contents/ui/DetailsView.qml:4262
+msgid "%1h %2m"
+msgstr "%1h %2m"
+
+#: contents/ui/DetailsView.qml:4257 contents/ui/DetailsView.qml:4260
+msgid "%1m"
+msgstr "%1m"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1390
+msgctxt "@info %1 size %2 family"
+msgid "%1pt %2"
+msgstr "%1pt %2"
+
+#: contents/ui/js/spaceWeather.js:171 contents/ui/js/spaceWeather.js:185
+#: contents/ui/js/spaceWeather.js:197
+msgid "--"
+msgstr "--"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:561
+msgid "-180 to 180 (e.g. 23.3219)"
+msgstr "-180 till 180 (t.ex. 23.3219)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:544
+msgid "-90 to 90 (e.g. 42.6977)"
+msgstr "-90 till 90 (t.ex. 42.6977)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1132
+msgid "0 = auto (120 px per chip). Increase if values are truncated."
+msgstr "0 = automatiskt (120 px per etikett). Öka om värdena kapas."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1132
+msgid "0 = auto. Increase if items are cut off."
+msgstr "0 = automatiskt. Öka om objekt kapas."
+
+#: contents/ui/main.qml:1099
+msgid "1 Alert"
+msgstr "1 varning"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:835
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:709
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:703
+msgid "12-hour format"
+msgstr "12-timmarsformat"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:847
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:721
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:715
+msgid "12h"
+msgstr "12 h"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:835
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:709
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:703
+msgid "24-hour format"
+msgstr "24-timmarsformat"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:847
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:721
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:715
+msgid "24h"
+msgstr "24 h"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:271
+msgid "256 px"
+msgstr "256 px"
+
+#: contents/ui/config/configAppearance.qml:265
+#: contents/ui/config/tabs/ConfigPanelTab.qml:419
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1433
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:292
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:63
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:73
+msgid "3D Oxygen (Bundled)"
+msgstr "3D Oxygen (medföljer)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:275
+msgid "512 px"
+msgstr "512 px"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:179
+msgid "68°F"
+msgstr "68°F"
+
+#: contents/ui/main.qml:1496
+msgid "<b>Effective:</b> %1"
+msgstr "<b>Gäller från:</b> %1"
+
+#: contents/ui/main.qml:1493 contents/ui/main.qml:1570
+msgid "<b>Headline:</b> %1"
+msgstr "<b>Rubrik:</b> %1"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:169
+msgid ""
+"<b>Hybrid-GPU / NVIDIA PRIME + Wayland crash workaround</b><br/><br/>On some hybrid-GPU laptops running Wayland, the Radar tab's embedded browser view can crash the whole Plasma shell the moment it first paints, due to a driver-level conflict between the two GPUs. This option disables GPU-accelerated compositing inside that browser view to avoid it.<br/><br/>Only enable this if you're actually experiencing that crash - it costs some rendering performance on the radar map.<br/><br/><b>This needs a log out and back in to take effect</b>, since it has to be set before Plasma starts. It also applies to the whole session, so any other app that embeds a Chromium-based browser view will pick up the same setting. Turning it back off later needs the same log out/in to fully clear it too.\n"
+"        <br/><br/>If you enable this option, the following file will be created in: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+msgstr ""
+"<b>Lösning för krascher med hybridgrafik / NVIDIA PRIME + Wayland</b><br/><br/>På vissa bärbara datorer med hybridgrafik som kör Wayland kan radarflikens inbäddade webbläsarvy få hela Plasma-skalet att krascha så fort vyn ritas upp första gången, på grund av en konflikt mellan de två grafikprocessorerna på drivrutinsnivå. Det här alternativet inaktiverar GPU-accelererad komposition i webbläsarvyn för att undvika problemet.<br/><br/>Aktivera bara detta om du faktiskt upplever kraschen – det försämrar radarvisningens renderingsprestanda något.<br/><br/><b>Du måste logga ut och in igen för att ändringen ska börja gälla</b>, eftersom inställningen måste göras innan Plasma startar. Den gäller även för hela sessionen, så alla andra program som bäddar in en Chromium-baserad webbläsarvy får samma inställning. Om du senare stänger av alternativet måste du också logga ut och in igen för att inställningen ska återställas helt.\n"
+"        <br/><br/>Om du aktiverar alternativet skapas följande fil: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+
+#: contents/ui/main.qml:1499
+msgid "<b>Instruction:</b> %1"
+msgstr "<b>Instruktion:</b> %1"
+
+#: contents/ui/main.qml:1502 contents/ui/main.qml:1576
+msgid "<b>Provider:</b> %1"
+msgstr "<b>Leverantör:</b> %1"
+
+#: contents/ui/main.qml:1491 contents/ui/main.qml:1568
+#, javascript-format
+msgid "<b>Severity:</b> %1%2"
+msgstr "<b>Allvarlighetsgrad:</b> %1%2"
+
+#: contents/ui/main.qml:1573
+msgid "<b>Starts:</b> %1"
+msgstr "<b>Börjar:</b> %1"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:416
+msgid "<b>Why OWM layers may not match RainViewer radar</b><br/><br/>OWM precipitation/cloud layers are <b>static model tiles</b> - they show a smoothed NWP (Numerical Weather Prediction) output, not actual radar returns. They represent where the model <i>thinks</i> it is raining based on interpolation between weather stations and model runs.<br/><br/>RainViewer uses <b>real weather radar composites</b> from radar stations - actual measured reflectivity updated every 2-10 minutes. This discrepancy is expected and known."
+msgstr "<b>Varför OWM-lager kan skilja sig från RainViewers radar</b><br/><br/>OWM:s nederbörds- och molnlager är <b>statiska modellbaserade kartrutor</b> – de visar utjämnade resultat från numeriska väderprognoser (NWP), inte faktiska radarekon. De visar var modellen <i>tror</i> att det regnar, baserat på interpolering mellan väderstationer och modellkörningar.<br/><br/>RainViewer använder <b>sammansatta bilder från riktiga väderradarstationer</b> – faktiskt uppmätt reflektivitet som uppdateras var 2–10:e minut. Den här skillnaden är förväntad och känd."
+
+#: contents/ui/config/configGeneral.qml:598
+msgid "AEMET - Spain only (Key Required)"
+msgstr "AEMET – endast Spanien (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:251
+msgid "AEMET API Key:"
+msgstr "API-nyckel för AEMET:"
+
+#: contents/ui/config/configGeneral.qml:395
+#: contents/ui/config/configGeneral.qml:524
+msgid "AEMET error (code %1). Check your API key."
+msgstr "AEMET-fel (kod %1). Kontrollera din API-nyckel."
+
+#: contents/ui/config/configGeneral.qml:363
+msgid "AEMET only covers Spain - this location has no coverage."
+msgstr "AEMET täcker endast Spanien – den här platsen saknar täckning."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:440
+msgid "AEMET only covers locations in Spain - other locations show \"Failed\" rather than switching provider (it's intentionally left out of Adaptive Mode too, since it's the one provider here with its own request limit). There is a limit on the number of requests to the AEMET API per minute, so don't click the refresh button too many times, as you may hit the limit and have to wait at least 1 minute before making another request.A failed request retries automatically once.<br/><br/>Fields AEMET doesn't publish at all - pressure, visibility, snow cover, and a daily accumulated precipitation total - show as \"N/A\" here rather than a bug. UV is a daily figure only, not hour-by-hour, and wind can be missing for days further out where AEMET's own forecast confidence drops off.<br/><br/>Free key: <a href='https://opendata.aemet.es/centrodedescargas/altaUsuario'>opendata.aemet.es</a>. New keys expire 3 months after creation (AEMET's policy, changed July 2026) - you'll need to request a new one when that happens.<br/><br/>Please don't refresh too often, as AEMET has a request limit per minute. If you hit it, you'll have to wait at least 1 minute before making another request."
+msgstr "AEMET täcker endast platser i Spanien – för andra platser visas ”Misslyckades” i stället för att byta leverantör (AEMET ingår inte heller i adaptivt läge, eftersom det är den enda leverantören här med en egen gräns för antalet anrop). Antalet anrop till AEMET:s API per minut är begränsat, så klicka inte på uppdateringsknappen för många gånger. Du kan då nå gränsen och behöva vänta minst 1 minut innan du gör ett nytt anrop. Vid ett misslyckat anrop görs automatiskt ett nytt försök en gång.<br/><br/>Fält som AEMET inte publicerar alls – lufttryck, sikt, snötäcke och total nederbördsmängd per dygn – visas här som ”Ej tillgängligt”. Det är alltså inget fel. UV anges endast per dygn, inte timme för timme, och vinduppgifter kan saknas för dagar längre fram när AEMET:s prognoser blir mer osäkra.<br/><br/>Kostnadsfri nyckel: <a href='https://opendata.aemet.es/centrodedescargas/altaUsuario'>opendata.aemet.es</a>. Nya nycklar upphör att gälla 3 månader efter att de skapats (AEMET:s policy, ändrad i juli 2026) – då behöver du begära en ny.<br/><br/>Uppdatera inte för ofta, eftersom AEMET begränsar antalet anrop per minut. Om du når gränsen måste du vänta minst 1 minut innan du gör ett nytt anrop."
+
+#: contents/ui/ForecastView.qml:867
+msgid "AEMET provides hourly forecasts for up to 48 hours. Daily forecast is still available for this date."
+msgstr "AEMET tillhandahåller timprognoser för upp till 48 timmar. Dygnsprognosen är fortfarande tillgänglig för detta datum."
+
+#: contents/ui/WeatherService.qml:1123
+msgid "AEMET: request failed - retrying automatically."
+msgstr "AEMET: anropet misslyckades – försöker igen automatiskt."
+
+#: contents/ui/WeatherService.qml:1120
+msgid "AEMET: request limit reached - retrying automatically in a minute."
+msgstr "AEMET: gränsen för antalet anrop har nåtts – försöker igen automatiskt om en minut."
+
+#: contents/ui/ForecastView.qml:869
+msgid "AEMET: request limit reached for the moment. This will retry automatically - please wait a minute."
+msgstr "AEMET: gränsen för antalet anrop har nåtts för tillfället. Ett nytt försök görs automatiskt – vänta en minut."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:195
+msgid "AI-powered weather intelligence. API key required below."
+msgstr "AI-baserad väderinformation. API-nyckel krävs nedan."
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:289
+msgid "API error"
+msgstr "API-fel"
+
+#: contents/ui/config/configGeneral.qml:457
+msgid "API key is empty."
+msgstr "API-nyckeln är tom."
+
+#: contents/ui/js/airQuality.js:171
+msgid "AQHI"
+msgstr "AQHI"
+
+#: contents/ui/js/airQuality.js:169
+msgid "AQI"
+msgstr "AQI"
+
+#: contents/ui/DetailsView.qml:2110 contents/ui/js/spaceWeather.js:175
+msgid "Active"
+msgstr "Aktiv"
+
+#: contents/ui/config/configGeneral.qml:159
+msgid "Active - GPU compositing is currently disabled for the radar map in this session."
+msgstr "Aktiv – GPU-komposition är för närvarande inaktiverad för radarkartan i den här sessionen."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:376
+msgid "Adaptive (Open-Meteo)"
+msgstr "Adaptiv (Open-Meteo)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:104
+msgid "Adaptive (auto-fallback)"
+msgstr "Adaptiv (automatiskt reservval)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:495
+msgid "Add Location Manually"
+msgstr "Lägg till plats manuellt"
+
+#: contents/ui/CompactView.qml:930 contents/ui/CompactView.qml:1275
+msgid "Add a location"
+msgstr "Lägg till en plats"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:176
+msgid "Advanced (all tabs)"
+msgstr "Avancerat (alla flikar)"
+
+#: contents/ui/main.qml:1838
+msgid "Afternoon"
+msgstr "Eftermiddag"
+
+#: contents/ui/config/configAppearance.qml:1876
+#: contents/ui/config/configAppearance.qml:1999
+#: contents/ui/config/configAppearance.qml:2122
+#: contents/ui/config/tabs/ConfigMiscTab.qml:426
+#: contents/ui/DetailsView.qml:365 contents/ui/SimpleView.qml:266
+msgid "Air Quality"
+msgstr "Luftkvalitet"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:483
+msgid "Air Quality index standard:"
+msgstr "Standard för luftkvalitetsindex:"
+
+#: contents/ui/TooltipContent.qml:470
+msgid "Air Quality:"
+msgstr "Luftkvalitet:"
+
+#: contents/ui/config/configAppearance.qml:1877
+#: contents/ui/config/configAppearance.qml:2000
+#: contents/ui/config/configAppearance.qml:2123
+msgid "Air quality index"
+msgstr "Luftkvalitetsindex"
+
+#: contents/ui/js/airQuality.js:91
+msgid "Air quality is acceptable."
+msgstr "Luftkvaliteten är acceptabel."
+
+#: contents/ui/js/airQuality.js:103
+msgid "Air quality is acceptable; there may be a risk for people unusually sensitive to air pollution."
+msgstr "Luftkvaliteten är acceptabel, men det kan finnas en risk för personer som är särskilt känsliga för luftföroreningar."
+
+#: contents/ui/js/airQuality.js:95
+msgid "Air quality is extremely poor."
+msgstr "Luftkvaliteten är extremt dålig."
+
+#: contents/ui/js/airQuality.js:92
+msgid "Air quality is fair."
+msgstr "Luftkvaliteten är måttlig."
+
+#: contents/ui/js/airQuality.js:93
+msgid "Air quality is poor."
+msgstr "Luftkvaliteten är dålig."
+
+#: contents/ui/js/airQuality.js:102
+msgid "Air quality is satisfactory, and air pollution poses little or no risk."
+msgstr "Luftkvaliteten är tillfredsställande och luftföroreningarna innebär liten eller ingen risk."
+
+#: contents/ui/js/airQuality.js:90
+msgid "Air quality is satisfactory."
+msgstr "Luftkvaliteten är tillfredsställande."
+
+#: contents/ui/js/airQuality.js:94
+msgid "Air quality is very poor."
+msgstr "Luftkvaliteten är mycket dålig."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:351
+msgid "Air quality options"
+msgstr "Alternativ för luftkvalitet"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:653
+#: contents/ui/DetailsView.qml:1518 contents/ui/main.qml:1038
+msgid "Alder"
+msgstr "Al"
+
+#: contents/ui/config/configNotifications.qml:418
+msgid "Alert sound:"
+msgstr "Varningsljud:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:483
+#: contents/ui/config/configAppearance.qml:1897
+#: contents/ui/config/configAppearance.qml:2020
+#: contents/ui/config/configAppearance.qml:2143 contents/ui/DetailsView.qml:368
+#: contents/ui/SimpleView.qml:269
+msgid "Alerts"
+msgstr "Varningar"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:73
+msgid "Alerts provider:"
+msgstr "Varningsleverantör:"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:132
+msgid "Alerts provider: <a href='https://alerts.kde.org/'>FOSS Public Alert Server</a><br/><br/>KDE's FOSS Public Alert Server collects official severe-weather warnings in CAP format from agencies worldwide and matches them to your exact location. Alert notifications work the same as with the native provider."
+msgstr "Varningsleverantör: <a href='https://alerts.kde.org/'>FOSS Public Alert Server</a><br/><br/>KDE:s FOSS Public Alert Server samlar in officiella varningar för svåra väderförhållanden i CAP-format från myndigheter världen över och matchar dem mot din exakta plats. Varningsaviseringar fungerar på samma sätt som med väderleverantörens egna varningar."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:122
+msgid "Alerts provider: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR is a free, open-source weather API that aggregates official CAP alerts worldwide (WMO Severe Weather Information Centre, NOAA NWS, and others) and matches them to your exact location. Alert notifications work the same as with the native provider."
+msgstr "Varningsleverantör: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR är ett kostnadsfritt väder-API med öppen källkod som samlar in officiella CAP-varningar från hela världen (WMO Severe Weather Information Centre, NOAA NWS med flera) och matchar dem mot din exakta plats. Varningsaviseringar fungerar på samma sätt som med väderleverantörens egna varningar."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:112
+msgid "Alerts provider: <a href='https://www.meteoalarm.org/'>EUMETNET MeteoAlarm</a> + <a href='https://www.weather.gov/'>NOAA NWS</a><br/><br/>European locations use the official MeteoAlarm feeds (38 countries), US locations use the NOAA National Weather Service alerts API, with met.no MetAlerts as a fallback. If your weather provider delivers its own alerts (e.g. WeatherAPI.com, Pirate Weather), those are used directly."
+msgstr "Varningsleverantör: <a href='https://www.meteoalarm.org/'>EUMETNET MeteoAlarm</a> + <a href='https://www.weather.gov/'>NOAA NWS</a><br/><br/>För europeiska platser används de officiella MeteoAlarm-flödena (38 länder). För platser i USA används NOAA National Weather Services varnings-API, med met.no MetAlerts som reserv. Om din väderleverantör tillhandahåller egna varningar (t.ex. WeatherAPI.com eller Pirate Weather) används dessa direkt."
+
+#: contents/ui/TooltipContent.qml:485
+msgid "Alerts:"
+msgstr "Varningar:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1177
+msgid "All days show hourly forecast when opening the tab"
+msgstr "Visa timprognos för alla dagar när fliken öppnas"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1154
+msgid "All days start collapsed"
+msgstr "Alla dagar är infällda från början"
+
+#: contents/ui/config/configNotifications.qml:472
+msgid "All files (*)"
+msgstr "Alla filer (*)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:349
+msgid "All tabs"
+msgstr "Alla flikar"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1202
+msgid "Already-passed hours are removed from today's hourly forecast"
+msgstr "Timmar som redan har passerat tas bort från dagens timprognos"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1201
+msgid "Already-passed hours for today stay in place, greyed out, instead of being removed"
+msgstr "Timmar som redan har passerat i dag visas nedtonade i stället för att tas bort"
+
+#: contents/ui/config/configNotifications.qml:548
+msgid "Also notify about routine test alerts"
+msgstr "Meddela även om rutinmässiga testvarningar"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:354
+msgid "Alt: %1 %2"
+msgstr "Höjd: %1 %2"
+
+#: contents/ui/config/configLocation.qml:1879
+msgid "Alt: %1 m"
+msgstr "Höjd: %1 m"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:189
+msgid "Alternative provider. API key required below."
+msgstr "Alternativ leverantör. API-nyckel krävs nedan."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "Altitude (%1):"
+msgstr "Höjd över havet (%1):"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:594
+msgid "Altitude is optional, but strongly recommended for accurate forecasts. MET Norway (met.no) uses it to correct temperature and pressure for elevation; leaving it at 0 for a mountain location will return sea-level values."
+msgstr "Höjd över havet är valfritt, men rekommenderas starkt för korrekta prognoser. MET Norway (met.no) använder den för att korrigera temperatur och lufttryck efter höjden. Om du lämnar värdet på 0 för en plats i bergen får du värden för havsnivå."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:550
+msgid "Altitude:"
+msgstr "Höjd över havet:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:406
+msgid "An API key is required for %1. Weather data cannot be retrieved without it."
+msgstr "En API-nyckel krävs för %1. Väderdata kan inte hämtas utan den."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1005
+msgid "Animate row scrolling"
+msgstr "Animera rullning av rader"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:462
+msgid "Animate the wind on the map (Open-Meteo)"
+msgstr "Animera vinden på kartan (Open-Meteo)"
+
+#: contents/ui/config/configAppearance.qml:1821
+msgid "Apparent (feels-like) temperature"
+msgstr "Upplevd temperatur (känns som)"
+
+#: contents/ui/config/configAppearance.qml:1923
+#: contents/ui/config/configAppearance.qml:2060
+msgid "Apparent temperature"
+msgstr "Upplevd temperatur"
+
+#: contents/config/config.qml:57
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:190
+msgid "Appearance"
+msgstr "Utseende"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:50
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:39
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:38
+msgid "Apply Settings?"
+msgstr "Verkställ inställningarna?"
+
+#: contents/ui/config/configLocation.qml:1236
+msgid "Apply detected location"
+msgstr "Använd identifierad plats"
+
+#: contents/ui/config/configAppearance.qml:490
+msgid "Apply everywhere"
+msgstr "Använd överallt"
+
+#: contents/ui/config/configAppearance.qml:402
+msgid "Apply icon theme"
+msgstr "Använd ikontema"
+
+#: contents/ui/config/configAppearance.qml:498
+msgid "Apply only here"
+msgstr "Använd endast här"
+
+#: contents/ui/config/configLocation.qml:1445
+msgid "Are you sure? This is your last saved location. If you remove it, the widget will no longer show weather information."
+msgstr "Är du säker? Det här är din sista sparade plats. Om du tar bort den kommer widgeten inte längre att visa väderinformation."
+
+#: contents/ui/DetailsView.qml:3614
+msgid "Around midnight - "
+msgstr "Kring midnatt – "
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:442
+msgid "Arrows"
+msgstr "Pilar"
+
+#: contents/ui/config/configAppearance.qml:1835
+#: contents/ui/config/configAppearance.qml:1937
+#: contents/ui/config/configAppearance.qml:2081
+msgid "Atmospheric pressure"
+msgstr "Lufttryck"
+
+#: contents/ui/config/configNotifications.qml:472
+msgid "Audio files (*.wav *.ogg *.oga *.mp3 *.flac)"
+msgstr "Ljudfiler (*.wav *.ogg *.oga *.mp3 *.flac)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:720
+#: contents/ui/DetailsView.qml:2060
+msgid "Aurora Visibility"
+msgstr "Norrskenets synlighet"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:341
+#: contents/ui/config/tabs/ConfigPanelTab.qml:482
+#: contents/ui/config/tabs/ConfigPanelTab.qml:575
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1075
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:159
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:209
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:617
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:655
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:860
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:901
+msgid "Auto"
+msgstr "Automatiskt"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:76
+msgid "Auto (detect on save)"
+msgstr "Automatiskt (identifiera när du sparar)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:267
+msgid "Auto (device)"
+msgstr "Automatiskt (enhet)"
+
+#: contents/ui/config/configLocation.qml:1590
+msgid "Auto-detection first asks GeoClue2, the system location service, for your current position. If system location is unavailable, the widget estimates your location from your public IP address, which is usually less precise and only updates when detection runs again."
+msgstr "Automatisk platsidentifiering frågar först GeoClue2, systemets platstjänst, efter din aktuella position. Om systemets platsinformation inte är tillgänglig uppskattar widgeten din plats utifrån din offentliga IP-adress. Det är vanligtvis mindre exakt och uppdateras bara när platsidentifieringen körs igen."
+
+#: contents/ui/config/configLocation.qml:1550
+msgid "Auto-detection is limited without QtLocation and QtPositioning. It will fall back to IP-based detection, which may be less accurate and will not update in real time as you move. If you want to improve auto-detection accuracy, please install the required packages for your distribution. For more details, see the install guide."
+msgstr "Automatisk platsidentifiering är begränsad utan QtLocation och QtPositioning. IP-baserad platsidentifiering används då som reserv, vilket kan vara mindre exakt och inte uppdateras i realtid när du förflyttar dig. Installera de paket som krävs för din distribution om du vill förbättra noggrannheten. Mer information finns i installationsguiden."
+
+#: contents/ui/config/configLocation.qml:810
+msgid "Auto-detection updated coordinates."
+msgstr "Automatisk platsidentifiering uppdaterade koordinaterna."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1137
+msgid "Auto-open hourly forecast:"
+msgstr "Öppna timprognos automatiskt:"
+
+#: contents/ui/components/MapBackgroundChoices.qml:42
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1342
+msgid "Automatic"
+msgstr "Automatiskt"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:495
+msgid "Automatic (based on location)"
+msgstr "Automatiskt (baserat på plats)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:524
+msgid "Automatic uses US AQI worldwide, switching to European CAQI or Canadian AQHI based on your location's country."
+msgstr "Automatiskt använder amerikanskt AQI globalt och växlar till europeiskt CAQI eller kanadensiskt AQHI beroende på vilket land platsen ligger i."
+
+#: contents/ui/config/configLocation.qml:1574
+msgid "Automatically detect location"
+msgstr "Identifiera plats automatiskt"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:366
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:126
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:124
+msgid "Available"
+msgstr "Tillgänglig"
+
+#: contents/ui/config/configNotifications.qml:82 contents/ui/main.qml:1132
+msgid "Avalanche"
+msgstr "Lavin"
+
+#: contents/ui/js/airQuality.js:123
+msgid "Avoid strenuous outdoor activities."
+msgstr "Undvik ansträngande utomhusaktiviteter."
+
+#: contents/ui/config/configGeneral.qml:562
+msgid "BBC Weather (free)"
+msgstr "BBC Weather (kostnadsfritt)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:100
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:484
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:270
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:311
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:84
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:83
+msgid "Back"
+msgstr "Tillbaka"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:952
+msgid "Badge Background Color"
+msgstr "Bakgrundsfärg för märke"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:873
+msgid "Badge background:"
+msgstr "Märkets bakgrund:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:924
+msgid "Badge opacity:"
+msgstr "Märkets opacitet:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:797
+msgid "Badge position:"
+msgstr "Märkets placering:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:850
+msgid "Badge spacing:"
+msgstr "Avstånd mellan märken:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:354
+msgid "Balanced (10 to 20 fps)"
+msgstr "Balanserat (10 till 20 bilder/s)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:291
+msgid "Behavior"
+msgstr "Beteende"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:654
+#: contents/ui/DetailsView.qml:1520 contents/ui/main.qml:1039
+msgid "Birch"
+msgstr "Björk"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:250
+msgid "Black and White"
+msgstr "Svartvitt"
+
+#: contents/ui/config/configAppearance.qml:1189
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:536
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:526
+msgid "Both  07:17 / 18:03"
+msgstr "Båda  07:17 / 18:03"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:464
+msgid "Both (sunrise & sunset)"
+msgstr "Båda (soluppgång och solnedgång)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:829
+msgid "Bottom Center"
+msgstr "Nederst i mitten"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:817
+msgid "Bottom Left"
+msgstr "Nederst till vänster"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:813
+msgid "Bottom Right"
+msgstr "Nederst till höger"
+
+#: contents/ui/config/configAppearance.qml:985
+#: contents/ui/config/configAppearance.qml:1137
+#: contents/ui/config/configAppearance.qml:1255
+#: contents/ui/config/configAppearance.qml:1298
+#: contents/ui/config/configAppearance.qml:1423
+#: contents/ui/config/configAppearance.qml:1466
+#: contents/ui/config/configNotifications.qml:437
+msgid "Browse…"
+msgstr "Bläddra…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1158
+msgid "Bullet  •"
+msgstr "Punkt  •"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:936
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:784
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:775
+msgid "Button guide"
+msgstr "Knappguide"
+
+#: contents/ui/DetailsView.qml:2099
+msgid "Bz (Magnetic Field)"
+msgstr "Bz (magnetfält)"
+
+#: contents/ui/js/airQuality.js:172
+msgid "CAQI"
+msgstr "CAQI"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:594
+msgid "CO"
+msgstr "CO"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:463
+#: contents/ui/config/tabs/ConfigMiscTab.qml:507
+msgid "Canadian AQHI (1-10+)"
+msgstr "Kanadensiskt AQHI (1–10+)"
+
+#: contents/ui/config/configAppearance.qml:506
+#: contents/ui/config/configAppearance.qml:1034
+#: contents/ui/config/configLocation.qml:1472
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:85
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:68
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:67
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: contents/ui/config/configLocation.qml:1943
+msgid "Cancel rename"
+msgstr "Avbryt namnbyte"
+
+#: contents/ui/DetailsView.qml:1324
+msgid "Carbon Monoxide (CO)"
+msgstr "Kolmonoxid (CO)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1361
+msgid "Cards"
+msgstr "Kort"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:835
+msgid "Cards (2 columns)"
+msgstr "Kort (2 kolumner)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:845
+msgid "Cards height:"
+msgstr "Kortens höjd:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:312
+msgid "Celsius (°C)"
+msgstr "Celsius (°C)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Changes staged. Click the main Apply button to save."
+msgstr "Ändringarna är förberedda. Klicka på huvudknappen Verkställ för att spara."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:191
+msgid "Check Status"
+msgstr "Kontrollera status"
+
+#: contents/ui/config/configGeneral.qml:285
+#: contents/ui/config/configLocation.qml:481
+msgid "Checking location availability…"
+msgstr "Kontrollerar platsens tillgänglighet…"
+
+#: contents/ui/config/configGeneral.qml:233
+#: contents/ui/config/tabs/ConfigRadarTab.qml:191
+msgid "Checking…"
+msgstr "Kontrollerar…"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:201
+msgid "Chinese weather provider with global coverage. API key required below."
+msgstr "Kinesisk väderleverantör med global täckning. API-nyckel krävs nedan."
+
+#: contents/ui/config/configNotifications.qml:471
+msgid "Choose Alert Sound"
+msgstr "Välj varningsljud"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1262
+msgid "Choose Simple Mode Font"
+msgstr "Välj teckensnitt för enkelt läge"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1372
+msgctxt "@action:button"
+msgid "Choose Style…"
+msgstr "Välj stil…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1301
+msgid "Choose a Panel Font"
+msgstr "Välj teckensnitt för panelen"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:978
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:818
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:804
+msgid "Choose a custom icon for this item"
+msgstr "Välj en egen ikon för det här objektet"
+
+#: contents/ui/config/configLocation.qml:1663
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:317
+msgid "Choose on Map"
+msgstr "Välj på karta"
+
+#: contents/ui/config/configLocation.qml:1260
+msgid "Choose on map"
+msgstr "Välj på karta"
+
+#: contents/ui/config/configAppearance.qml:1842
+msgid "City / location name"
+msgstr "Stadens eller platsens namn"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:365
+msgid "Clear"
+msgstr "Rensa"
+
+#: contents/ui/config/configAppearance.qml:666
+msgid "Clear (day)"
+msgstr "Klart (dag)"
+
+#: contents/ui/config/configAppearance.qml:671
+msgid "Clear (night)"
+msgstr "Klart (natt)"
+
+#: contents/ui/main.qml:2232
+msgid "Clear night"
+msgstr "Klar natt"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:48
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:610
+#: contents/ui/main.qml:2232
+msgid "Clear sky"
+msgstr "Klar himmel"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:693
+msgid "Click \"Test across providers\" to check if the coordinates are serviceable by each supported weather provider. Providers requiring an API key that is not configured will be skipped."
+msgstr "Klicka på ”Testa hos leverantörerna” för att kontrollera om varje väderleverantör som stöds kan leverera data för koordinaterna. Leverantörer som kräver en API-nyckel som inte har konfigurerats hoppas över."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:575
+msgid "Click on the map to select a location"
+msgstr "Klicka på kartan för att välja en plats"
+
+#: contents/ui/TooltipContent.qml:261
+msgid "Click to configure a location"
+msgstr "Klicka för att ställa in en plats"
+
+#: contents/ui/components/RadarWebEngineView.qml:130
+msgid "Clouds"
+msgstr "Moln"
+
+#: contents/ui/config/configNotifications.qml:80 contents/ui/main.qml:1130
+msgid "Coastal event"
+msgstr "Kustrelaterad händelse"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:669
+msgid "Color by temperature:"
+msgstr "Färg efter temperatur:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:684
+msgid "Color the panel temperature with the same cold to hot scale as the forecast curve, instead of a fixed color."
+msgstr "Färglägg panelens temperatur med samma skala från kallt till varmt som prognoskurvan, i stället för en fast färg."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1027
+msgid "Colorful (KDE color icons)"
+msgstr "Färgglatt (KDE:s färgikoner)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1574
+msgid "Compass in forecast:"
+msgstr "Kompass i prognosen:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:218
+#: contents/ui/config/tabs/ConfigPanelTab.qml:243
+msgid "Compressed"
+msgstr "Komprimerat"
+
+#: contents/ui/config/configAppearance.qml:1791
+#: contents/ui/config/configAppearance.qml:2052 contents/ui/DetailsView.qml:361
+msgid "Condition"
+msgstr "Väderförhållande"
+
+#: contents/ui/config/configAppearance.qml:880
+msgid "Condition Icons"
+msgstr "Väderikoner"
+
+#: contents/ui/TooltipContent.qml:422
+msgid "Condition:"
+msgstr "Väderförhållande:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:991
+msgid "Configure display mode options"
+msgstr "Ställ in alternativ för visningsläge"
+
+#: contents/ui/config/configAppearance.qml:1076
+msgid "Configure icon - %1"
+msgstr "Ställ in ikon – %1"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:368
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:388
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:433
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:453
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:428
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:448
+msgid "Configure icon…"
+msgstr "Ställ in ikon…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:451
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:234
+msgid "Configure weather icons…"
+msgstr "Ställ in väderikoner…"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1059
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1580
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:445
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:998
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1050
+msgid "Configure…"
+msgstr "Ställ in…"
+
+#: contents/ui/config/configLocation.qml:1935
+msgid "Confirm rename"
+msgstr "Bekräfta namnbyte"
+
+#: contents/ui/config/configLocation.qml:1190
+msgid "Confirm your location"
+msgstr "Bekräfta din plats"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:290
+msgid "Connection failed"
+msgstr "Anslutningen misslyckades"
+
+#: contents/ui/config/configGeneral.qml:545
+msgid "Connection failed (HTTP %1)."
+msgstr "Anslutningen misslyckades (HTTP %1)."
+
+#: contents/ui/config/configGeneral.qml:538
+msgid "Connection successful! %1 key is valid."
+msgstr "Anslutningen lyckades! Nyckeln för %1 är giltig."
+
+#: contents/ui/js/airQuality.js:121
+msgid "Consider reducing or rescheduling strenuous outdoor activities if you experience symptoms such as coughing or throat irritation."
+msgstr "Överväg att minska eller flytta ansträngande utomhusaktiviteter om du får symtom som hosta eller irritation i halsen."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:331
+msgid "Coordinates"
+msgstr "Koordinater"
+
+#: contents/ui/config/configNotifications.qml:466
+msgid "Couldn't play that sound file: %1"
+msgstr "Kunde inte spela upp ljudfilen: %1"
+
+#: contents/ui/config/configNotifications.qml:510
+msgid "Critical notifications are still shown even when Do Not Disturb is enabled, or while you're playing a game or watching a fullscreen video (if those options are enabled in System Settings → Notifications)."
+msgstr "Kritiska aviseringar visas även när Stör ej är aktiverat eller när du spelar ett spel eller tittar på video i helskärm (om dessa alternativ är aktiverade i Systeminställningar → Aviseringar)."
+
+#: contents/ui/config/configAppearance.qml:1912
+#: contents/ui/config/configAppearance.qml:2035
+#: contents/ui/config/configAppearance.qml:2158
+msgid "Current date and/or time"
+msgstr "Aktuellt datum och/eller klockslag"
+
+#: contents/ui/config/configAppearance.qml:1849
+msgid "Current moon phase"
+msgstr "Aktuell månfas"
+
+#: contents/ui/config/configAppearance.qml:1799
+#: contents/ui/config/configAppearance.qml:2046
+msgid "Current temperature"
+msgstr "Aktuell temperatur"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:300
+msgid "Custom"
+msgstr "Anpassat"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:243
+msgid "Custom (set each unit manually)"
+msgstr "Anpassat (ställ in varje enhet manuellt)"
+
+#: contents/ui/config/configAppearance.qml:908
+msgid "Custom per-condition icons"
+msgstr "Egna ikoner för varje väderförhållande"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:781
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:861
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:655
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:735
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:649
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:729
+#: contents/ui/config/tabs/ConfigPanelTab.qml:427
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1035
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1178
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:75
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:443
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:509
+msgid "Custom…"
+msgstr "Anpassat…"
+
+#: contents/ui/components/MapBackgroundChoices.qml:46
+msgid "CyclOSM (cycling)"
+msgstr "CyclOSM (cykling)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1213
+msgid "Daily Forecast Settings"
+msgstr "Inställningar för dygnsprognos"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:191
+msgid "Dark Sky-compatible API with US alerts. API key required below."
+msgstr "Dark Sky-kompatibelt API med varningar för USA. API-nyckel krävs nedan."
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:496
+msgid "Dark map"
+msgstr "Mörk karta"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1166
+msgid "Dash  –"
+msgstr "Tankstreck  –"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:479
+msgid "Data Refresh"
+msgstr "Datauppdatering"
+
+#: contents/ui/config/configAppearance.qml:1911
+#: contents/ui/config/configAppearance.qml:2034
+#: contents/ui/config/configAppearance.qml:2157 contents/ui/DetailsView.qml:370
+msgid "Date / Time"
+msgstr "Datum/tid"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:354
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:419
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:414
+msgid "Date / Time options"
+msgstr "Alternativ för datum/tid"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:406
+msgid "Date and time in header:"
+msgstr "Datum och tid i sidhuvudet:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:421
+msgid "Date format:"
+msgstr "Datumformat:"
+
+#: contents/ui/TooltipContent.qml:625
+msgid "Date/Time:"
+msgstr "Datum/tid:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:766
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:640
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:634
+msgid "Date:"
+msgstr "Datum:"
+
+#: contents/ui/DetailsView.qml:3610
+msgid "Dawn approaching - "
+msgstr "Gryningen närmar sig – "
+
+#: contents/ui/DetailsView.qml:3590
+msgid "Day"
+msgstr "Dag"
+
+#: contents/ui/DetailsView.qml:3618
+msgid "Daylight over"
+msgstr "Dagsljuset är slut"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:650
+#: contents/ui/config/tabs/ConfigPanelTab.qml:773
+msgid "Default"
+msgstr "Standard"
+
+#: contents/ui/config/configNotifications.qml:425
+msgid "Default (built-in siren)"
+msgstr "Standard (inbyggd siren)"
+
+#: contents/ui/config/configLocation.qml:1910
+msgid "Default location (click to unset)"
+msgstr "Standardplats (klicka för att ta bort som standard)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:305
+msgid "Default tab:"
+msgstr "Standardflik:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:624
+msgid "Dense drizzle"
+msgstr "Kraftigt duggregn"
+
+#: contents/ui/DetailsView.qml:2434 contents/ui/DetailsView.qml:2436
+msgid "Description"
+msgstr "Beskrivning"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:320 contents/ui/FullView.qml:582
+msgid "Details"
+msgstr "Detaljer"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:941
+msgid "Details Items"
+msgstr "Detaljobjekt"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:955
+msgid "Details items:"
+msgstr "Detaljobjekt:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:821
+msgid "Details layout:"
+msgstr "Detaljlayout:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:350
+msgid "Details only"
+msgstr "Endast detaljer"
+
+#: contents/ui/main.qml:407
+msgid "Detect / change location"
+msgstr "Identifiera eller ändra plats"
+
+#: contents/ui/FullView.qml:407
+msgid "Detect / change location…"
+msgstr "Identifiera eller ändra plats…"
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "Detecting…"
+msgstr "Identifierar…"
+
+#: contents/ui/config/configAppearance.qml:1957 contents/ui/DetailsView.qml:358
+#: contents/ui/SimpleView.qml:261
+msgid "Dew Point"
+msgstr "Daggpunkt"
+
+#: contents/ui/config/configAppearance.qml:1958
+msgid "Dew point temperature"
+msgstr "Daggpunktstemperatur"
+
+#: contents/ui/TooltipContent.qml:446
+msgid "Dew point:"
+msgstr "Daggpunkt:"
+
+#: contents/ui/config/configNotifications.qml:577
+msgid "Disable a type to silence it, or give it its own repeat interval. The interval is used only when 'Repeat reminder until dismissed' is on."
+msgstr "Inaktivera en typ för att tysta den, eller ge den ett eget upprepningsintervall. Intervallet används bara när ”Upprepa påminnelsen tills den avfärdas” är aktiverat."
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:488
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:483
+msgid "Disable item"
+msgstr "Inaktivera objekt"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:688
+#: contents/ui/config/tabs/ConfigPanelTab.qml:709
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:92
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:253
+msgid "Disabled"
+msgstr "Inaktiverat"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:69
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:58
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:57
+msgid "Discard"
+msgstr "Förkasta"
+
+#: contents/ui/main.qml:557
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:73
+msgid "Display"
+msgstr "Visning"
+
+#: contents/ui/config/configAppearance.qml:1174
+#: contents/ui/config/configAppearance.qml:1330
+#: contents/ui/config/tabs/ConfigPanelTab.qml:124
+#: contents/ui/config/tabs/ConfigPanelTab.qml:161
+msgid "Display mode:"
+msgstr "Visningsläge:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:135
+msgid "Displaying °C and °F together"
+msgstr "Visar °C och °F samtidigt"
+
+#: contents/ui/config/configAppearance.qml:1884
+#: contents/ui/config/configAppearance.qml:2007
+#: contents/ui/config/configAppearance.qml:2130
+msgid "Dominant pollen type and index"
+msgstr "Dominerande pollentyp och index"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:802
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:790
+msgid "Drag to reorder enabled items"
+msgstr "Dra för att ändra ordning på aktiverade objekt"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:951
+msgid "Drag to reorder shown items"
+msgstr "Dra för att ändra ordning på visade objekt"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:53
+#: contents/ui/main.qml:2246
+msgid "Drizzle"
+msgstr "Duggregn"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:116
+msgid "Dual temperature"
+msgstr "Dubbla temperaturenheter"
+
+#: contents/ui/main.qml:1474
+msgctxt "Alert severity"
+msgid "EXTREME"
+msgstr "EXTREMT"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:462
+msgid "Each QWeather project has a unique API host. Find yours at console.qweather.com under your project settings."
+msgstr "Varje QWeather-projekt har en unik API-värd. Du hittar din på console.qweather.com i projektinställningarna."
+
+#: contents/ui/config/configNotifications.qml:542
+msgid "Each alert is shown only once, without Dismiss and Postpone buttons."
+msgstr "Varje varning visas endast en gång, utan knappar för att avfärda eller skjuta upp."
+
+#: contents/ui/config/configNotifications.qml:286
+msgid "Each notification type can be enabled independently, with its own daily time where applicable."
+msgstr "Varje aviseringstyp kan aktiveras separat, med en egen daglig tid när det är tillämpligt."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:350
+msgid "Economy (8 to 10 fps)"
+msgstr "Sparläge (8 till 10 bilder/s)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:495
+msgid "Edit Saved Location"
+msgstr "Redigera sparad plats"
+
+#: contents/ui/config/configLocation.qml:1965
+msgid "Edit location details"
+msgstr "Redigera platsinformation"
+
+#: contents/ui/DetailsView.qml:2439
+msgid "Effective"
+msgstr "Gäller från"
+
+#: contents/ui/RadarView.qml:268
+msgid "Embedded radar paused"
+msgstr "Inbäddad radar pausad"
+
+#: contents/ui/config/configNotifications.qml:297
+msgid "Enable alert notifications"
+msgstr "Aktivera varningsaviseringar"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:568
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:633
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:697
+msgid "Enable all"
+msgstr "Aktivera alla"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:488
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:483
+msgid "Enable item"
+msgstr "Aktivera objekt"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:830
+msgid "Enable or disable this item"
+msgstr "Aktivera eller inaktivera det här objektet"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:848
+msgid "Enable or disable this item on the panel"
+msgstr "Aktivera eller inaktivera det här objektet i panelen"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:126
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:124
+#: contents/ui/config/tabs/ConfigPanelTab.qml:688
+#: contents/ui/config/tabs/ConfigPanelTab.qml:709
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:92
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:253
+msgid "Enabled"
+msgstr "Aktiverat"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:395
+msgid "Enter Location"
+msgstr "Ange plats"
+
+#: contents/ui/config/configLocation.qml:1677
+msgid "Enter Manually"
+msgstr "Ange manuellt"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Enter a location name and valid coordinates, then click the main Apply button."
+msgstr "Ange ett platsnamn och giltiga koordinater och klicka sedan på huvudknappen Verkställ."
+
+#: contents/ui/config/configLocation.qml:1681
+msgid "Enter exact latitude, longitude, and optional elevation for a more local forecast. You can copy coordinates from OpenStreetMap, GeoNames, or Google Maps."
+msgstr "Ange exakt latitud, longitud och valfri höjd över havet för en mer lokal prognos. Du kan kopiera koordinater från OpenStreetMap, GeoNames eller Google Maps."
+
+#: contents/ui/config/configLocation.qml:1250
+msgid "Enter manually"
+msgstr "Ange manuellt"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:289
+msgid "Enter your AEMET API key"
+msgstr "Ange din API-nyckel för AEMET"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:275
+msgid "Enter your OpenWeatherMap API key"
+msgstr "Ange din API-nyckel för OpenWeatherMap"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:277
+msgid "Enter your Pirate Weather API key"
+msgstr "Ange din API-nyckel för Pirate Weather"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:287
+msgid "Enter your QWeather API key"
+msgstr "Ange din API-nyckel för QWeather"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:283
+msgid "Enter your StormGlass API key"
+msgstr "Ange din API-nyckel för StormGlass"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:281
+msgid "Enter your Tomorrow.io API key"
+msgstr "Ange din API-nyckel för Tomorrow.io"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:279
+msgid "Enter your Visual Crossing API key"
+msgstr "Ange din API-nyckel för Visual Crossing"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:290
+msgid "Enter your WeatherAPI.com key"
+msgstr "Ange din nyckel för WeatherAPI.com"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:285
+msgid "Enter your Weatherbit API key"
+msgstr "Ange din API-nyckel för Weatherbit"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:354
+msgid "Error (code %1)"
+msgstr "Fel (kod %1)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:451
+#: contents/ui/config/tabs/ConfigMiscTab.qml:503
+msgid "European CAQI (0-100+)"
+msgstr "Europeiskt CAQI (0–100+)"
+
+#: contents/ui/DetailsView.qml:3612
+msgid "Evening - "
+msgstr "Kväll – "
+
+#: contents/ui/js/airQuality.js:105
+msgid "Everyone may begin to experience health effects; sensitive groups may experience more serious effects."
+msgstr "Alla kan börja få hälsoeffekter. Känsliga grupper kan få allvarligare besvär."
+
+#: contents/ui/js/spaceWeather.js:198
+msgid "Excellent"
+msgstr "Utmärkt"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1161
+msgid "Expand all days:"
+msgstr "Fäll ut alla dagar:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1249
+msgid "Expand widget to fill available panel space"
+msgstr "Utöka widgeten så att den fyller det tillgängliga panelutrymmet"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:886
+msgid "Expanded cards height:"
+msgstr "Utökade korts höjd:"
+
+#: contents/ui/DetailsView.qml:2441
+msgid "Expires"
+msgstr "Upphör"
+
+#: contents/ui/js/airQuality.js:95 contents/ui/js/spaceWeather.js:172
+#: contents/ui/js/spaceWeather.js:186 contents/ui/main.qml:1004
+msgid "Extreme"
+msgstr "Extrem"
+
+#: contents/ui/js/spaceWeather.js:91
+msgid "Extreme geomagnetic storm."
+msgstr "Extrem geomagnetisk storm."
+
+#: contents/ui/js/airQuality.js:95
+msgid "Extremely Poor"
+msgstr "Extremt dålig"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:92
+msgid "FOSS Public Alert Server"
+msgstr "FOSS Public Alert Server"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:316
+msgid "Fahrenheit (°F)"
+msgstr "Fahrenheit (°F)"
+
+#: contents/ui/WeatherService.qml:1156
+msgid "Failed to load weather providers"
+msgstr "Det gick inte att läsa in väderleverantörer"
+
+#: contents/ui/WeatherService.qml:1142
+msgid "Failed: %1"
+msgstr "Misslyckades: %1"
+
+#: contents/ui/WeatherService.qml:1140
+msgid "Failed: %1 — retrying…"
+msgstr "Misslyckades: %1 — försöker igen…"
+
+#: contents/ui/js/airQuality.js:91
+msgid "Fair"
+msgstr "Måttlig"
+
+#: contents/ui/config/configAppearance.qml:1820
+#: contents/ui/config/configAppearance.qml:1922
+#: contents/ui/config/configAppearance.qml:2059 contents/ui/DetailsView.qml:353
+#: contents/ui/SimpleView.qml:258
+msgid "Feels Like"
+msgstr "Känns som"
+
+#: contents/ui/TooltipContent.qml:419
+msgid "Feels like:"
+msgstr "Känns som:"
+
+#: contents/ui/FullView.qml:92 contents/ui/SimpleView.qml:59
+msgid "Feels like: %1"
+msgstr "Känns som: %1"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:345
+msgid "Fill panel"
+msgstr "Fyll panelen"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1240
+msgid "Fill panel:"
+msgstr "Fyll panelen:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:375
+msgid "Find"
+msgstr "Sök"
+
+#: contents/ui/main.qml:2467
+msgid "First Quarter"
+msgstr "Första kvarteret"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:893
+msgid "First day of week:"
+msgstr "Veckans första dag:"
+
+#: contents/ui/DetailsView.qml:2167
+msgid "Flare Warning"
+msgstr "Varning för solutbrott"
+
+#: contents/ui/config/configAppearance.qml:263
+#: contents/ui/config/tabs/ConfigPanelTab.qml:415
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1429
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:288
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:62
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:72
+msgid "Flat Color (Bundled)"
+msgstr "Flat Color (medföljer)"
+
+#: contents/ui/config/configNotifications.qml:84 contents/ui/main.qml:1134
+msgid "Flood"
+msgstr "Översvämning"
+
+#: contents/ui/config/configAppearance.qml:705
+#: contents/ui/config/configNotifications.qml:77
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:52
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:618
+#: contents/ui/main.qml:1127 contents/ui/main.qml:2240
+msgid "Fog"
+msgstr "Dimma"
+
+#: contents/ui/config/configAppearance.qml:259
+msgid "Font icons"
+msgstr "Teckensnittsikoner"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1421
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:280
+msgid "Font icons (default)"
+msgstr "Teckensnittsikoner (standard)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:559
+msgid "Font size:"
+msgstr "Teckenstorlek:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:367
+msgid "Footer:"
+msgstr "Sidfot:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:282
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:118
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:321 contents/ui/FullView.qml:583
+msgid "Forecast"
+msgstr "Prognos"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1111
+msgid "Forecast days:"
+msgstr "Antal prognosdagar:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:351
+msgid "Forecast only"
+msgstr "Endast prognos"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1558
+msgid "Forecast:"
+msgstr "Prognos:"
+
+#: contents/ui/config/configNotifications.qml:81 contents/ui/main.qml:1131
+msgid "Forest fire"
+msgstr "Skogsbrand"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:537
+msgid "Format:"
+msgstr "Format:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:207
+msgid "Free BBC Weather service (data from the Met Office). No API key needed."
+msgstr "Kostnadsfri tjänst från BBC Weather (data från Met Office). Ingen API-nyckel behövs."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:205
+msgid "Free Norwegian Meteorological Institute service. No API key needed."
+msgstr "Kostnadsfri tjänst från norska Meteorologisk institutt. Ingen API-nyckel behövs."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:208
+msgid "Free and open-source. No API key needed. Recommended."
+msgstr "Kostnadsfritt och med öppen källkod. Ingen API-nyckel behövs. Rekommenderas."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:54
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:626
+#: contents/ui/main.qml:2252
+msgid "Freezing drizzle"
+msgstr "Underkylt duggregn"
+
+#: contents/ui/config/configAppearance.qml:733
+msgid "Freezing drizzle (day)"
+msgstr "Underkylt duggregn (dag)"
+
+#: contents/ui/config/configAppearance.qml:738
+msgid "Freezing drizzle (night)"
+msgstr "Underkylt duggregn (natt)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:56
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:634
+#: contents/ui/main.qml:2262
+msgid "Freezing rain"
+msgstr "Underkylt regn"
+
+#: contents/ui/config/configAppearance.qml:744
+msgid "Freezing rain (day)"
+msgstr "Underkylt regn (dag)"
+
+#: contents/ui/config/configAppearance.qml:749
+msgid "Freezing rain (night)"
+msgstr "Underkylt regn (natt)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:905
+msgid "Friday"
+msgstr "Fredag"
+
+#: contents/ui/main.qml:2471
+msgid "Full Moon"
+msgstr "Fullmåne"
+
+#: contents/ui/DetailsView.qml:2828
+msgid "Future alerts"
+msgstr "Kommande varningar"
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "GPS / GeoClue2 unavailable (install qt6-qtlocation for best accuracy). Using IP-based detection."
+msgstr "GPS / GeoClue2 är inte tillgängligt (installera qt6-qtlocation för bästa noggrannhet). Använder IP-baserad platsidentifiering."
+
+#: contents/config/config.qml:52
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:110
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1098
+msgid "General"
+msgstr "Allmänt"
+
+#: contents/ui/config/configLocation.qml:884
+msgid "GeoClue2 unavailable, trying system location…"
+msgstr "GeoClue2 är inte tillgängligt, försöker med systemets platsinformation…"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:717
+#: contents/ui/DetailsView.qml:1946
+msgid "Geomagnetic Storm"
+msgstr "Geomagnetisk storm"
+
+#: contents/ui/config/configNotifications.qml:701 contents/ui/main.qml:2133
+msgid "Geomagnetic activity"
+msgstr "Geomagnetisk aktivitet"
+
+#: contents/ui/main.qml:2130
+msgid "Geomagnetic activity is expected to be %1 (Kp %2)"
+msgstr "Den geomagnetiska aktiviteten väntas bli %1 (Kp %2)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:262
+msgid "Glow intensity:"
+msgstr "Glödens intensitet:"
+
+#: contents/ui/js/airQuality.js:90 contents/ui/js/airQuality.js:102
+msgid "Good"
+msgstr "God"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:655
+#: contents/ui/DetailsView.qml:1522 contents/ui/main.qml:1040
+msgid "Grass"
+msgstr "Gräs"
+
+#: contents/ui/js/airQuality.js:107
+msgid "Hazardous"
+msgstr "Farlig"
+
+#: contents/ui/DetailsView.qml:2431
+msgid "Headline"
+msgstr "Rubrik"
+
+#: contents/ui/js/airQuality.js:106
+msgid "Health alert: everyone may experience more serious health effects."
+msgstr "Hälsovarning: alla kan få allvarligare hälsoeffekter."
+
+#: contents/ui/js/airQuality.js:107
+msgid "Health warning of emergency conditions: everyone is more likely to be affected."
+msgstr "Hälsovarning för akuta förhållanden: risken att påverkas är förhöjd för alla."
+
+#: contents/ui/components/RadarWebEngineView.qml:163
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Heavy"
+msgstr "Kraftig"
+
+#: contents/ui/main.qml:2248
+msgid "Heavy drizzle"
+msgstr "Kraftigt duggregn"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:632
+#: contents/ui/main.qml:2258
+msgid "Heavy rain"
+msgstr "Kraftigt regn"
+
+#: contents/ui/main.qml:2276
+msgid "Heavy showers"
+msgstr "Kraftiga regnskurar"
+
+#: contents/ui/main.qml:2268
+msgid "Heavy snow"
+msgstr "Kraftigt snöfall"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:652
+msgid "Heavy snow showers"
+msgstr "Kraftiga snöbyar"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:640
+msgid "Heavy snowfall"
+msgstr "Kraftigt snöfall"
+
+#: contents/ui/main.qml:2286
+msgid "Heavy thunderstorm with hail"
+msgstr "Kraftig åska med hagel"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:144
+msgid "Hidden"
+msgstr "Dolt"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:419
+msgid "Hide from details"
+msgstr "Dölj i detaljvyn"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:407
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:476
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:471
+msgid "Hide prefix icon"
+msgstr "Dölj inledande ikon"
+
+#: contents/ui/DetailsView.qml:1114 contents/ui/FullView.qml:521
+#: contents/ui/js/airQuality.js:122 contents/ui/js/pollen.js:44
+#: contents/ui/js/spaceWeather.js:187 contents/ui/js/spaceWeather.js:199
+#: contents/ui/main.qml:1002 contents/ui/main.qml:1034
+msgid "High"
+msgstr "Hög"
+
+#: contents/ui/js/airQuality.js:122
+msgid "High Risk"
+msgstr "Hög risk"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:199
+msgid "High precision forecast provider. API key required below."
+msgstr "Prognosleverantör med hög precision. API-nyckel krävs nedan."
+
+#: contents/ui/config/configNotifications.qml:78 contents/ui/main.qml:1128
+msgid "High temperature"
+msgstr "Högsta temperatur"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:615
+msgid "Highlight snow and wintry precipitation with a distinct color"
+msgstr "Markera snö och vintrig nederbörd med en särskild färg"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:193
+msgid "Historical and forecast data provider. API key required below."
+msgstr "Leverantör av historiska data och prognoser. API-nyckel krävs nedan."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:210
+msgid "Horizontal"
+msgstr "Horisontell"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1332
+msgid "Hourly Forecast Settings"
+msgstr "Inställningar för timprognos"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1350
+msgid "Hourly layout:"
+msgstr "Layout för timprognos:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:975
+msgid "How often the rows scroll to reveal the next item"
+msgstr "Hur ofta raderna rullas för att visa nästa objekt"
+
+#: contents/ui/components/MapBackgroundChoices.qml:45
+msgid "Humanitarian (HOT)"
+msgstr "Humanitär (HOT)"
+
+#: contents/ui/config/configAppearance.qml:1827
+#: contents/ui/config/configAppearance.qml:1929
+#: contents/ui/config/configAppearance.qml:2073 contents/ui/DetailsView.qml:354
+#: contents/ui/SimpleView.qml:259
+msgid "Humidity"
+msgstr "Luftfuktighet"
+
+#: contents/ui/TooltipContent.qml:440
+msgid "Humidity:"
+msgstr "Luftfuktighet:"
+
+#: contents/ui/config/configLocation.qml:1003
+#: contents/ui/config/configLocation.qml:1034
+msgid "IP geolocation"
+msgstr "IP-baserad platsbestämning"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:265
+msgid "Icon and temperature"
+msgstr "Ikon och temperatur"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:305
+msgid "Icon first"
+msgstr "Ikon först"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:240
+msgid "Icon glow:"
+msgstr "Ikonglöd:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:273
+msgid "Icon only"
+msgstr "Endast ikon"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:466
+msgid "Icon size:"
+msgstr "Ikonstorlek:"
+
+#: contents/ui/config/configAppearance.qml:897
+msgid "Icon source:"
+msgstr "Ikonkälla:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1405
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:264
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:717
+msgid "Icon theme:"
+msgstr "Ikontema:"
+
+#: contents/ui/config/configAppearance.qml:1115
+msgid "Icon:"
+msgstr "Ikon:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:257
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:705
+msgid "Icons"
+msgstr "Ikoner"
+
+#: contents/ui/js/airQuality.js:120
+msgid "Ideal air quality for outdoor activities."
+msgstr "Idealisk luftkvalitet för utomhusaktiviteter."
+
+#: contents/ui/config/configLocation.qml:1226
+msgid "If this looks correct, apply it. Otherwise, choose your location manually."
+msgstr "Använd platsen om den stämmer. Välj annars din plats manuellt."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:431
+msgid "If you have just registered a new OpenWeatherMap API key, it might take up to 2 hours for it to become active. Please try again later if it doesn't work immediately."
+msgstr "Om du precis har registrerat en ny API-nyckel för OpenWeatherMap kan det ta upp till 2 timmar innan den aktiveras. Försök igen senare om den inte fungerar direkt."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:235
+msgid "Imperial (°F, mph, inHg, in)"
+msgstr "Brittiska enheter (°F, mph, inHg, in)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:180
+msgid "In a vertical panel, long item labels may be truncated. Consider using \"Simple\" mode, increasing the panel width, or reducing the font size."
+msgstr "I en vertikal panel kan långa objektetiketter kapas. Överväg att använda läget ”Enkelt”, öka panelbredden eller minska teckenstorleken."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:416
+msgid ""
+"Individual dropdowns are editable only in Custom mode.\n"
+"Other presets set units automatically."
+msgstr ""
+"Enskilda rullgardinsmenyer kan endast ändras i läget Anpassat.\n"
+"Övriga förval ställer in enheterna automatiskt."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:294
+msgid "Individual units"
+msgstr "Enskilda enheter"
+
+#: contents/ui/config/configLocation.qml:1173
+msgid ""
+"Install it for your distribution:\n"
+"  • Fedora / RHEL / Arch: qt6-qtlocation\n"
+"  • openSUSE: qt6-location\n"
+"  • Debian / Kubuntu / KDE Neon: qml6-module-qtlocation and qml6-module-qtpositioning\n"
+"\n"
+"You can still search for a location or enter coordinates manually. Note that auto-detection will continue to work using an IP fallback, but it may be less accurate and won’t update in real time as you move around."
+msgstr ""
+"Installera paketen för din distribution:\n"
+"  • Fedora / RHEL / Arch: qt6-qtlocation\n"
+"  • openSUSE: qt6-location\n"
+"  • Debian / Kubuntu / KDE Neon: qml6-module-qtlocation och qml6-module-qtpositioning\n"
+"\n"
+"Du kan fortfarande söka efter en plats eller ange koordinater manuellt. Automatisk platsidentifiering fortsätter att fungera med IP-baserad identifiering som reserv, men den kan vara mindre exakt och uppdateras inte i realtid när du förflyttar dig."
+
+#: contents/ui/RadarView.qml:359
+msgid ""
+"Install it for your distribution:\n"
+"- Fedora / RHEL: qt6-qtwebengine\n"
+"- openSUSE / Arch: qt6-webengine\n"
+"- Debian / Kubuntu / KDE Neon: qml6-module-qtwebengine"
+msgstr ""
+"Installera paketet för din distribution:\n"
+"- Fedora / RHEL: qt6-qtwebengine\n"
+"- openSUSE / Arch: qt6-webengine\n"
+"- Debian / Kubuntu / KDE Neon: qml6-module-qtwebengine"
+
+#: contents/ui/DetailsView.qml:2443
+msgid "Instruction"
+msgstr "Instruktion"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:492
+msgid "Interval:"
+msgstr "Intervall:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:368
+msgid "Invalid API key (HTTP %1)"
+msgstr "Ogiltig API-nyckel (HTTP %1)"
+
+#: contents/ui/config/configGeneral.qml:542
+msgid "Invalid API key. Please check and try again."
+msgstr "Ogiltig API-nyckel. Kontrollera den och försök igen."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:360
+msgid "Invalid response"
+msgstr "Ogiltigt svar"
+
+#: contents/ui/config/configGeneral.qml:400
+#: contents/ui/config/configGeneral.qml:529
+msgid "Invalid response from AEMET."
+msgstr "Ogiltigt svar från AEMET."
+
+#: contents/ui/config/configGeneral.qml:516
+msgid "Invalid response from QWeather."
+msgstr "Ogiltigt svar från QWeather."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1209
+msgid "Item spacing:"
+msgstr "Avstånd mellan objekt:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1110
+msgid "Item width:"
+msgstr "Objektbredd:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:289
+msgid "Items Order:"
+msgstr "Objektordning:"
+
+#: contents/ui/config/configAppearance.qml:269
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1441
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:60
+msgid "KDE Icon Theme"
+msgstr "KDE-ikontema"
+
+#: contents/ui/config/configAppearance.qml:254
+#: contents/ui/config/tabs/ConfigPanelTab.qml:394
+#: contents/ui/config/tabs/ConfigPanelTab.qml:403
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:69
+msgid "KDE Icon Theme (Colorful)"
+msgstr "KDE:s ikontema (färgglatt)"
+
+#: contents/ui/config/configAppearance.qml:256
+#: contents/ui/config/tabs/ConfigPanelTab.qml:398
+#: contents/ui/config/tabs/ConfigPanelTab.qml:407
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:70
+msgid "KDE Icon Theme (Symbolic)"
+msgstr "KDE:s ikontema (symboliskt)"
+
+#: contents/ui/RadarView.qml:278
+msgid "KDE Plasma was started with MangoHud injected into it. The overlay can crash the whole desktop shell when the web-based radar starts, so the radar was not loaded."
+msgstr "KDE Plasma startades med MangoHud injicerat. Överlägget kan krascha hela skrivbordsskalet när den webbaserade radarn startar, så radarn laddades inte."
+
+#: contents/ui/config/configAppearance.qml:903
+msgid "KDE System Icons (automatic, follows weather code)"
+msgstr "KDE:s systemikoner (automatiskt, följer väderkoden)"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:775
+msgid "KDE icon themes don't fully support many item icons. You can set your own icons by clicking \"Set your own icons\"."
+msgstr "KDE:s ikonteman saknar fullständigt stöd för många objektikoner. Du kan välja egna ikoner genom att klicka på ”Välj egna ikoner”."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:61
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:50
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:49
+msgid "Keep Changes"
+msgstr "Behåll ändringarna"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:56
+msgid "Keep the changes you made to Details Items?"
+msgstr "Vill du behålla ändringarna av detaljobjekten?"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:45
+msgid "Keep the changes you made to Panel Items?"
+msgstr "Vill du behålla ändringarna av panelobjekten?"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:44
+msgid "Keep the changes you made to Tooltip Items?"
+msgstr "Vill du behålla ändringarna av verktygstipsobjekten?"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:124
+msgid "Keep the radar loaded in the background"
+msgstr "Behåll radarn laddad i bakgrunden"
+
+#: contents/ui/FullView.qml:393
+msgid "Keep widget open"
+msgstr "Håll widgeten öppen"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:357
+msgid "Knots (kn)"
+msgstr "Knop (kn)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:718
+#: contents/ui/DetailsView.qml:1981
+msgid "Kp Index"
+msgstr "Kp-index"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1240
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1442
+msgid "Kp index/G forecast:"
+msgstr "Kp-index/G-prognos:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:486
+#: contents/ui/config/tabs/ConfigPanelTab.qml:579
+msgid "Large"
+msgstr "Stor"
+
+#: contents/ui/main.qml:2475
+msgid "Last Quarter"
+msgstr "Sista kvarteret"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:535
+msgid "Lat:"
+msgstr "Lat:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:350
+msgid "Lat: %1°"
+msgstr "Lat: %1°"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:354
+msgid "Latitude"
+msgstr "Latitud"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:541
+msgid "Latitude:"
+msgstr "Latitud:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:150
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:804
+msgid "Layout"
+msgstr "Layout"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:194
+#: contents/ui/config/tabs/ConfigPanelTab.qml:234
+msgid "Layout type:"
+msgstr "Layouttyp:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:324
+msgid "Leave this empty to use the public server. Set it to your own address if you run a self-hosted LibreWXR instance."
+msgstr "Lämna detta tomt för att använda den offentliga servern. Ange din egen adress om du kör en egen LibreWXR-instans."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:88
+#: contents/ui/config/tabs/ConfigRadarTab.qml:266
+msgid "LibreWXR"
+msgstr "LibreWXR"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:298
+msgid "LibreWXR server:"
+msgstr "LibreWXR-server:"
+
+#: contents/ui/components/RadarWebEngineView.qml:161
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Light"
+msgstr "Lätt"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:620
+#: contents/ui/main.qml:2244
+msgid "Light drizzle"
+msgstr "Lätt duggregn"
+
+#: contents/ui/main.qml:2250
+msgid "Light freezing drizzle"
+msgstr "Lätt underkylt duggregn"
+
+#: contents/ui/main.qml:2260
+msgid "Light freezing rain"
+msgstr "Lätt underkylt regn"
+
+#: contents/ui/main.qml:2254
+msgid "Light rain"
+msgstr "Lätt regn"
+
+#: contents/ui/config/configAppearance.qml:711
+msgid "Light rain / Drizzle (day)"
+msgstr "Lätt regn / duggregn (dag)"
+
+#: contents/ui/config/configAppearance.qml:716
+msgid "Light rain / Drizzle (night)"
+msgstr "Lätt regn / duggregn (natt)"
+
+#: contents/ui/main.qml:2272
+msgid "Light showers"
+msgstr "Lätta regnskurar"
+
+#: contents/ui/main.qml:2264
+msgid "Light snow"
+msgstr "Lätt snöfall"
+
+#: contents/ui/config/configAppearance.qml:755
+msgid "Light snow (day)"
+msgstr "Lätt snöfall (dag)"
+
+#: contents/ui/config/configAppearance.qml:760
+msgid "Light snow (night)"
+msgstr "Lätt snöfall (natt)"
+
+#: contents/ui/main.qml:2278
+msgid "Light snow showers"
+msgstr "Lätta snöbyar"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:979
+msgid "Lines:"
+msgstr "Rader:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:836
+msgid "List"
+msgstr "Lista"
+
+#: contents/ui/RadarView.qml:300
+msgid "Load embedded radar anyway"
+msgstr "Ladda inbäddad radar ändå"
+
+#: contents/ui/DetailsView.qml:620
+msgid "Loading details…"
+msgstr "Läser in detaljer…"
+
+#: contents/ui/ForecastView.qml:375
+msgid "Loading forecast…"
+msgstr "Läser in prognos…"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:285
+msgid "Loading frames"
+msgstr "Läser in bildrutor"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:284
+msgid "Loading frame…"
+msgstr "Läser in bildruta…"
+
+#: contents/ui/ForecastView.qml:870
+msgid "Loading hourly data…"
+msgstr "Läser in timdata…"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "Loading locations…"
+msgstr "Läser in platser…"
+
+#: contents/ui/RadarView.qml:234
+msgid "Loading radar…"
+msgstr "Läser in radar…"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:283
+msgid "Loading…"
+msgstr "Läser in…"
+
+#: contents/config/config.qml:47
+msgid "Location"
+msgstr "Plats"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:502
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:90
+msgid "Location '%1' is already in your saved list. You can apply the selected location, but it will not be saved again."
+msgstr "Platsen ”%1” finns redan i din sparade lista. Du kan använda den valda platsen, men den sparas inte igen."
+
+#: contents/ui/config/configAppearance.qml:1841
+msgid "Location Name"
+msgstr "Platsnamn"
+
+#: contents/ui/config/configLocation.qml:808
+msgid "Location auto-detected."
+msgstr "Platsen identifierades automatiskt."
+
+#: contents/ui/config/configLocation.qml:1606
+msgid "Location detection is depending on system configuration and permissions."
+msgstr "Platsidentifieringen beror på systemets inställningar och behörigheter."
+
+#: contents/ui/config/configGeneral.qml:407
+#: contents/ui/config/configGeneral.qml:416
+#: contents/ui/config/configLocation.qml:538
+msgid "Location is available on %1."
+msgstr "Platsen är tillgänglig hos %1."
+
+#: contents/ui/config/configGeneral.qml:410
+#: contents/ui/config/configGeneral.qml:419
+#: contents/ui/config/configLocation.qml:541
+msgid "Location is not available on %1 (HTTP %2). Try a different provider or location."
+msgstr "Platsen är inte tillgänglig hos %1 (HTTP %2). Försök med en annan leverantör eller plats."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:331
+msgid "Location name"
+msgstr "Platsnamn"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:530
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:105
+msgid "Location name:"
+msgstr "Platsnamn:"
+
+#: contents/ui/config/configLocation.qml:1587
+msgid "Location package notice"
+msgstr "Information om platspaket"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:559
+msgid "Location search by %1 · Map data © %2"
+msgstr "Platssökning via %1 · Kartdata © %2"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:655
+msgid "Location staged. Click the main Apply button to save."
+msgstr "Platsen är förberedd. Klicka på huvudknappen Verkställ för att spara."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:329
+msgid "Location:"
+msgstr "Plats:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:173
+#: contents/ui/config/tabs/ConfigRadarTab.qml:231
+msgid "Log Out Now…"
+msgstr "Logga ut nu…"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:542
+msgid "Lon:"
+msgstr "Lon:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:351
+msgid "Lon: %1°"
+msgstr "Lon: %1°"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:366
+msgid "Longitude"
+msgstr "Longitud"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:558
+msgid "Longitude:"
+msgstr "Longitud:"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:501
+msgid "Looking up location…"
+msgstr "Söker efter plats…"
+
+#: contents/ui/DetailsView.qml:1114 contents/ui/FullView.qml:541
+#: contents/ui/js/airQuality.js:120 contents/ui/js/pollen.js:42
+#: contents/ui/js/spaceWeather.js:189 contents/ui/js/spaceWeather.js:201
+#: contents/ui/main.qml:1000 contents/ui/main.qml:1032
+msgid "Low"
+msgstr "Låg"
+
+#: contents/ui/js/airQuality.js:120
+msgid "Low Risk"
+msgstr "Låg risk"
+
+#: contents/ui/config/configNotifications.qml:79 contents/ui/main.qml:1129
+msgid "Low temperature"
+msgstr "Lägsta temperatur"
+
+#: contents/ui/main.qml:1479
+msgctxt "Alert severity"
+msgid "MINIMAL"
+msgstr "MINIMAL"
+
+#: contents/ui/main.qml:1477
+msgctxt "Alert severity"
+msgid "MINOR"
+msgstr "MINDRE"
+
+#: contents/ui/main.qml:1476
+msgctxt "Alert severity"
+msgid "MODERATE"
+msgstr "MÅTTLIG"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:721
+msgid "Magnetic Field (Bz)"
+msgstr "Magnetfält (Bz)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1011
+msgid "Main icon style:"
+msgstr "Huvudikonens stil:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:49
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:612
+#: contents/ui/main.qml:2234
+msgid "Mainly clear"
+msgstr "Mestadels klart"
+
+#: contents/ui/config/configAppearance.qml:677
+msgid "Mainly clear (day)"
+msgstr "Mestadels klart (dag)"
+
+#: contents/ui/config/configAppearance.qml:682
+msgid "Mainly clear (night)"
+msgstr "Mestadels klart (natt)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:349
+#: contents/ui/config/tabs/ConfigPanelTab.qml:490
+#: contents/ui/config/tabs/ConfigPanelTab.qml:583
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1342
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:163
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:213
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:618
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:656
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:861
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:902
+msgid "Manual"
+msgstr "Manuellt"
+
+#: contents/ui/components/RadarWebEngineView.qml:153
+msgid "Map background"
+msgstr "Kartbakgrund"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:197
+msgid "Marine and weather data provider. API key required below."
+msgstr "Leverantör av havs- och väderdata. API-nyckel krävs nedan."
+
+#: contents/ui/js/airQuality.js:104
+msgid "Members of sensitive groups may experience health effects; the general public is less likely to be affected."
+msgstr "Personer i känsliga grupper kan få hälsoeffekter. Övriga löper mindre risk att påverkas."
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:84
+msgid "MeteoAlarm + NOAA NWS (Native)"
+msgstr "MeteoAlarm + NOAA NWS (inbyggt)"
+
+#: contents/ui/config/configAppearance.qml:267
+#: contents/ui/config/tabs/ConfigPanelTab.qml:423
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1437
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:296
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:64
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:74
+msgid "Meteocons (Bundled)"
+msgstr "Meteocons (medföljer)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:231
+msgid "Metric (°C, km/h, hPa, mm)"
+msgstr "Metriska enheter (°C, km/h, hPa, mm)"
+
+#: contents/ui/js/pollen.js:43
+msgid "Mild symptoms in highly sensitive individuals."
+msgstr "Lindriga symtom hos mycket känsliga personer."
+
+#: contents/ui/js/pollen.js:42
+msgid "Minimal to no risk."
+msgstr "Minimal eller ingen risk."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:642
+msgid "Minimum height:"
+msgstr "Minsta höjd:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:604
+msgid "Minimum width:"
+msgstr "Minsta bredd:"
+
+#: contents/ui/js/spaceWeather.js:95
+msgid "Minor geomagnetic storm."
+msgstr "Mindre geomagnetisk storm."
+
+#: contents/ui/config/configAppearance.qml:2471
+msgid "Misc"
+msgstr "Övrigt"
+
+#: contents/ui/components/RadarWebEngineView.qml:849
+msgid "Mod"
+msgstr "Måttl."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:163
+msgid "Mode:"
+msgstr "Läge:"
+
+#: contents/ui/components/RadarWebEngineView.qml:162
+#: contents/ui/js/airQuality.js:92 contents/ui/js/airQuality.js:103
+#: contents/ui/js/airQuality.js:121 contents/ui/js/pollen.js:43
+#: contents/ui/js/spaceWeather.js:188 contents/ui/js/spaceWeather.js:200
+#: contents/ui/main.qml:1001 contents/ui/main.qml:1033
+msgid "Moderate"
+msgstr "Måttlig"
+
+#: contents/ui/js/airQuality.js:121
+msgid "Moderate Risk"
+msgstr "Måttlig risk"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:622
+msgid "Moderate drizzle"
+msgstr "Måttligt duggregn"
+
+#: contents/ui/js/spaceWeather.js:94
+msgid "Moderate geomagnetic storm."
+msgstr "Måttlig geomagnetisk storm."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:630
+msgid "Moderate rain"
+msgstr "Måttligt regn"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:646
+msgid "Moderate rain showers"
+msgstr "Måttliga regnskurar"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:638
+msgid "Moderate snowfall"
+msgstr "Måttligt snöfall"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:904
+msgid "Monday"
+msgstr "Måndag"
+
+#: contents/ui/DetailsView.qml:360
+msgid "Moon"
+msgstr "Måne"
+
+#: contents/ui/config/configAppearance.qml:1848
+msgid "Moon Phase"
+msgstr "Månfas"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:500
+msgid "Moon mode:"
+msgstr "Månläge:"
+
+#: contents/ui/config/configAppearance.qml:1971
+#: contents/ui/config/configAppearance.qml:2094
+msgid "Moon phase and moonrise/moonset"
+msgstr "Månfas och månuppgång/månnedgång"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:568
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:562
+msgid "Moon phase mode:"
+msgstr "Månfasläge:"
+
+#: contents/ui/config/configAppearance.qml:1353
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:521
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:584
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:578
+msgid "Moon phase only"
+msgstr "Endast månfas"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:350
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:418
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:413
+msgid "Moon phase options"
+msgstr "Alternativ för månfas"
+
+#: contents/ui/config/configAppearance.qml:1972
+#: contents/ui/config/configAppearance.qml:2095
+msgid "Moon phase, moonrise & moonset"
+msgstr "Månfas, månuppgång och månnedgång"
+
+#: contents/ui/TooltipContent.qml:501 contents/ui/TooltipContent.qml:543
+#: contents/ui/TooltipContent.qml:565
+msgid "Moon:"
+msgstr "Måne:"
+
+#: contents/ui/DetailsView.qml:3827 contents/ui/DetailsView.qml:3832
+#: contents/ui/DetailsView.qml:4150 contents/ui/DetailsView.qml:4155
+msgid "Moonrise"
+msgstr "Månuppgång"
+
+#: contents/ui/config/configAppearance.qml:1357
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:525
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:588
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:582
+msgid "Moonrise & moonset only"
+msgstr "Endast månuppgång och månnedgång"
+
+#: contents/ui/config/configAppearance.qml:1404
+msgid "Moonrise icon:"
+msgstr "Ikon för månuppgång:"
+
+#: contents/ui/config/configAppearance.qml:1361
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:529
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:596
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:590
+msgid "Moonrise only"
+msgstr "Endast månuppgång"
+
+#: contents/ui/DetailsView.qml:3825 contents/ui/DetailsView.qml:4148
+msgid "Moonrise/Moonset"
+msgstr "Månuppgång/månnedgång"
+
+#: contents/ui/TooltipContent.qml:504 contents/ui/TooltipContent.qml:526
+#: contents/ui/TooltipContent.qml:533 contents/ui/TooltipContent.qml:557
+#: contents/ui/TooltipContent.qml:566
+msgid "Moonrise:"
+msgstr "Månuppgång:"
+
+#: contents/ui/DetailsView.qml:3829 contents/ui/DetailsView.qml:3832
+#: contents/ui/DetailsView.qml:4152 contents/ui/DetailsView.qml:4155
+msgid "Moonset"
+msgstr "Månnedgång"
+
+#: contents/ui/config/configAppearance.qml:1447
+msgid "Moonset icon:"
+msgstr "Ikon för månnedgång:"
+
+#: contents/ui/config/configAppearance.qml:1365
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:533
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:600
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:594
+msgid "Moonset only"
+msgstr "Endast månnedgång"
+
+#: contents/ui/TooltipContent.qml:508 contents/ui/TooltipContent.qml:523
+#: contents/ui/TooltipContent.qml:533 contents/ui/TooltipContent.qml:554
+#: contents/ui/TooltipContent.qml:567
+msgid "Moonset:"
+msgstr "Månnedgång:"
+
+#: contents/ui/main.qml:1837
+msgid "Morning"
+msgstr "Morgon"
+
+#: contents/ui/js/pollen.js:44
+msgid "Most allergy sufferers will experience discomfort."
+msgstr "De flesta allergiker får besvär."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:656
+#: contents/ui/DetailsView.qml:1524 contents/ui/main.qml:1041
+msgid "Mugwort"
+msgstr "Gråbo"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:141
+msgid "Multiple lines (tall panel)"
+msgstr "Flera rader (hög panel)"
+
+#: contents/ui/ForecastView.qml:1451 contents/ui/ForecastView.qml:2056
+#: contents/ui/main.qml:907 contents/ui/main.qml:940 contents/ui/main.qml:953
+#: contents/ui/main.qml:961 contents/ui/main.qml:969 contents/ui/main.qml:997
+#: contents/ui/main.qml:1060
+msgid "N/A"
+msgstr "Ej tillgängligt"
+
+#: contents/ui/config/configAppearance.qml:1891
+#: contents/ui/config/configAppearance.qml:2014
+#: contents/ui/config/configAppearance.qml:2137
+msgid "NOAA Kp index and geomagnetic activity"
+msgstr "NOAA:s Kp-index och geomagnetiska aktivitet"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:591
+msgid "NO₂"
+msgstr "NO₂"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:519
+msgid "Need the coordinates for a place? You can look them up at <a href=\"https://www.mapcoordinates.net/\">mapcoordinates.net</a>."
+msgstr "Behöver du koordinaterna för en plats? Du kan hitta dem på <a href=\"https://www.mapcoordinates.net/\">mapcoordinates.net</a>."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1236
+msgid "Negative spacing pulls panel items closer together than their natural gap and can make icons or text overlap."
+msgstr "Negativa mellanrum drar panelobjekt närmare varandra än deras normala avstånd och kan få ikoner eller text att överlappa."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:370
+msgid "Network error"
+msgstr "Nätverksfel"
+
+#: contents/ui/main.qml:2463
+msgid "New Moon"
+msgstr "Nymåne"
+
+#: contents/ui/DetailsView.qml:3587
+msgid "Night"
+msgstr "Natt"
+
+#: contents/ui/DetailsView.qml:1318
+msgid "Nitrogen Dioxide (NO₂)"
+msgstr "Kvävedioxid (NO₂)"
+
+#: contents/ui/config/configLocation.qml:1372
+msgid "No"
+msgstr "Nej"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:286
+msgid "No data"
+msgstr "Inga data"
+
+#: contents/ui/DetailsView.qml:620
+msgid "No details data"
+msgstr "Inga detaljdata"
+
+#: contents/ui/ForecastView.qml:375
+msgid "No forecast data"
+msgstr "Inga prognosdata"
+
+#: contents/ui/js/spaceWeather.js:96
+msgid "No geomagnetic storm activity."
+msgstr "Ingen geomagnetisk stormaktivitet."
+
+#: contents/ui/ForecastView.qml:1406 contents/ui/ForecastView.qml:1410
+#: contents/ui/ForecastView.qml:2031 contents/ui/ForecastView.qml:2035
+msgid "No info"
+msgstr "Ingen information"
+
+#: contents/ui/ForecastView.qml:674
+msgid "No information"
+msgstr "Ingen information"
+
+#: contents/ui/FullView.qml:234
+msgid "No location set"
+msgstr "Ingen plats angiven"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:287
+msgid "No radar data"
+msgstr "Inga radardata"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:288
+msgid "No satellite data"
+msgstr "Inga satellitdata"
+
+#: contents/ui/config/configLocation.qml:1711
+msgid "No saved locations. Save the current location to quickly switch between places."
+msgstr "Inga sparade platser. Spara den aktuella platsen för att snabbt växla mellan platser."
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "No weather stations found for '%1'"
+msgstr "Inga väderstationer hittades för ”%1”"
+
+#: contents/ui/components/RadarWebEngineView.qml:160
+#: contents/ui/components/RadarWebEngineView.qml:849
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:331
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1170
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:353
+#: contents/ui/js/spaceWeather.js:202 contents/ui/main.qml:1097
+#: contents/ui/main.qml:1099
+msgid "None"
+msgstr "Ingen"
+
+#: contents/ui/config/configLocation.qml:670
+msgid "None Selected"
+msgstr "Ingen vald"
+
+#: contents/ui/DetailsView.qml:1114
+msgid "Normal"
+msgstr "Normal"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:372
+msgid "Not available (HTTP %1)"
+msgstr "Inte tillgänglig (HTTP %1)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:507
+msgid "Not available: the selected base map already has a fixed light or dark style."
+msgstr "Inte tillgängligt: den valda bakgrundskartan har redan en fast ljus eller mörk stil."
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:744
+msgid "Not tested"
+msgstr "Inte testad"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1394
+msgid "Note: size may be reduced if the panel is not thick enough."
+msgstr "Obs! Storleken kan minskas om panelen inte är tillräckligt tjock."
+
+#: contents/config/config.qml:62 contents/ui/config/configNotifications.qml:277
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: contents/ui/config/configNotifications.qml:516
+msgid "Notify about upcoming alerts before they start"
+msgstr "Avisera om kommande varningar innan de börjar gälla"
+
+#: contents/ui/config/configNotifications.qml:656
+msgid "Notify about upcoming rain/storms"
+msgstr "Avisera om kommande regn eller oväder"
+
+#: contents/ui/config/configNotifications.qml:670
+msgid "Notify about upcoming snow"
+msgstr "Avisera om kommande snö"
+
+#: contents/ui/config/configNotifications.qml:684
+msgid "Notify with today's UV forecast"
+msgstr "Avisera med dagens UV-prognos"
+
+#: contents/ui/config/configNotifications.qml:616
+msgid "Notify with today's forecast"
+msgstr "Avisera med dagens prognos"
+
+#: contents/ui/config/configNotifications.qml:704
+msgid "Notify with today's geomagnetic activity forecast"
+msgstr "Avisera med dagens prognos för geomagnetisk aktivitet"
+
+#: contents/ui/config/configNotifications.qml:636
+msgid "Notify with tomorrow's forecast"
+msgstr "Avisera med morgondagens prognos"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:381
+#, javascript-format
+msgid "Now: %1%2"
+msgstr "Nu: %1%2"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:992
+msgid "Number of item rows visible at once. Resize the panel height in KDE settings to match."
+msgstr "Antal objektrader som visas samtidigt. Anpassa panelhöjden i KDE:s inställningar."
+
+#: contents/ui/config/configAppearance.qml:1026
+msgid "OK"
+msgstr "OK"
+
+#: contents/ui/config/configGeneral.qml:145
+msgid "Off - the workaround script has been removed, so it won't load on your next login. This session already started with GPU compositing disabled though, and your system isn't systemd-managed, so there's no way to clear that live - it stays disabled (including anything you open freshly in this session) until you log out and back in."
+msgstr "Av – skriptet som kringgår problemet har tagits bort och läses därför inte in nästa gång du loggar in. Den här sessionen startades dock med GPU-komposition inaktiverad, och ditt system hanteras inte av systemd, så inställningen kan inte återställas under pågående session. GPU-komposition förblir inaktiverad (även för program du öppnar i den här sessionen) tills du loggar ut och in igen."
+
+#: contents/ui/config/configGeneral.qml:147
+msgid "Off - the workaround script has been removed, so it won't load on your next login. This session already started with GPU compositing disabled though, so it stays that way (and anything already open, like a terminal, keeps showing the old value) until you log out and back in."
+msgstr "Av – skriptet som kringgår problemet har tagits bort och läses därför inte in nästa gång du loggar in. Den här sessionen startades dock med GPU-komposition inaktiverad, så den förblir inaktiverad (och redan öppna program, till exempel en terminal, fortsätter att visa det gamla värdet) tills du loggar ut och in igen."
+
+#: contents/ui/config/configGeneral.qml:143
+msgid "Off - the workaround script has been removed, so it won't load on your next login. Your system uses systemd, so anything launched fresh from here on may already reflect the cleared value - but anything already open (like a terminal you still have up) keeps showing the old one regardless, and a full log out and back in is the only guaranteed way to clear it everywhere."
+msgstr "Av – skriptet som kringgår problemet har tagits bort och läses därför inte in nästa gång du loggar in. Ditt system använder systemd, så program som startas från och med nu kan redan använda det återställda värdet. Redan öppna program (till exempel en terminal som du har öppen) fortsätter dock att visa det gamla värdet. Det enda säkra sättet att återställa inställningen överallt är att logga ut helt och in igen."
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:203
+msgid "Official Spanish meteorological agency - Spain locations only! API key required below."
+msgstr "Spaniens officiella meteorologiska myndighet – endast platser i Spanien! API-nyckel krävs nedan."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:657
+#: contents/ui/DetailsView.qml:1526 contents/ui/main.qml:1042
+msgid "Olive"
+msgstr "Oliv"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1178
+msgid "Only the clicked day expands"
+msgstr "Endast den dag du klickar på fälls ut"
+
+#: contents/ui/config/configLocation.qml:1177
+#: contents/ui/config/configLocation.qml:1554 contents/ui/RadarView.qml:374
+msgid "Open install guide"
+msgstr "Öppna installationsguiden"
+
+#: contents/ui/RadarView.qml:293 contents/ui/RadarView.qml:381
+msgid "Open radar in browser"
+msgstr "Öppna radar i webbläsaren"
+
+#: contents/ui/config/configGeneral.qml:554
+msgid "Open-Meteo (recommended, free)"
+msgstr "Open-Meteo (rekommenderas, kostnadsfritt)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:51
+msgid "OpenFreeMap Dark"
+msgstr "OpenFreeMap Dark"
+
+#: contents/ui/components/MapBackgroundChoices.qml:50
+msgid "OpenFreeMap Fiord (dark)"
+msgstr "OpenFreeMap Fiord (mörk)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:49
+msgid "OpenFreeMap Liberty (light)"
+msgstr "OpenFreeMap Liberty (ljus)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:48
+msgid "OpenFreeMap Positron (light)"
+msgstr "OpenFreeMap Positron (ljus)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:44
+msgid "OpenStreetMap (dark)"
+msgstr "OpenStreetMap (mörk)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:43
+msgid "OpenStreetMap (standard)"
+msgstr "OpenStreetMap (standard)"
+
+#: contents/ui/components/MapBackgroundChoices.qml:47
+msgid "OpenTopoMap (topographic)"
+msgstr "OpenTopoMap (topografisk)"
+
+#: contents/ui/config/configGeneral.qml:566
+msgid "OpenWeatherMap (Key Required)"
+msgstr "OpenWeatherMap (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:237
+msgid "OpenWeatherMap API Key:"
+msgstr "API-nyckel för OpenWeatherMap:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1153
+msgid "Opens today's hourly forecast automatically (or the next available day)"
+msgstr "Öppnar automatiskt dagens timprognos (eller nästa tillgängliga dag)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:513
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:355
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:420
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:415
+msgid "Options"
+msgstr "Alternativ"
+
+#: contents/ui/config/configNotifications.qml:322
+#: contents/ui/config/configNotifications.qml:371
+msgid "Orange"
+msgstr "Orange"
+
+#: contents/ui/config/configAppearance.qml:699
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:51
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:616
+#: contents/ui/main.qml:2238
+msgid "Overcast"
+msgstr "Mulet"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:478
+msgid "Overlay detected storm cells on the map"
+msgstr "Visa identifierade åskceller ovanpå kartan"
+
+#: contents/ui/DetailsView.qml:1320
+msgid "Ozone (O₃)"
+msgstr "Ozon (O₃)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:592
+msgid "O₃"
+msgstr "O₃"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:590
+msgid "PM10"
+msgstr "PM10"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:589
+msgid "PM2.5"
+msgstr "PM2.5"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:418
+msgid "Palette:"
+msgstr "Färgpalett:"
+
+#: contents/ui/config/configAppearance.qml:2459
+#: contents/ui/config/tabs/ConfigMiscTab.qml:203
+msgid "Panel"
+msgstr "Panel"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:96
+msgid "Panel Items"
+msgstr "Panelobjekt"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:120
+msgid "Panel display settings"
+msgstr "Inställningar för panelvisning"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1318
+msgid "Panel font:"
+msgstr "Panelens teckensnitt:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1254
+msgid "Panel items settings"
+msgstr "Inställningar för panelobjekt"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1537
+msgid "Panel items:"
+msgstr "Panelobjekt:"
+
+#: contents/ui/config/configAppearance.qml:119
+msgid "Panel › Icon theme"
+msgstr "Panel › Ikontema"
+
+#: contents/ui/config/configAppearance.qml:163
+msgid "Panel › Multi-line layout › Main icon style"
+msgstr "Panel › Flerradig layout › Huvudikonens stil"
+
+#: contents/ui/config/configAppearance.qml:133
+msgid "Panel › Simple layout › Weather icon style"
+msgstr "Panel › Enkel layout › Väderikonens stil"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:377
+msgid "Particle width:"
+msgstr "Partikelbredd:"
+
+#: contents/ui/DetailsView.qml:1316
+msgid "Particulate Matter (PM10)"
+msgstr "Partiklar (PM10)"
+
+#: contents/ui/DetailsView.qml:1314
+msgid "Particulate Matter (PM2.5)"
+msgstr "Partiklar (PM2.5)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:50
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:614
+#: contents/ui/main.qml:2236 contents/ui/main.qml:2288
+msgid "Partly cloudy"
+msgstr "Halvklart"
+
+#: contents/ui/config/configAppearance.qml:688
+msgid "Partly cloudy (day)"
+msgstr "Halvklart (dag)"
+
+#: contents/ui/config/configAppearance.qml:693
+msgid "Partly cloudy (night)"
+msgstr "Halvklart (natt)"
+
+#: contents/ui/components/RadarWebEngineView.qml:157
+msgid "Pause"
+msgstr "Pausa"
+
+#: contents/ui/config/configNotifications.qml:568
+msgid "Per alert type:"
+msgstr "Per varningstyp:"
+
+#: contents/ui/config/configAppearance.qml:1341
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:509
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:576
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:570
+msgid "Phase + moonrise & moonset"
+msgstr "Fas + månuppgång och månnedgång"
+
+#: contents/ui/config/configAppearance.qml:1345
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:513
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:580
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:574
+msgid "Phase + upcoming rise/set"
+msgstr "Fas + nästa uppgång/nedgång"
+
+#: contents/ui/config/configLocation.qml:1667
+msgid "Pick an exact spot on the map for a more local forecast, such as your neighborhood block or a specific landmark."
+msgstr "Välj en exakt punkt på kartan för en mer lokal prognos, till exempel ditt kvarter eller ett visst landmärke."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1162
+msgid "Pipe  |"
+msgstr "Lodstreck  |"
+
+#: contents/ui/config/configGeneral.qml:574
+msgid "Pirate Weather (Key Required)"
+msgstr "Pirate Weather (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:239
+msgid "Pirate Weather API Key:"
+msgstr "API-nyckel för Pirate Weather:"
+
+#: contents/ui/components/RadarWebEngineView.qml:156
+msgid "Play"
+msgstr "Spela upp"
+
+#: contents/ui/config/configNotifications.qml:403
+msgid "Plays a sound alongside the notification for alerts of that severity. A switch greyed out here means that severity is turned off above, so it never notifies - with or without sound. By default only Red and Purple play a sound."
+msgstr "Spelar upp ett ljud tillsammans med aviseringen för varningar med den allvarlighetsgraden. Ett nedtonat reglage här betyder att allvarlighetsgraden är avstängd ovan och därför aldrig ger några aviseringar – med eller utan ljud. Som standard spelas ljud endast för röd och lila nivå."
+
+#: contents/ui/config/configAppearance.qml:1883
+#: contents/ui/config/configAppearance.qml:2006
+#: contents/ui/config/configAppearance.qml:2129 contents/ui/DetailsView.qml:366
+#: contents/ui/SimpleView.qml:267
+msgid "Pollen"
+msgstr "Pollen"
+
+#: contents/ui/DetailsView.qml:1673
+msgid "Pollen data not available for this location."
+msgstr "Pollendata är inte tillgängliga för den här platsen."
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:352
+msgid "Pollen options"
+msgstr "Alternativ för pollen"
+
+#: contents/ui/TooltipContent.qml:475
+msgid "Pollen:"
+msgstr "Pollen:"
+
+#: contents/ui/js/airQuality.js:93
+msgid "Poor"
+msgstr "Dålig"
+
+#: contents/ui/main.qml:566
+msgid "Postpone"
+msgstr "Skjut upp"
+
+#: contents/ui/SimpleView.qml:264
+msgid "Precip Sum"
+msgstr "Nederbördsmängd"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1412
+msgid "Precip probability:"
+msgstr "Sannolikhet för nederbörd:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1274
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1480
+msgid "Precip sum:"
+msgstr "Nederbördsmängd:"
+
+#: contents/ui/TooltipContent.qml:460
+msgid "Precip. Sum:"
+msgstr "Nederbördsmängd:"
+
+#: contents/ui/config/configAppearance.qml:1855
+#: contents/ui/config/configAppearance.qml:1978
+#: contents/ui/config/configAppearance.qml:2101 contents/ui/DetailsView.qml:362
+#: contents/ui/SimpleView.qml:263
+msgid "Precipitation"
+msgstr "Nederbörd"
+
+#: contents/ui/config/configAppearance.qml:1862
+#: contents/ui/config/configAppearance.qml:1985
+#: contents/ui/config/configAppearance.qml:2108 contents/ui/DetailsView.qml:363
+msgid "Precipitation Sum"
+msgstr "Nederbördsmängd"
+
+#: contents/ui/config/configAppearance.qml:1856
+#: contents/ui/config/configAppearance.qml:1979
+#: contents/ui/config/configAppearance.qml:2102
+msgid "Precipitation rate (mm/h)"
+msgstr "Nederbördsintensitet (mm/h)"
+
+#: contents/ui/TooltipContent.qml:455
+msgid "Precipitation:"
+msgstr "Nederbörd:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:241
+msgid "Prefix style:"
+msgstr "Prefixstil:"
+
+#: contents/ui/components/RadarWebEngineView.qml:133
+#: contents/ui/config/configAppearance.qml:1834
+#: contents/ui/config/configAppearance.qml:1936
+#: contents/ui/config/configAppearance.qml:2080 contents/ui/DetailsView.qml:355
+#: contents/ui/SimpleView.qml:260
+msgid "Pressure"
+msgstr "Lufttryck"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1227
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1427
+msgid "Pressure forecast:"
+msgstr "Lufttrycksprognos:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:373
+#: contents/ui/TooltipContent.qml:443
+msgid "Pressure:"
+msgstr "Lufttryck:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:179
+msgid "Preview: 20°C"
+msgstr "Förhandsvisning: 20°C"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:156
+msgid "Primary unit shown first (e.g. °C / °F)"
+msgstr "Primär enhet visas först (t.ex. °C / °F)"
+
+#: contents/ui/config/configGeneral.qml:618 contents/ui/DetailsView.qml:2445
+msgid "Provider"
+msgstr "Leverantör"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:676
+msgid "Provider availability"
+msgstr "Tillgänglighet hos leverantörer"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:187
+#: contents/ui/config/tabs/ConfigProviderTab.qml:189
+#: contents/ui/config/tabs/ConfigProviderTab.qml:191
+#: contents/ui/config/tabs/ConfigProviderTab.qml:193
+#: contents/ui/config/tabs/ConfigProviderTab.qml:195
+#: contents/ui/config/tabs/ConfigProviderTab.qml:197
+#: contents/ui/config/tabs/ConfigProviderTab.qml:199
+#: contents/ui/config/tabs/ConfigProviderTab.qml:201
+#: contents/ui/config/tabs/ConfigProviderTab.qml:203
+#: contents/ui/config/tabs/ConfigProviderTab.qml:205
+#: contents/ui/config/tabs/ConfigProviderTab.qml:207
+#: contents/ui/config/tabs/ConfigProviderTab.qml:208
+msgid "Provider website:"
+msgstr "Leverantörens webbplats:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:128
+#: contents/ui/DetailsView.qml:2185 contents/ui/DetailsView.qml:2928
+msgid "Provider:"
+msgstr "Leverantör:"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:377
+msgid "Provider: %1"
+msgstr "Leverantör: %1"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:122
+msgid ""
+"Providers are tried in order until one succeeds:\n"
+"Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+" If you want to choose a specific provider, please turn off Adaptive Mode.\n"
+"Open-Meteo is always tried first - it is free and requires no API key. AEMET is intentionally not part of this list, as it only covers Spain and is not suitable for global use."
+msgstr ""
+"Leverantörerna provas i följande ordning tills någon lyckas:\n"
+"Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+" Om du vill välja en viss leverantör stänger du av adaptivt läge.\n"
+"Open-Meteo provas alltid först – det är kostnadsfritt och kräver ingen API-nyckel. AEMET ingår avsiktligt inte i listan, eftersom tjänsten endast täcker Spanien och inte är lämplig för global användning."
+
+#: contents/ui/config/configNotifications.qml:332
+#: contents/ui/config/configNotifications.qml:385
+msgid "Purple"
+msgstr "Lila"
+
+#: contents/ui/config/configGeneral.qml:594
+msgid "QWeather (Key Required)"
+msgstr "QWeather (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:446
+msgid "QWeather API Host:"
+msgstr "API-värd för QWeather:"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:249
+msgid "QWeather API Key:"
+msgstr "API-nyckel för QWeather:"
+
+#: contents/ui/config/configGeneral.qml:511
+msgid "QWeather error (code %1). Check your API key."
+msgstr "QWeather-fel (kod %1). Kontrollera din API-nyckel."
+
+#: contents/ui/ForecastView.qml:865
+msgid "QWeather provides hourly forecasts for up to 168 hours (7 days). Daily forecast is still available for this date."
+msgstr "QWeather tillhandahåller timprognoser för upp till 168 timmar (7 dagar). Dygnsprognosen är fortfarande tillgänglig för det här datumet."
+
+#: contents/ui/config/configLocation.qml:1130
+msgid "QtLocation and QtPositioning are not installed"
+msgstr "QtLocation och QtPositioning är inte installerade"
+
+#: contents/ui/RadarView.qml:334
+msgid "QtWebEngine is not installed"
+msgstr "QtWebEngine är inte installerat"
+
+#: contents/ui/js/spaceWeather.js:177
+msgid "Quiet"
+msgstr "Lugn"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:234
+#: contents/ui/components/RadarWebEngineView.qml:128
+#: contents/ui/config/configGeneral.qml:622
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:322 contents/ui/FullView.qml:584
+msgid "Radar"
+msgstr "Radar"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:244
+msgid "Radar + Satellite"
+msgstr "Radar + satellit"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:86
+msgid "Radar Settings"
+msgstr "Radarinställningar"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:352
+msgid "Radar only"
+msgstr "Endast radar"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:249
+msgid "Radar provider:"
+msgstr "Radarleverantör:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:291
+msgid "Radar provider: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR is a free, open-source weather radar API. It combines real radar composites from NOAA, Canadian, and European sources with a global model fallback, and provides the past 2 hours of radar data plus a short nowcast. It also offers a free satellite (infrared) layer.<br/><br/>Layer mode, radar color scheme, and motion arrows are selected directly in the Radar tab. The map follows your Plasma light/dark theme automatically."
+msgstr "Radarleverantör: <a href='https://librewxr.net/'>LibreWXR</a><br/><br/>LibreWXR är ett kostnadsfritt väderradar-API med öppen källkod. Det kombinerar sammansatta radarbilder från NOAA samt kanadensiska och europeiska källor med en global modell som reserv och tillhandahåller radardata för de senaste 2 timmarna samt en kort nulägesprognos. Det erbjuder även ett kostnadsfritt satellitlager (infrarött).<br/><br/>Lagerläge, radarns färgschema och rörelsepilar väljs direkt i radarfliken. Kartan följer automatiskt ditt ljusa eller mörka Plasma-tema."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:281
+msgid "Radar provider: <a href='https://www.rainviewer.com/'>Rain Viewer</a><br/><br/>The widget uses the free RainViewer API, which provides the past 2 hours of weather radar data in 10-minute intervals. Radar forecast is not supported.<br/><br/>Rain Viewer does not guarantee the availability of radar data. They do not conclude contracts with owners of this data. The reason is that the owners can ask them to remove their data from Rain Viewer, change the format, or stop sharing the data. They are trying to keep radar data for as long as possible, but sometimes the owners just stop providing the images."
+msgstr "Radarleverantör: <a href='https://www.rainviewer.com/'>Rain Viewer</a><br/><br/>Widgeten använder RainViewers kostnadsfria API, som tillhandahåller väderradardata för de senaste 2 timmarna med 10 minuters intervall. Radarprognoser stöds inte.<br/><br/>Rain Viewer garanterar inte att radardata är tillgängliga. De ingår inga avtal med dataägarna. Anledningen är att ägarna kan be dem ta bort sina data från Rain Viewer, ändra formatet eller sluta dela data. De försöker behålla radardata så länge som möjligt, men ibland slutar ägarna helt enkelt att tillhandahålla bilderna."
+
+#: contents/ui/FullView.qml:751 contents/ui/FullView.qml:753
+msgid "Radar:"
+msgstr "Radar:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:658
+#: contents/ui/DetailsView.qml:1528 contents/ui/main.qml:1043
+msgid "Ragweed"
+msgstr "Malörtsambrosia"
+
+#: contents/ui/components/RadarWebEngineView.qml:129
+#: contents/ui/config/configNotifications.qml:83
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:55
+#: contents/ui/main.qml:1133 contents/ui/main.qml:1952
+#: contents/ui/main.qml:2256
+msgid "Rain"
+msgstr "Regn"
+
+#: contents/ui/config/configAppearance.qml:722
+msgid "Rain (day)"
+msgstr "Regn (dag)"
+
+#: contents/ui/config/configAppearance.qml:727
+msgid "Rain (night)"
+msgstr "Regn (natt)"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:262
+msgid "Rain Viewer"
+msgstr "Rain Viewer"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:59
+msgid "Rain showers"
+msgstr "Regnskurar"
+
+#: contents/ui/config/configNotifications.qml:653
+msgid "Rain/Storm"
+msgstr "Regn/oväder"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:163
+msgid "Read-only while Adaptive mode is on - turn it off above to choose a specific provider."
+msgstr "Skrivskyddat när adaptivt läge är aktiverat – stäng av det ovan för att välja en viss leverantör."
+
+#: contents/ui/components/RadarWebEngineView.qml:158
+msgid "Real-time"
+msgstr "Realtid"
+
+#: contents/ui/components/RadarWebEngineView.qml:155
+msgid "Recent"
+msgstr "Nyligen"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:576
+msgid "Recommended - e.g. 560"
+msgstr "Rekommenderas – t.ex. 560"
+
+#: contents/ui/config/configNotifications.qml:327
+#: contents/ui/config/configNotifications.qml:378
+msgid "Red"
+msgstr "Röd"
+
+#: contents/ui/js/airQuality.js:122
+msgid "Reduce or reschedule strenuous outdoor activities, especially if you experience symptoms."
+msgstr "Minska eller flytta ansträngande utomhusaktiviteter, särskilt om du får symtom."
+
+#: contents/ui/config/configLocation.qml:1609 contents/ui/FullView.qml:430
+#: contents/ui/main.qml:413
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:486
+msgid "Refresh weather automatically"
+msgstr "Uppdatera vädret automatiskt"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:857
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:731
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:725
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:504
+msgid "Region default"
+msgstr "Regional standard"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:777
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:651
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:645
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:436
+msgid "Region default (long)"
+msgstr "Regional standard (lång)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:776
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:650
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:644
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:437
+msgid "Region default (short)"
+msgstr "Regional standard (kort)"
+
+#: contents/ui/config/configAppearance.qml:1930
+#: contents/ui/config/configAppearance.qml:2074
+msgid "Relative humidity %"
+msgstr "Relativ luftfuktighet %"
+
+#: contents/ui/config/configAppearance.qml:1828
+msgid "Relative humidity percentage"
+msgstr "Relativ luftfuktighet i procent"
+
+#: contents/ui/config/configLocation.qml:1420
+msgid "Remove last location?"
+msgstr "Ta bort den sista platsen?"
+
+#: contents/ui/config/configLocation.qml:1983
+msgid "Remove saved location"
+msgstr "Ta bort sparad plats"
+
+#: contents/ui/config/configLocation.qml:1952
+msgid "Rename location"
+msgstr "Byt namn på plats"
+
+#: contents/ui/config/configNotifications.qml:532
+msgid "Repeat reminder until dismissed"
+msgstr "Upprepa påminnelsen tills den avfärdas"
+
+#: contents/ui/config/configLocation.qml:870
+msgid "Requesting location via GeoClue2…"
+msgstr "Begär plats via GeoClue2…"
+
+#: contents/ui/config/configLocation.qml:858
+msgid "Requesting location… (%1)"
+msgstr "Begär plats… (%1)"
+
+#: contents/ui/config/configAppearance.qml:995
+#: contents/ui/config/configAppearance.qml:1267
+#: contents/ui/config/configAppearance.qml:1310
+#: contents/ui/config/configAppearance.qml:1435
+#: contents/ui/config/configAppearance.qml:1478
+#: contents/ui/config/configNotifications.qml:453
+#: contents/ui/config/tabs/ConfigPanelTab.qml:660
+#: contents/ui/config/tabs/ConfigPanelTab.qml:782
+#: contents/ui/config/tabs/ConfigPanelTab.qml:917
+msgid "Reset"
+msgstr "Återställ"
+
+#: contents/ui/config/configAppearance.qml:1012
+msgid "Reset All to Defaults"
+msgstr "Återställ allt till standardvärden"
+
+#: contents/ui/config/configAppearance.qml:1153
+msgid "Reset to default"
+msgstr "Återställ till standardvärde"
+
+#: contents/ui/main.qml:2242
+msgid "Rime fog"
+msgstr "Dimma med rimfrost"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:77
+msgid "Round values:"
+msgstr "Avrunda värden:"
+
+#: contents/ui/config/configNotifications.qml:560
+msgid "Routine tests (for example \"Required Weekly Test\") are ignored: no notification and no sound."
+msgstr "Rutintester (till exempel \"Required Weekly Test\") ignoreras: ingen avisering och inget ljud."
+
+#: contents/ui/config/configNotifications.qml:559
+msgid "Routine tests (for example \"Required Weekly Test\") will show a notification, but never play an alert sound."
+msgstr "Rutintester (till exempel \"Required Weekly Test\") visar en avisering, men spelar aldrig upp något larmljud."
+
+#: contents/ui/main.qml:1475
+msgctxt "Alert severity"
+msgid "SEVERE"
+msgstr "KRAFTIG"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:593
+msgid "SO₂"
+msgstr "SO₂"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:239
+msgid "Satellite"
+msgstr "Satellit"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:906
+msgid "Saturday"
+msgstr "Lördag"
+
+#: contents/ui/config/configLocation.qml:1695
+msgid "Saved locations"
+msgstr "Sparade platser"
+
+#: contents/ui/config/configGeneral.qml:162
+msgid "Saved, but not active yet - log out and back in for it to take effect."
+msgstr "Sparat, men ännu inte aktivt – logga ut och in igen för att ändringen ska börja gälla."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:996
+msgid "Scroll animation:"
+msgstr "Rullningsanimering:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:962
+msgid "Scroll interval (sec):"
+msgstr "Rullningsintervall (sek):"
+
+#: contents/ui/config/configLocation.qml:1655
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:276
+msgid "Search Location"
+msgstr "Sök efter plats"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:527
+msgid "Search a weather station to set your location"
+msgstr "Sök efter en väderstation för att ange din plats"
+
+#: contents/ui/config/configLocation.qml:1659
+msgid "Search by city or place name. Results show the location name, region, and country, and are suitable for general city-level forecasts rather than exact street-level placement."
+msgstr "Sök efter stadens eller platsens namn. Resultaten visar platsnamn, region och land och lämpar sig för allmänna prognoser på stadsnivå snarare än exakta positioner på gatunivå."
+
+#: contents/ui/config/configLocation.qml:1647
+msgid "Search for a location or choose it on the map."
+msgstr "Sök efter en plats eller välj den på kartan."
+
+#: contents/ui/config/configLocation.qml:1245
+msgid "Search location"
+msgstr "Sök efter plats"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:345
+msgid "Search location…"
+msgstr "Sök efter plats…"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:156
+msgid "Secondary unit shown first (e.g. °F / °C)"
+msgstr "Sekundär enhet visas först (t.ex. °F / °C)"
+
+#: contents/ui/config/configNotifications.qml:526
+msgid "Sends a single, low-priority heads-up as soon as a future alert is published (e.g. \"Heat warning starts tomorrow at 11:00\"). The normal alert notification above still fires separately once it actually becomes active."
+msgstr "Skickar en enda förhandsavisering med låg prioritet så snart en kommande varning publiceras (t.ex. ”Varning för värme börjar gälla i morgon kl. 11:00”). Den vanliga varningsaviseringen ovan skickas fortfarande separat när varningen väl börjar gälla."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:161
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1143
+msgid "Separator:"
+msgstr "Avskiljare:"
+
+#: contents/ui/js/pollen.js:45
+msgid "Serious risk; avoid outdoor activities."
+msgstr "Allvarlig risk. Undvik utomhusaktiviteter."
+
+#: contents/ui/config/configLocation.qml:1317
+msgid "Set <b>%1</b> as your default location?"
+msgstr "Ange <b>%1</b> som din standardplats?"
+
+#: contents/ui/FullView.qml:243
+msgid "Set Location…"
+msgstr "Ange plats…"
+
+#: contents/ui/config/configLocation.qml:1910
+msgid "Set as default location"
+msgstr "Ange som standardplats"
+
+#: contents/ui/config/configLocation.qml:1290
+msgid "Set as default?"
+msgstr "Ange som standard?"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1527
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:386
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:779
+msgid "Set your own icons…"
+msgstr "Välj egna ikoner…"
+
+#: contents/ui/config/configAppearance.qml:480
+msgid "Settings where this theme is not available keep their current theme."
+msgstr "Inställningar där det här temat inte är tillgängligt behåller sitt nuvarande tema."
+
+#: contents/ui/js/spaceWeather.js:92
+msgid "Severe geomagnetic storm."
+msgstr "Kraftig geomagnetisk storm."
+
+#: contents/ui/config/configNotifications.qml:311
+msgid "Severities:"
+msgstr "Allvarlighetsgrader:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1290
+msgid "Shadow Color"
+msgstr "Skuggfärg"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:742
+msgid "Shadow color:"
+msgstr "Skuggfärg:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:715
+msgid "Shadow intensity:"
+msgstr "Skuggans intensitet:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:964
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:817
+msgid "Show / hide the prefix icon"
+msgstr "Visa eller dölj den inledande ikonen"
+
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:833
+msgid "Show / hide the prefix icon on the panel"
+msgstr "Visa eller dölj den inledande ikonen i panelen"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:102
+msgid "Show Radar tab in widget"
+msgstr "Visa radarfliken i widgeten"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1124
+msgid "Show Today:"
+msgstr "Visa i dag:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:491
+msgid "Show WMO alerts on the map"
+msgstr "Visa WMO-varningar på kartan"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:431
+msgid "Show air quality standards:"
+msgstr "Visa luftkvalitetsstandarder:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:121
+msgid "Show both units:"
+msgstr "Visa båda enheterna:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:419
+msgid "Show in details"
+msgstr "Visa i detaljvyn"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:185
+msgid "Show in:"
+msgstr "Visa i:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:449
+msgid "Show motion arrows on the map"
+msgstr "Visa rörelsepilar på kartan"
+
+#: contents/ui/components/RadarWebEngineView.qml:159
+msgid "Show my location"
+msgstr "Visa min plats"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:1004
+msgid "Show or hide this detail item"
+msgstr "Visa eller dölj det här detaljobjektet"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1185
+msgid "Show past weather info for today:"
+msgstr "Visa väderinformation för tidigare timmar i dag:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:626
+msgid "Show pollen types in expanded view:"
+msgstr "Visa pollentyper i utökad vy:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:561
+msgid "Show pollutants in expanded view:"
+msgstr "Visa luftföroreningar i utökad vy:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:407
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:476
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:471
+msgid "Show prefix icon"
+msgstr "Visa inledande ikon"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:690
+msgid "Show space weather items in expanded view:"
+msgstr "Visa rymdväderobjekt i utökad vy:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:96
+msgid "Show temperature unit:"
+msgstr "Visa temperaturenhet:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:630
+msgid "Show the wind at about 3000 m (700 hPa), the flow that steers the rain, instead of the surface wind at 10 m"
+msgstr "Visa vinden på cirka 3000 m höjd (700 hPa), det luftflöde som styr regnet, i stället för marknära vind på 10 m höjd"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:520
+msgid "Show tile options: smoothing, snow mask, format and tile size"
+msgstr "Visa alternativ för kartrutor: utjämning, snömask, format och rutstorlek"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:380
+msgid "Show update time and provider"
+msgstr "Visa uppdateringstid och leverantör"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:360
+msgid "Show/hide key"
+msgstr "Visa/dölj nyckel"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:249
+msgid "Show:"
+msgstr "Visa:"
+
+#: contents/ui/main.qml:2274
+msgid "Showers"
+msgstr "Regnskurar"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:135
+msgid "Showing primary unit only"
+msgstr "Visar endast primär enhet"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:110
+msgid "Showing ° only"
+msgstr "Visar endast °"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:110
+msgid "Showing °C / °F after values"
+msgstr "Visar °C / °F efter värdena"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:144
+msgid "Shown"
+msgstr "Visas"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:177
+msgid "Simple"
+msgstr "Enkelt"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:145
+#: contents/ui/config/tabs/ConfigPanelTab.qml:170
+msgid "Simple (icon + temperature)"
+msgstr "Enkelt (ikon + temperatur)"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:114
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:941
+msgid "Simple Mode Items"
+msgstr "Objekt i enkelt läge"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1540
+msgid "Simple Widget"
+msgstr "Enkel widget"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1007
+msgid "Simple chips:"
+msgstr "Enkla etiketter:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:187
+msgid "Simple display mode settings"
+msgstr "Inställningar för enkelt visningsläge"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:137
+msgid "Single line (all items at once)"
+msgstr "En rad (alla objekt samtidigt)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1462
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:321
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:737
+msgid "Size:"
+msgstr "Storlek:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:309
+msgid "Skipped - API key not configured"
+msgstr "Överhoppad – API-nyckel har inte konfigurerats"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:628
+msgid "Slight rain"
+msgstr "Lätt regn"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:644
+msgid "Slight rain showers"
+msgstr "Lätta regnskurar"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:650
+msgid "Slight snow showers"
+msgstr "Lätta snöbyar"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:636
+msgid "Slight snowfall"
+msgstr "Lätt snöfall"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1174
+msgid "Small circle  ⚬"
+msgstr "Liten cirkel  ⚬"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:358
+msgid "Smooth (20 to 30 fps)"
+msgstr "Mjuk (20 till 30 fps)"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:601
+msgid "Smooth radar tile edges"
+msgstr "Jämna ut radarkartrutornas kanter"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:593
+msgid "Smoothing"
+msgstr "Utjämning"
+
+#: contents/ui/config/configNotifications.qml:667
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:57
+#: contents/ui/main.qml:2266
+msgid "Snow"
+msgstr "Snö"
+
+#: contents/ui/config/configAppearance.qml:766
+msgid "Snow (day)"
+msgstr "Snö (dag)"
+
+#: contents/ui/config/configAppearance.qml:771
+msgid "Snow (night)"
+msgstr "Snö (natt)"
+
+#: contents/ui/config/configAppearance.qml:1904
+#: contents/ui/config/configAppearance.qml:2027
+#: contents/ui/config/configAppearance.qml:2150 contents/ui/DetailsView.qml:369
+#: contents/ui/SimpleView.qml:270
+msgid "Snow Cover"
+msgstr "Snötäcke"
+
+#: contents/ui/TooltipContent.qml:490
+msgid "Snow Cover:"
+msgstr "Snötäcke:"
+
+#: contents/ui/config/configAppearance.qml:1905
+#: contents/ui/config/configAppearance.qml:2028
+#: contents/ui/config/configAppearance.qml:2151
+msgid "Snow depth (cm/in)"
+msgstr "Snödjup (cm/in)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:58
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:642
+#: contents/ui/main.qml:2270
+msgid "Snow grains"
+msgstr "Snökorn"
+
+#: contents/ui/main.qml:2039
+msgid "Snow is ending"
+msgstr "Snöfallet avtar"
+
+#: contents/ui/main.qml:2034
+msgid "Snow is expected"
+msgstr "Snö väntas"
+
+#: contents/ui/main.qml:2040
+msgid "Snow is expected to end %1."
+msgstr "Snöfallet väntas upphöra %1."
+
+#: contents/ui/main.qml:2035
+msgid "Snow is possible %1."
+msgstr "Snö kan förekomma %1."
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:607
+msgid "Snow mask"
+msgstr "Snömask"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:60
+#: contents/ui/main.qml:2280
+msgid "Snow showers"
+msgstr "Snöbyar"
+
+#: contents/ui/config/configNotifications.qml:75 contents/ui/main.qml:1125
+msgid "Snow/Ice"
+msgstr "Snö/is"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:719
+#: contents/ui/DetailsView.qml:2021
+msgid "Solar Wind"
+msgstr "Solvind"
+
+#: contents/ui/config/configNotifications.qml:358
+msgid "Sounds:"
+msgstr "Ljud:"
+
+#: contents/ui/config/configAppearance.qml:1890
+#: contents/ui/config/configAppearance.qml:2013
+#: contents/ui/config/configAppearance.qml:2136 contents/ui/DetailsView.qml:367
+#: contents/ui/SimpleView.qml:268
+msgid "Space Weather"
+msgstr "Rymdväder"
+
+#: contents/ui/TooltipContent.qml:480
+msgid "Space Weather:"
+msgstr "Rymdväder:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:353
+msgid "Space weather options"
+msgstr "Alternativ för rymdväder"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:187
+msgid "Standard provider. API key required below."
+msgstr "Standardleverantör. API-nyckel krävs nedan."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1058
+msgid "Stats items:"
+msgstr "Statistikobjekt:"
+
+#: contents/ui/components/RadarWebEngineView.qml:164
+#: contents/ui/components/RadarWebEngineView.qml:849
+#: contents/ui/js/spaceWeather.js:174
+msgid "Storm"
+msgstr "Oväder"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:467
+msgid "Storm cells"
+msgstr "Åskceller"
+
+#: contents/ui/config/configGeneral.qml:586
+msgid "StormGlass (Key Required)"
+msgstr "StormGlass (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:245
+msgid "StormGlass API Key:"
+msgstr "API-nyckel för StormGlass:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1362
+msgid "Strip"
+msgstr "Remsa"
+
+#: contents/ui/js/spaceWeather.js:173
+msgid "Strong"
+msgstr "Stark"
+
+#: contents/ui/js/spaceWeather.js:93
+msgid "Strong geomagnetic storm."
+msgstr "Stark geomagnetisk storm."
+
+#: contents/ui/DetailsView.qml:1322
+msgid "Sulfur Dioxide (SO₂)"
+msgstr "Svaveldioxid (SO₂)"
+
+#: contents/ui/config/configAppearance.qml:1951
+#: contents/ui/config/configAppearance.qml:2088
+msgid "Sun rise & set times"
+msgstr "Tider för soluppgång och solnedgång"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:455
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:523
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:518
+msgid "Sun times mode:"
+msgstr "Läge för soltider:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:349
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:417
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:412
+msgid "Sun times options"
+msgstr "Alternativ för soltider"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:903
+msgid "Sunday"
+msgstr "Söndag"
+
+#: contents/ui/DetailsView.qml:3360 contents/ui/DetailsView.qml:3364
+#: contents/ui/DetailsView.qml:3704 contents/ui/DetailsView.qml:3708
+#: contents/ui/ForecastView.qml:1250
+msgid "Sunrise"
+msgstr "Soluppgång"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:390
+msgid "Sunrise / Sunset:"
+msgstr "Soluppgång/solnedgång:"
+
+#: contents/ui/config/configAppearance.qml:1806
+msgid "Sunrise and sunset times"
+msgstr "Tider för soluppgång och solnedgång"
+
+#: contents/ui/config/configAppearance.qml:1236
+msgid "Sunrise icon:"
+msgstr "Ikon för soluppgång:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:468
+msgid "Sunrise only"
+msgstr "Endast soluppgång"
+
+#: contents/ui/config/configAppearance.qml:1193
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:540
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:534
+msgid "Sunrise only  07:17"
+msgstr "Endast soluppgång  07:17"
+
+#: contents/ui/config/configAppearance.qml:1805
+#: contents/ui/config/configAppearance.qml:1950
+#: contents/ui/config/configAppearance.qml:2087 contents/ui/DetailsView.qml:357
+msgid "Sunrise/Sunset"
+msgstr "Soluppgång/solnedgång"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1374
+msgid "Sunrise/sunset markers:"
+msgstr "Markörer för soluppgång/solnedgång:"
+
+#: contents/ui/TooltipContent.qml:593 contents/ui/TooltipContent.qml:609
+#: contents/ui/TooltipContent.qml:614
+msgid "Sunrise:"
+msgstr "Soluppgång:"
+
+#: contents/ui/DetailsView.qml:3362 contents/ui/DetailsView.qml:3364
+#: contents/ui/DetailsView.qml:3706 contents/ui/DetailsView.qml:3708
+msgid "Sunset"
+msgstr "Solnedgång"
+
+#: contents/ui/config/configAppearance.qml:1279
+msgid "Sunset icon:"
+msgstr "Ikon för solnedgång:"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:472
+msgid "Sunset only"
+msgstr "Endast solnedgång"
+
+#: contents/ui/config/configAppearance.qml:1197
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:544
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:538
+msgid "Sunset only   18:03"
+msgstr "Endast solnedgång   18:03"
+
+#: contents/ui/TooltipContent.qml:597 contents/ui/TooltipContent.qml:606
+#: contents/ui/TooltipContent.qml:614
+msgid "Sunset:"
+msgstr "Solnedgång:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:140
+msgid "Swap order:"
+msgstr "Byt ordning:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:507
+msgid "Switch between the light and dark map style. Until first toggled, the map follows the Plasma theme."
+msgstr "Växla mellan ljus och mörk kartstil. Kartan följer Plasma-temat tills du växlar första gången."
+
+#: contents/ui/FullView.qml:346
+msgid "Switch location"
+msgstr "Byt plats"
+
+#: contents/ui/config/configAppearance.qml:261
+#: contents/ui/config/tabs/ConfigPanelTab.qml:411
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1425
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:284
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:61
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:71
+msgid "Symbolic (Bundled)"
+msgstr "Symboliskt (medföljer)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1031
+msgid "Symbolic (follows theme colour)"
+msgstr "Symboliskt (följer temats färg)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:952
+msgid "System Tray Badge Background Color"
+msgstr "Bakgrundsfärg för systembrickans märke"
+
+#: contents/ui/config/configLocation.qml:897
+msgid "System location unavailable, trying IP geolocation…"
+msgstr "Systemets platsinformation är inte tillgänglig, försöker med IP-baserad platsbestämning…"
+
+#: contents/ui/config/configAppearance.qml:2459
+msgid "System tray"
+msgstr "Systembricka"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:120
+msgid "System tray display settings"
+msgstr "Inställningar för systembrickans visning"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:187
+msgid "System tray icon settings"
+msgstr "Inställningar för systembrickans ikon"
+
+#: contents/ui/config/configAppearance.qml:119
+msgid "System tray › Icon theme"
+msgstr "Systembricka › Ikontema"
+
+#: contents/ui/config/configAppearance.qml:133
+msgid "System tray › Simple layout › Weather icon style"
+msgstr "Systembricka › Enkel layout › Väderikonens stil"
+
+#: contents/ui/components/RadarWebEngineView.qml:131
+#: contents/ui/config/configAppearance.qml:1798
+#: contents/ui/config/configAppearance.qml:2045
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1279
+msgid "Temperature Color"
+msgstr "Temperaturfärg"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:790
+msgid "Temperature badge"
+msgstr "Temperaturmärke"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:616
+msgid "Temperature color:"
+msgstr "Temperaturfärg:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:309
+msgid "Temperature first"
+msgstr "Temperatur först"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:269
+msgid "Temperature only"
+msgstr "Endast temperatur"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:694
+msgid "Temperature shadow:"
+msgstr "Temperaturskugga:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:299
+#: contents/ui/TooltipContent.qml:416
+msgid "Temperature:"
+msgstr "Temperatur:"
+
+#: contents/ui/config/configNotifications.qml:443
+msgid "Test"
+msgstr "Testa"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:393
+msgid "Test API Key"
+msgstr "Testa API-nyckel"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:639
+msgid "Test across providers"
+msgstr "Testa hos leverantörerna"
+
+#: contents/ui/config/configGeneral.qml:461
+msgid "Testing connection…"
+msgstr "Testar anslutningen…"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:314
+#: contents/ui/config/tabs/ConfigProviderTab.qml:393
+msgid "Testing…"
+msgstr "Testar…"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:257
+msgid "Text labels (Temperature, Wind…)"
+msgstr "Textetiketter (temperatur, vind…)"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1354
+msgid "Text will follow the system font and expand to fill the available space."
+msgstr "Texten använder systemets teckensnitt och förstoras för att fylla det tillgängliga utrymmet."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:371
+msgid "The Radar tab can animate the wind as moving particles (switch it on there). The wind data comes from <a href='https://open-meteo.com/'>Open-Meteo</a>, independently of the LibreWXR server. This sets the frame rate: lower it on a slow computer, raise it if strong winds look jerky."
+msgstr "Radarfliken kan animera vinden som rörliga partiklar (aktivera det där). Vinddata kommer från <a href='https://open-meteo.com/'>Open-Meteo</a>, oberoende av LibreWXR-servern. Här ställer du in bildfrekvensen: sänk den på en långsam dator och höj den om starka vindar ser ryckiga ut."
+
+#: contents/ui/RadarView.qml:344
+msgid "The Radar tab requires the QtWebEngine package, which is not installed on this system."
+msgstr "Radarfliken kräver paketet QtWebEngine, som inte är installerat på det här systemet."
+
+#: contents/ui/config/configLocation.qml:371
+msgid "The auto-detected location is already in your saved list."
+msgstr "Den automatiskt identifierade platsen finns redan i din sparade lista."
+
+#: contents/ui/config/configAppearance.qml:922
+msgid "The condition icon will automatically reflect the current weather using your KDE system icon theme. No customisation is needed."
+msgstr "Väderikonen visar automatiskt det aktuella vädret med hjälp av ditt KDE-systemikontema. Ingen anpassning behövs."
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1254
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1458
+msgid "The geomagnetic (Kp/G) forecast is only available up to 3 days ahead"
+msgstr "Prognosen för geomagnetisk aktivitet (Kp/G) är endast tillgänglig upp till 3 dagar framåt"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:453
+msgid "The map could not be loaded. Check your internet connection."
+msgstr "Kartan kunde inte läsas in. Kontrollera din internetanslutning."
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:463
+msgid "The map needs QtWebEngine, which is not installed. You can still search for a location above."
+msgstr "Kartan kräver QtWebEngine, som inte är installerat. Du kan fortfarande söka efter en plats ovan."
+
+#: contents/ui/config/configLocation.qml:1160
+msgid "The map picker requires the QtLocation and QtPositioning packages, which are not installed on this system."
+msgstr "Kartväljaren kräver paketen QtLocation och QtPositioning, som inte är installerade på det här systemet."
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:133
+msgid "The radar map is prepared in the background after login and stays ready while the popup is closed, so the Radar tab opens at once. It uses more memory and starts QtWebEngine with Plasma."
+msgstr "Radarkartan förbereds i bakgrunden efter inloggning och står redo medan popup-fönstret är stängt, så att fliken Radar öppnas direkt. Den använder mer minne och startar QtWebEngine med Plasma."
+
+#: contents/ui/config/configGeneral.qml:165
+msgid "The workaround script wasn't found on disk. Try toggling the option off and on again."
+msgstr "Skriptet som kringgår problemet hittades inte på disken. Prova att stänga av alternativet och sedan slå på det igen."
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:908
+msgid "Theme default"
+msgstr "Temats standard"
+
+#: contents/ui/config/configAppearance.qml:2507
+#: contents/ui/config/configAppearance.qml:2548
+msgid "These settings only apply when the widget is placed in a panel or the system tray - they have no effect on the desktop."
+msgstr "Dessa inställningar gäller bara när widgeten är placerad i en panel eller i systembrickan. De har ingen effekt på skrivbordet."
+
+#: contents/ui/config/configLocation.qml:182
+msgid "This location is already in your saved list."
+msgstr "Den här platsen finns redan i din sparade lista."
+
+#: contents/ui/config/configNotifications.qml:76
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:61
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:654
+#: contents/ui/main.qml:1126 contents/ui/main.qml:2282
+msgid "Thunderstorm"
+msgstr "Åska"
+
+#: contents/ui/config/configAppearance.qml:777
+msgid "Thunderstorm (day)"
+msgstr "Åska (dag)"
+
+#: contents/ui/config/configAppearance.qml:782
+msgid "Thunderstorm (night)"
+msgstr "Åska (natt)"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:62
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:656
+#: contents/ui/main.qml:2284
+msgid "Thunderstorm with hail"
+msgstr "Åska med hagel"
+
+#: contents/ui/config/configAppearance.qml:788
+msgid "Thunderstorm with hail (day)"
+msgstr "Åska med hagel (dag)"
+
+#: contents/ui/config/configAppearance.qml:793
+msgid "Thunderstorm with hail (night)"
+msgstr "Åska med hagel (natt)"
+
+#: contents/ui/config/configAppearance.qml:799
+msgid "Thunderstorm, heavy hail (day)"
+msgstr "Åska, kraftigt hagel (dag)"
+
+#: contents/ui/config/configAppearance.qml:804
+msgid "Thunderstorm, heavy hail (night)"
+msgstr "Åska, kraftigt hagel (natt)"
+
+#: contents/ui/main.qml:1952
+msgid "Thunderstorms"
+msgstr "Åska"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:565
+msgid "Tile size:"
+msgstr "Rutstorlek:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:489
+msgid "Time format:"
+msgstr "Tidsformat:"
+
+#: contents/ui/config/configNotifications.qml:224
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:826
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:700
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:694
+msgid "Time:"
+msgstr "Tid:"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:333
+msgid "Timed out"
+msgstr "Tidsgränsen överskreds"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:599
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:557
+msgid "Timezone:"
+msgstr "Tidszon:"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:407
+msgid "To unlock additional map layers (Rain, Clouds, Temperature, Wind, Pressure): disable Adaptive mode from the 'Provider' tab, select OpenWeatherMap as your weather provider, and enter your API key above. When you are ready, you can enable Adaptive mode again."
+msgstr "För att låsa upp ytterligare kartlager (regn, moln, temperatur, vind, lufttryck): inaktivera adaptivt läge på fliken ”Leverantör”, välj OpenWeatherMap som väderleverantör och ange din API-nyckel ovan. När du är klar kan du aktivera adaptivt läge igen."
+
+#: contents/ui/ForecastView.qml:533 contents/ui/main.qml:1801
+#: contents/ui/SimpleView.qml:423
+msgid "Today"
+msgstr "I dag"
+
+#: contents/ui/config/configAppearance.qml:1863
+#: contents/ui/config/configAppearance.qml:1986
+#: contents/ui/config/configAppearance.qml:2109
+msgid "Today's total precipitation (mm/in)"
+msgstr "Dagens totala nederbörd (mm/in)"
+
+#: contents/ui/config/configNotifications.qml:613
+msgid "Today's weather"
+msgstr "Dagens väder"
+
+#: contents/ui/main.qml:1874
+msgid "Tomorrow"
+msgstr "I morgon"
+
+#: contents/ui/config/configNotifications.qml:633
+msgid "Tomorrow forecast"
+msgstr "Morgondagens prognos"
+
+#: contents/ui/config/configGeneral.qml:582
+msgid "Tomorrow.io (Key Required)"
+msgstr "Tomorrow.io (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:243
+msgid "Tomorrow.io API Key:"
+msgstr "API-nyckel för Tomorrow.io:"
+
+#: contents/ui/main.qml:1839
+msgid "Tonight"
+msgstr "I natt"
+
+#: contents/ui/config/configAppearance.qml:2467
+#: contents/ui/config/tabs/ConfigMiscTab.qml:208
+msgid "Tooltip"
+msgstr "Verktygstips"
+
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:94
+msgid "Tooltip Items"
+msgstr "Verktygstipsobjekt"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:193
+msgid "Tooltip height:"
+msgstr "Verktygstipsets höjd:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:396
+msgid "Tooltip items"
+msgstr "Verktygstipsobjekt"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:98
+msgid "Tooltip items settings"
+msgstr "Inställningar för verktygstipsobjekt"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:402
+msgid "Tooltip items:"
+msgstr "Verktygstipsobjekt:"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:143
+msgid "Tooltip width:"
+msgstr "Verktygstipsets bredd:"
+
+#: contents/ui/config/configAppearance.qml:225
+msgid "Tooltip › Icon theme"
+msgstr "Verktygstips › Ikontema"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:78
+msgid "Tooltip:"
+msgstr "Verktygstips:"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:833
+msgid "Top Center"
+msgstr "Överst i mitten"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:825
+msgid "Top Left"
+msgstr "Överst till vänster"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:821
+msgid "Top Right"
+msgstr "Överst till höger"
+
+#: contents/ui/config/configNotifications.qml:500
+msgid "Treat alert notifications as critical"
+msgstr "Behandla varningsaviseringar som kritiska"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:120
+msgid "Truncate (single line)"
+msgstr "Kapa (en rad)"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:523
+msgid "Turn off all three switches above to pick a single standard here instead."
+msgstr "Stäng av alla tre reglagen ovan för att i stället välja en enda standard här."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:474
+msgid "Turn on any combination to show them side by side instead of a single standard below."
+msgstr "Aktivera valfri kombination för att visa dem sida vid sida i stället för en enda standard nedan."
+
+#: contents/ui/main.qml:1478
+msgctxt "Alert severity"
+msgid "UNKNOWN"
+msgstr "OKÄNT"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:439
+#: contents/ui/config/tabs/ConfigMiscTab.qml:499
+msgid "US AQI (0-500)"
+msgstr "Amerikanskt AQI (0–500)"
+
+#: contents/ui/js/airQuality.js:104
+msgid "USG"
+msgstr "Ohäls. känsl."
+
+#: contents/ui/config/configAppearance.qml:1869
+#: contents/ui/config/configAppearance.qml:1992
+#: contents/ui/config/configAppearance.qml:2115 contents/ui/DetailsView.qml:364
+#: contents/ui/SimpleView.qml:265
+msgid "UV Index"
+msgstr "UV-index"
+
+#: contents/ui/TooltipContent.qml:465
+msgid "UV Index:"
+msgstr "UV-index:"
+
+#: contents/ui/config/configNotifications.qml:681 contents/ui/main.qml:2088
+msgid "UV index"
+msgstr "UV-index"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1261
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1465
+msgid "UV index forecast:"
+msgstr "UV-indexprognos:"
+
+#: contents/ui/main.qml:2085
+msgid "UV index will be %1 (%2)"
+msgstr "UV-indexnivån blir %1 (%2)"
+
+#: contents/ui/config/configAppearance.qml:1870
+#: contents/ui/config/configAppearance.qml:1993
+#: contents/ui/config/configAppearance.qml:2116
+msgid "Ultraviolet index"
+msgstr "Ultraviolett index"
+
+#: contents/ui/config/configLocation.qml:936
+#: contents/ui/config/configLocation.qml:1043
+msgid "Unable to detect location. All methods failed."
+msgstr "Det gick inte att identifiera platsen. Alla metoder misslyckades."
+
+#: contents/ui/js/airQuality.js:105
+msgid "Unhealthy"
+msgstr "Ohälsosam"
+
+#: contents/ui/js/airQuality.js:104
+msgid "Unhealthy for Sensitive Groups"
+msgstr "Ohälsosam för känsliga grupper"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:220
+msgid "Unit preset:"
+msgstr "Enhetsförval:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:215
+msgid "Units"
+msgstr "Enheter"
+
+#: contents/ui/config/configLocation.qml:1852
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:657
+#: contents/ui/FullView.qml:370
+msgid "Unknown"
+msgstr "Okänd"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:501
+msgid "Unknown location"
+msgstr "Okänd plats"
+
+#: contents/ui/FullView.qml:393
+msgid "Unpin widget"
+msgstr "Lossa widgeten"
+
+#: contents/ui/js/spaceWeather.js:176
+msgid "Unsettled"
+msgstr "Orolig"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:476
+msgid "Upcoming (auto)"
+msgstr "Nästa (automatiskt)"
+
+#: contents/ui/config/configAppearance.qml:1185
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:532
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:530
+msgid "Upcoming (next sunrise or sunset)"
+msgstr "Nästa (nästa soluppgång eller solnedgång)"
+
+#: contents/ui/config/configAppearance.qml:1349
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:517
+#: contents/ui/config/subpages/ConfigPanelSubPage.qml:592
+#: contents/ui/config/subpages/ConfigTooltipSubPage.qml:586
+msgid "Upcoming rise/set only"
+msgstr "Endast nästa uppgång/nedgång"
+
+#: contents/ui/main.qml:1583
+msgid "Upcoming: %1"
+msgstr "Kommande: %1"
+
+#: contents/ui/WeatherService.qml:263
+msgid "Update timed out. Click the refresh button to retry."
+msgstr "Uppdateringens tidsgräns överskreds. Klicka på uppdateringsknappen för att försöka igen."
+
+#: contents/ui/WeatherService.qml:991
+msgid "Updated %1 day ago"
+msgid_plural "Updated %1 days ago"
+msgstr[0] "Uppdaterad för %1 dag sedan"
+msgstr[1] "Uppdaterad för %1 dagar sedan"
+
+#: contents/ui/WeatherService.qml:989
+msgid "Updated %1 hour ago"
+msgid_plural "Updated %1 hours ago"
+msgstr[0] "Uppdaterad för %1 timme sedan"
+msgstr[1] "Uppdaterad för %1 timmar sedan"
+
+#: contents/ui/WeatherService.qml:986
+msgid "Updated %1 minute ago"
+msgid_plural "Updated %1 minutes ago"
+msgstr[0] "Uppdaterad för %1 minut sedan"
+msgstr[1] "Uppdaterad för %1 minuter sedan"
+
+#: contents/ui/WeatherService.qml:984
+msgid "Updated just now"
+msgstr "Uppdaterad nyss"
+
+#: contents/ui/FullView.qml:414
+msgid "Updating…"
+msgstr "Uppdaterar…"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:544
+msgid "Use 24-hour format:"
+msgstr "Använd 24-timmarsformat:"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:239
+msgid "Use KDE locale settings"
+msgstr "Använd KDE:s landsinställningar"
+
+#: contents/ui/config/configLocation.qml:1625
+msgid "Use manual location"
+msgstr "Använd manuellt angiven plats"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:902
+msgid "Use region defaults"
+msgstr "Använd regionala standardvärden"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1517
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:376
+msgid "Uses KDE system icons by default. Click the button to customise each item's icon."
+msgstr "Använder KDE:s systemikoner som standard. Klicka på knappen för att anpassa varje objekts ikon."
+
+#: contents/ui/js/airQuality.js:123
+msgid "V.High"
+msgstr "Mkt hög"
+
+#: contents/ui/js/airQuality.js:94
+msgid "V.Poor"
+msgstr "Mkt dålig"
+
+#: contents/ui/js/airQuality.js:106
+msgid "V.Unhealthy"
+msgstr "Mkt ohäls."
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:91
+msgid "Values are rounded to whole numbers"
+msgstr "Värden avrundas till heltal"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:91
+msgid "Values show decimal places"
+msgstr "Värden visas med decimaler"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:214
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: contents/ui/js/pollen.js:45 contents/ui/main.qml:1003
+#: contents/ui/main.qml:1035
+msgid "Very High"
+msgstr "Mycket hög"
+
+#: contents/ui/js/airQuality.js:123
+msgid "Very High Risk"
+msgstr "Mycket hög risk"
+
+#: contents/ui/js/airQuality.js:94
+msgid "Very Poor"
+msgstr "Mycket dålig"
+
+#: contents/ui/js/airQuality.js:106
+msgid "Very Unhealthy"
+msgstr "Mycket ohälsosam"
+
+#: contents/ui/config/subpages/ConfigMapSubPage.qml:648
+msgid "Violent rain showers"
+msgstr "Mycket kraftiga regnskurar"
+
+#: contents/ui/config/configAppearance.qml:1964 contents/ui/DetailsView.qml:359
+#: contents/ui/SimpleView.qml:262
+msgid "Visibility"
+msgstr "Sikt"
+
+#: contents/ui/config/configAppearance.qml:1965
+msgid "Visibility distance"
+msgstr "Siktsträcka"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1287
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1495
+#: contents/ui/TooltipContent.qml:450
+msgid "Visibility:"
+msgstr "Sikt:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:334
+msgid "Visible tabs:"
+msgstr "Synliga flikar:"
+
+#: contents/ui/config/configGeneral.qml:578
+msgid "Visual Crossing (Key Required)"
+msgstr "Visual Crossing (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:241
+msgid "Visual Crossing API Key:"
+msgstr "API-nyckel för Visual Crossing:"
+
+#: contents/ui/main.qml:2477
+msgid "Waning Crescent"
+msgstr "Avtagande månskära"
+
+#: contents/ui/main.qml:2473
+msgid "Waning Gibbous"
+msgstr "Avtagande måne"
+
+#: contents/ui/main.qml:2465
+msgid "Waxing Crescent"
+msgstr "Tilltagande månskära"
+
+#: contents/ui/main.qml:2469
+msgid "Waxing Gibbous"
+msgstr "Tilltagande måne"
+
+#: contents/ui/config/configLocation.qml:1219
+msgid "We detected your coordinates: <b>%1°, %2°</b>."
+msgstr "Vi identifierade dina koordinater: <b>%1°, %2°</b>."
+
+#: contents/ui/config/configLocation.qml:1219
+msgid "We detected your location as: <b>%1</b>."
+msgstr "Vi identifierade din plats som: <b>%1</b>."
+
+#: contents/ui/config/configGeneral.qml:626
+msgid "Weather Alerts"
+msgstr "Vädervarningar"
+
+#: contents/ui/config/tabs/ConfigAlertsTab.qml:68
+msgid "Weather Alerts Provider"
+msgstr "Leverantör av vädervarningar"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:68
+msgid "Weather Provider"
+msgstr "Väderleverantör"
+
+#: contents/ui/TooltipContent.qml:232
+msgid "Weather Widget"
+msgstr "Väderwidget"
+
+#: contents/ui/main.qml:1493 contents/ui/main.qml:1570
+msgid "Weather alert"
+msgstr "Vädervarning"
+
+#: contents/ui/config/configAppearance.qml:1898
+#: contents/ui/config/configAppearance.qml:2021
+#: contents/ui/config/configAppearance.qml:2144
+#: contents/ui/config/configNotifications.qml:294
+msgid "Weather alerts"
+msgstr "Vädervarningar"
+
+#: contents/ui/config/configAppearance.qml:2053
+msgid "Weather condition text"
+msgstr "Väderbeskrivning"
+
+#: contents/ui/config/configAppearance.qml:1792
+msgid "Weather icon + condition text"
+msgstr "Väderikon + väderbeskrivning"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:378
+msgid "Weather icon style:"
+msgstr "Väderikonens stil:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:204
+msgid "Weather icon theme:"
+msgstr "Väderikontema:"
+
+#: contents/ui/WeatherService.qml:1058
+msgid "Weather provider:"
+msgstr "Väderleverantör:"
+
+#: contents/ui/config/configNotifications.qml:347
+msgid ""
+"Weather-alert severity levels, from lowest to highest:\n"
+"\n"
+"🟡 Yellow - Minor: be aware of the conditions.\n"
+"🟠 Orange - Moderate: be prepared.\n"
+"🔴 Red - Severe: take action.\n"
+"🟣 Purple - Extreme: extraordinarily dangerous, take action immediately.\n"
+"\n"
+"Turn a level off to stop receiving notifications for alerts of that severity."
+msgstr ""
+"Vädervarningarnas allvarlighetsgrader, från lägst till högst:\n"
+"\n"
+"🟡 Gul – Mindre: var uppmärksam på förhållandena.\n"
+"🟠 Orange – Måttlig: var beredd.\n"
+"🔴 Röd – Kraftig: vidta åtgärder.\n"
+"🟣 Lila – Extrem: mycket stor fara, vidta åtgärder omedelbart.\n"
+"\n"
+"Stäng av en nivå för att sluta få aviseringar om varningar med den allvarlighetsgraden."
+
+#: contents/ui/config/configGeneral.qml:570
+msgid "WeatherAPI.com (Key Required)"
+msgstr "WeatherAPI.com (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:252
+msgid "WeatherAPI.com API Key:"
+msgstr "API-nyckel för WeatherAPI.com:"
+
+#: contents/ui/config/configGeneral.qml:590
+msgid "Weatherbit (Key Required)"
+msgstr "Weatherbit (nyckel krävs)"
+
+#: contents/ui/config/tabs/ConfigProviderTab.qml:247
+msgid "Weatherbit API Key:"
+msgstr "API-nyckel för Weatherbit:"
+
+#: contents/ui/DetailsView.qml:2447
+msgid "Website"
+msgstr "Webbplats"
+
+#: contents/ui/config/configAppearance.qml:2463
+#: contents/ui/config/tabs/ConfigMiscTab.qml:198
+msgid "Widget"
+msgstr "Widget"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:590
+msgid "Widget Size"
+msgstr "Widgetstorlek"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:325
+msgid "Widget panel area:"
+msgstr "Widgetens panelyta:"
+
+#: contents/ui/config/configAppearance.qml:210
+msgid "Widget › Details › Icon theme"
+msgstr "Widget › Detaljer › Ikontema"
+
+#: contents/ui/config/configAppearance.qml:181
+msgid "Widget › General › Weather icon theme"
+msgstr "Widget › Allmänt › Väderikontema"
+
+#: contents/ui/components/RadarWebEngineView.qml:132
+#: contents/ui/config/configAppearance.qml:1812
+#: contents/ui/config/configAppearance.qml:1943
+#: contents/ui/config/configAppearance.qml:2066
+#: contents/ui/config/configNotifications.qml:74
+#: contents/ui/DetailsView.qml:356 contents/ui/main.qml:1124
+msgid "Wind"
+msgstr "Vind"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:333
+msgid "Wind animation:"
+msgstr "Vindanimation:"
+
+#: contents/ui/config/configAppearance.qml:1944
+#: contents/ui/config/configAppearance.qml:2067
+msgid "Wind speed + direction"
+msgstr "Vindhastighet + riktning"
+
+#: contents/ui/config/configAppearance.qml:1813
+msgid "Wind speed and direction"
+msgstr "Vindhastighet och riktning"
+
+#: contents/ui/config/tabs/ConfigMiscTab.qml:332
+msgid "Wind speed:"
+msgstr "Vindhastighet:"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1300
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1510
+#: contents/ui/TooltipContent.qml:427
+msgid "Wind:"
+msgstr "Vind:"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:454
+msgid "Winds"
+msgstr "Vindar"
+
+#: contents/ui/components/RadarWebEngineViewLibreWXR.qml:621
+msgid "Winds aloft"
+msgstr "Vindar på hög höjd"
+
+#: contents/ui/config/tabs/ConfigRadarTab.qml:150
+msgid "Workaround radar map crashes on hybrid-GPU systems (EXPERIMENTAL)"
+msgstr "Kringgå krascher i radarkartan på system med hybridgrafik (EXPERIMENTELLT)"
+
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:124
+msgid "Wrap to next line"
+msgstr "Radbryt till nästa rad"
+
+#: contents/ui/config/subpages/ConfigDetailsSubPage.qml:722
+#: contents/ui/DetailsView.qml:2158
+msgid "X-ray Flare Class"
+msgstr "Röntgenklass för solutbrott"
+
+#: contents/ui/config/configNotifications.qml:317
+#: contents/ui/config/configNotifications.qml:364
+msgid "Yellow"
+msgstr "Gul"
+
+#: contents/ui/config/configLocation.qml:1326
+msgid "Yes"
+msgstr "Ja"
+
+#: contents/ui/config/configLocation.qml:1454
+msgid "Yes, remove it"
+msgstr "Ja, ta bort den"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:484
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:582
+msgid "You can see date/time format reference at: <a href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method\">Qt documentation</a>"
+msgstr "Du hittar en referens för datum- och tidsformat i <a href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method\">Qt-dokumentationen</a>"
+
+#: contents/ui/config/tabs/ConfigWidgetTab.qml:1325
+msgid "You may need to increase the widget's width to see all the selected information"
+msgstr "Du kan behöva öka widgetens bredd för att se all vald information"
+
+#: contents/ui/config/configAppearance.qml:435
+msgid "You selected <b>%1</b>. Apply it to every icon theme setting where it is available?"
+msgstr "Du valde <b>%1</b>. Vill du använda det för alla inställningar för ikonteman där det är tillgängligt?"
+
+#: contents/ui/components/LocationMapPickerView.qml:54
+msgid "Zoom in"
+msgstr "Zooma in"
+
+#: contents/ui/components/LocationMapPickerView.qml:54
+msgid "Zoom out"
+msgstr "Zooma ut"
+
+#: contents/ui/main.qml:2056
+msgid "a decrease from yesterday"
+msgstr "lägre än i går"
+
+#: contents/ui/main.qml:1830
+msgid "a few clouds"
+msgstr "lätt molnighet"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "already set"
+msgstr "redan inställt"
+
+#: contents/ui/main.qml:2055
+msgid "an increase from yesterday"
+msgstr "högre än i går"
+
+#: contents/ui/main.qml:1831
+msgid "clear skies"
+msgstr "klart"
+
+#: contents/ui/main.qml:1829
+msgid "cloudy skies"
+msgstr "molnigt"
+
+#: contents/ui/main.qml:1064
+msgid "cm"
+msgstr "cm"
+
+#: contents/ui/main.qml:1826
+msgid "drizzle"
+msgstr "duggregn"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:533
+msgid "e.g. Sofia, Bulgaria"
+msgstr "t.ex. Sofia, Bulgarien"
+
+#: contents/ui/main.qml:2065 contents/ui/main.qml:2110
+msgid "extreme"
+msgstr "extrem"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "feet"
+msgstr "fot"
+
+#: contents/ui/main.qml:1827
+msgid "fog"
+msgstr "dimma"
+
+#: contents/ui/main.qml:1824
+msgid "freezing rain"
+msgstr "underkylt regn"
+
+#: contents/ui/main.qml:1434
+msgid "from %1"
+msgstr "från %1"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:353
+msgid "ft"
+msgstr "ft"
+
+#: contents/ui/DetailsView.qml:1576 contents/ui/DetailsView.qml:1711
+msgid "grains/m³"
+msgstr "korn/m³"
+
+#: contents/ui/components/RadarWebEngineView.qml:862
+#: contents/ui/config/tabs/ConfigMiscTab.qml:386 contents/ui/js/weather.js:608
+msgid "hPa"
+msgstr "hPa"
+
+#: contents/ui/main.qml:2063
+msgid "high"
+msgstr "hög"
+
+#: contents/ui/main.qml:964 contents/ui/main.qml:1063
+msgid "in"
+msgstr "in"
+
+#: contents/ui/main.qml:1957
+msgid "in the next few hours"
+msgstr "under de närmaste timmarna"
+
+#: contents/ui/components/RadarWebEngineView.qml:850 contents/ui/main.qml:956
+msgid "in/h"
+msgstr "in/h"
+
+#: contents/ui/components/RadarWebEngineView.qml:860
+#: contents/ui/config/tabs/ConfigMiscTab.qml:394 contents/ui/js/weather.js:607
+msgid "inHg"
+msgstr "inHg"
+
+#: contents/ui/main.qml:973 contents/ui/SimpleView.qml:281
+#: contents/ui/TooltipContent.qml:449
+msgid "km"
+msgstr "km"
+
+#: contents/ui/components/RadarWebEngineView.qml:855
+#: contents/ui/config/tabs/ConfigMiscTab.qml:345 contents/ui/js/weather.js:601
+msgid "km/h"
+msgstr "km/h"
+
+#: contents/ui/DetailsView.qml:2027
+msgid "km/s"
+msgstr "km/s"
+
+#: contents/ui/components/RadarWebEngineView.qml:856
+#: contents/ui/js/weather.js:600
+msgid "kn"
+msgstr "kn"
+
+#: contents/ui/DetailsView.qml:3618
+msgid "left"
+msgstr "kvar"
+
+#: contents/ui/main.qml:2061
+msgid "low"
+msgstr "låg"
+
+#: contents/ui/config/subpages/ConfigLocationSubPage.qml:353
+msgid "m"
+msgstr "m"
+
+#: contents/ui/components/RadarWebEngineView.qml:857
+#: contents/ui/config/tabs/ConfigMiscTab.qml:353 contents/ui/js/weather.js:599
+msgid "m/s"
+msgstr "m/s"
+
+#: contents/ui/config/configGeneral.qml:558
+msgid "met.no (free)"
+msgstr "met.no (kostnadsfritt)"
+
+#: contents/ui/config/subpages/ConfigLocationManualSubPage.qml:573
+msgid "meters"
+msgstr "meter"
+
+#: contents/ui/js/airQuality.js:282
+msgid "mg/m³"
+msgstr "mg/m³"
+
+#: contents/ui/main.qml:972
+msgid "mi"
+msgstr "mi"
+
+#: contents/ui/main.qml:2106
+msgid "minor"
+msgstr "låg"
+
+#: contents/ui/config/configNotifications.qml:603
+#: contents/ui/config/tabs/ConfigProviderTab.qml:510
+msgid "minutes"
+msgstr "minuter"
+
+#: contents/ui/main.qml:965
+msgid "mm"
+msgstr "mm"
+
+#: contents/ui/components/RadarWebEngineView.qml:850 contents/ui/main.qml:957
+msgid "mm/h"
+msgstr "mm/h"
+
+#: contents/ui/components/RadarWebEngineView.qml:861
+#: contents/ui/config/tabs/ConfigMiscTab.qml:390 contents/ui/js/weather.js:606
+msgid "mmHg"
+msgstr "mmHg"
+
+#: contents/ui/main.qml:2062 contents/ui/main.qml:2107
+msgid "moderate"
+msgstr "måttlig"
+
+#: contents/ui/components/RadarWebEngineView.qml:854
+#: contents/ui/config/tabs/ConfigMiscTab.qml:349 contents/ui/js/weather.js:598
+msgid "mph"
+msgstr "mph"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "not available - left unchanged"
+msgstr "inte tillgängligt – lämnas oförändrat"
+
+#: contents/ui/main.qml:1828
+msgid "overcast skies"
+msgstr "mulet"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:1128
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:186
+#: contents/ui/config/tabs/ConfigTooltipTab.qml:236
+msgid "px"
+msgstr "px"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:372
+msgid "px height"
+msgstr "px hög"
+
+#: contents/ui/config/tabs/ConfigPanelTab.qml:372
+msgid "px width"
+msgstr "px bred"
+
+#: contents/ui/main.qml:2105
+msgid "quiet"
+msgstr "lugn"
+
+#: contents/ui/main.qml:1825
+msgid "rain"
+msgstr "regn"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "selected here"
+msgstr "valt här"
+
+#: contents/ui/main.qml:2109
+msgid "severe"
+msgstr "kraftig"
+
+#: contents/ui/main.qml:1823
+msgid "showers"
+msgstr "regnskurar"
+
+#: contents/ui/main.qml:1819
+msgid "showers and thunderstorms"
+msgstr "regnskurar och åska"
+
+#: contents/ui/main.qml:2057
+msgid "similar to yesterday"
+msgstr "ungefär som i går"
+
+#: contents/ui/main.qml:1822
+msgid "snow"
+msgstr "snö"
+
+#: contents/ui/main.qml:1821
+msgid "snow showers"
+msgstr "snöbyar"
+
+#: contents/ui/main.qml:2108
+msgid "strong"
+msgstr "stark"
+
+#: contents/ui/config/configLocation.qml:971
+msgid "system location"
+msgstr "systemets platsinformation"
+
+#: contents/ui/main.qml:1960
+msgid "this afternoon"
+msgstr "i eftermiddag"
+
+#: contents/ui/main.qml:1959
+msgid "this morning"
+msgstr "nu på morgonen"
+
+#: contents/ui/main.qml:1820
+msgid "thunderstorms"
+msgstr "åska"
+
+#: contents/ui/main.qml:1961
+msgid "tonight"
+msgstr "i natt"
+
+#: contents/ui/main.qml:1435
+msgid "until %1"
+msgstr "fram till %1"
+
+#: contents/ui/DetailsView.qml:3615
+msgid "until dawn"
+msgstr "fram till gryningen"
+
+#: contents/ui/main.qml:2064
+msgid "very high"
+msgstr "mycket hög"
+
+#: contents/ui/config/configAppearance.qml:459
+msgid "will be changed"
+msgstr "kommer att ändras"
+
+#: contents/ui/main.qml:1442 contents/ui/main.qml:1799
+#: contents/ui/main.qml:1872
+msgid "your location"
+msgstr "din plats"
+
+#: contents/ui/js/airQuality.js:283
+msgid "µg/m³"
+msgstr "µg/m³"
+
+#~ msgid "Smooth (12 to 30 fps)"
+#~ msgstr "Mjukt (12 till 30 bilder/s)"
+
+#~ msgid ""
+#~ "<b>Hybrid-GPU / NVIDIA PRIME + Wayland crash workaround</b><br/><br/>On some hybrid-GPU laptops running Wayland, the Radar tab's embedded browser view can crash the whole Plasma shell the moment it first paints, due to a driver-level conflict between the two GPUs. This option disables GPU-accelerated compositing inside that browser view to avoid it.<br/><br/>Only enable this if you're actually experiencing that crash - it costs some rendering performance on the radar map.<br/><br/><b>This needs a log out and back in to take effect</b>, since it has to be set before Plasma starts. It also applies to the whole session, so any other app that embeds a Chromium-based browser view will pick up the same setting.\n"
+#~ "                <br/><br/>If you enable this option, the following file will be created in: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+#~ msgstr ""
+#~ "<b>Lösning för krascher med hybridgrafik / NVIDIA PRIME + Wayland</b><br/><br/>På vissa bärbara datorer med hybridgrafik som kör Wayland kan radarflikens inbäddade webbläsarvy få hela Plasma-skalet att krascha så fort vyn ritas upp första gången, på grund av en konflikt mellan de två grafikprocessorerna på drivrutinsnivå. Det här alternativet inaktiverar GPU-accelererad komposition i webbläsarvyn för att undvika problemet.<br/><br/>Aktivera bara detta om du faktiskt upplever kraschen – det försämrar radarvisningens renderingsprestanda något.<br/><br/><b>Du måste logga ut och in igen för att ändringen ska börja gälla</b>, eftersom inställningen måste göras innan Plasma startar. Den gäller även för hela sessionen, så alla andra program som bäddar in en Chromium-baserad webbläsarvy får samma inställning.\n"
+#~ "                <br/><br/>Om du aktiverar alternativet skapas följande fil: ~/.config/plasma-workspace/env/advanced-weather-widget-radar-gpu-workaround.sh"
+
+#~ msgid "Colorful"
+#~ msgstr "Färgglatt"
+
+#~ msgid "KDE Symbolic"
+#~ msgstr "KDE:s symboliska ikoner"
+
+#~ msgid ""
+#~ "Providers are tried in order until one succeeds:\n"
+#~ "Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+#~ "Open-Meteo is always tried first - it is free and requires no API key."
+#~ msgstr ""
+#~ "Leverantörerna provas i följande ordning tills någon lyckas:\n"
+#~ "Open-Meteo  →  BBC Weather  →  met.no  →  Pirate Weather  →  Visual Crossing  →  Tomorrow.io  →  StormGlass  →  Weatherbit  →  QWeather  →  OpenWeatherMap  →  WeatherAPI.com\n"
+#~ "Open-Meteo provas alltid först – det är kostnadsfritt och kräver ingen API-nyckel."
+
+#~ msgid "Radar color scheme:"
+#~ msgstr "Radarns färgschema:"
+
+#~ msgid "Space"
+#~ msgstr "Mellanslag"
+
+#~ msgid "Symbolic"
+#~ msgstr "Symboliskt"
+
+#~ msgid "To unlock additional map layers (Rain, Clouds, Temperature, Wind, Pressure): disable Adaptive mode, select OpenWeatherMap as your weather provider, and enter your API key above. When you are ready, you can enable Adaptive mode again."
+#~ msgstr "För att låsa upp ytterligare kartlager (regn, moln, temperatur, vind, lufttryck): inaktivera adaptivt läge, välj OpenWeatherMap som väderleverantör och ange din API-nyckel ovan. När du är klar kan du aktivera adaptivt läge igen."
+
+#~ msgid "Update timed out. Tap to retry."
+#~ msgstr "Uppdateringens tidsgräns överskreds. Tryck för att försöka igen."

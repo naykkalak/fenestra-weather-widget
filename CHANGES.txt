@@ -1,0 +1,114 @@
+Fenestra Weather Widget - changes
+=================================
+
+Fenestra Weather Widget 1.0 is a fork of "Advanced Weather Widget" 1.8.1
+by Petar Nedyalkov (https://github.com/pnedyalkov91/advanced-weather-widget).
+
+Original copyright: 2026 Petar Nedyalkov.
+Modifications copyright: 2026 naykkalak (Fenestra).
+License: GPL-3.0-or-later (see LICENSE). The original is GPL-2.0-or-later; this fork
+uses version 3, as allowed by its "or later" clause.
+
+Every modified file carries a "Modifications Copyright ... naykkalak (Fenestra Weather
+Widget)" line under the original copyright. Files not listed below are unchanged.
+
+
+Differences from Advanced Weather Widget 1.8.1
+----------------------------------------------
+
+Identity
+- New plugin Id (org.fenestra.weather), name (Fenestra Weather Widget), version (1.0),
+  website and bug tracker (metadata.json). The translated names of the original widget
+  are removed; the translated descriptions are kept.
+- The translation files (contents/locale/*/LC_MESSAGES/*.mo) are renamed to follow the
+  new Id. The translations themselves are unchanged.
+- The OpenWeatherMap API key bundled with the original is removed: providers that need
+  a key use the key entered by the user in the settings.
+
+Instant display and caches (main.qml, WeatherService.qml, config/main.xml)
+- Weather cache: the last weather data is saved (hidden setting weatherCache) and shown
+  immediately when the widget starts, then refreshed in the background. The cache is
+  used only for the same location and for 12 hours; only fresh data is saved.
+- Hourly cache: the hourly slots of today and tomorrow are saved (hidden setting
+  hourlyCache, 12-hour validity, same location). Opening a day shows the saved slots
+  at once, the provider replaces them when it answers, and the saved slots are put back
+  if the provider fails or the network is down.
+- Background update of the hourly cache for today and tomorrow, at most once every
+  3 hours per day, never for AEMET (very limited quota).
+- Past hours of the day: OpenWeather's free plan only returns upcoming slots. The widget
+  remembers today's slots at each refresh (hidden setting pastHoursCache, reset every
+  day) and, when "show past hours" is enabled, shows the past ones, completed with the
+  hourly cache.
+- The popup is built when the widget loads instead of at the first click
+  (preloadFullRepresentation). Trade-off: slightly slower session start and a little
+  more memory.
+
+Offline state (main.qml, WeatherService.qml, CompactView.qml)
+- When synchronisation fails (update timeout, all providers failed, or network lost),
+  the panel shows the "weather-none-available" icon with "--" instead of the
+  temperature and the condition, so outdated data is never shown as current.
+- The last data stays on screen in the popup if it is for the current location; the
+  failure message stays visible.
+- Network check every 60 seconds, independent of the 15-minute refresh cycle:
+  https://networkcheck.kde.org/, then https://nmcheck.gnome.org/ as a fallback
+  (the standard connectivity-check addresses of KDE and GNOME), 8-second timeout.
+  The network is considered lost only if both fail. When it comes back, a new refresh
+  starts at once (at most every 2 minutes).
+
+Panel (CompactView.qml)
+- Hover frame shown while the pointer is over the widget or while the popup is open,
+  and a press effect on click.
+- Multi-line mode: panel width fits the text (measured) instead of a fixed width;
+  lines vertically centred; first line slightly larger, second line slightly smaller
+  and dimmed.
+
+Forecast view (ForecastView.qml)
+- Smooth opening: the hourly content of a day is built once its opening animation has
+  finished (400 ms safety delay); the first day is built immediately and synchronously.
+- The first day stays open with its data when coming back to the Forecast tab
+  (no more empty panel).
+- The "Today" label is shown only if the first day really is today's date.
+- Strip layout: opens on the current time slot, like the cards layout, and goes back
+  to it when the view or the day becomes visible again.
+- Cards layout: the row is placed on the current hour without a visible jump (hidden
+  until placed); the position is computed on the cards actually displayed, sunrise and
+  sunset cards included; icons stay aligned whether or not a card shows precipitation.
+
+Providers
+- OpenWeather (providers/openWeather.js): today stays in the forecast until midnight.
+  After the last 3-hour slot of the day, OpenWeather no longer sends anything for
+  today; the day row is then rebuilt from the slots saved earlier in the day.
+- StormGlass (providers/stormGlass.js): StormGlass starts at midnight UTC, so the
+  previous day could appear as the first row shortly after midnight; past days are
+  now skipped.
+
+Temperature unit (main.qml)
+- Temperatures in Fahrenheit are always written with their unit ("62 °F"), even when
+  "Show temperature unit" is off, so they can't be mistaken for Celsius. Celsius is
+  unchanged.
+
+Tooltip (TooltipContent.qml)
+- The footer line (last update, weather provider) follows the theme's text colour,
+  slightly dimmed, so it stays readable with both light and dark themes.
+
+Radar map (components/librewxr-map.html, MIT License)
+- Smooth playback: cross-fade between radar frames (400 ms) and a timeline cursor that
+  glides continuously; both are disabled when the system asks for reduced motion.
+- This file is generated by scripts/build_librewxr_map.py; these changes were made
+  directly in the generated file, the sources in scripts/librewxr-map-src/ are
+  unchanged.
+
+
+Modified files
+--------------
+metadata.json
+contents/config/main.xml
+contents/ui/main.qml
+contents/ui/WeatherService.qml
+contents/ui/CompactView.qml
+contents/ui/ForecastView.qml
+contents/ui/TooltipContent.qml
+contents/ui/providers/openWeather.js
+contents/ui/providers/stormGlass.js
+contents/ui/components/librewxr-map.html
+contents/locale/*/LC_MESSAGES/*.mo (renamed only)
