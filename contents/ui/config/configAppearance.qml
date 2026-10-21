@@ -1,5 +1,6 @@
 /*
  * Copyright 2026  Petar Nedyalkov
+ * Modifications Copyright 2026  naykkalak (Fenestra Weather Widget) - modified from Advanced Weather Widget 1.8.1, see CHANGES.txt
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -1589,7 +1590,7 @@ KCM.AbstractKCM {
     property bool cfg_simpleShowSunriseSunset: true
     property bool cfg_simpleShowForecastCompass: true
     property bool cfg_simpleShowStatsChips: true
-    property string cfg_widgetDefaultTab: "details"  // "details" | "forecast"
+    property string cfg_widgetDefaultTab: "forecast"  // "forecast" | "radar" | "details"
     property string cfg_widgetVisibleTabs: "both"      // "both" | "details" | "forecast" | "none"
     property int cfg_widgetWidth: 0       // 0 = default 540 px
     property int cfg_widgetHeight: 0       // 0 = default 500 px

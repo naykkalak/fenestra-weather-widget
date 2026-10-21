@@ -1,5 +1,6 @@
 /*
  * Copyright 2026  Petar Nedyalkov
+ * Modifications Copyright 2026  naykkalak (Fenestra Weather Widget) - modified from Advanced Weather Widget 1.8.1, see CHANGES.txt
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -317,14 +318,14 @@ ColumnLayout {
                     Layout.preferredWidth: 200
                     textRole: "text"
                     model: [
-                        { text: i18n("Details"),  value: "details"  },
                         { text: i18n("Forecast"), value: "forecast" },
-                        { text: i18n("Radar"),    value: "radar"    }
+                        { text: i18n("Radar"),    value: "radar"    },
+                        { text: i18n("Details"),  value: "details"  }
                     ]
                     Component.onCompleted: {
-                        var v = widgetTab.configRoot.cfg_widgetDefaultTab || "details";
-                        if (v === "forecast") currentIndex = 1;
-                        else if (v === "radar") currentIndex = 2;
+                        var v = widgetTab.configRoot.cfg_widgetDefaultTab || "forecast";
+                        if (v === "radar") currentIndex = 1;
+                        else if (v === "details") currentIndex = 2;
                         else currentIndex = 0;
                     }
                     onActivated: widgetTab.configRoot.cfg_widgetDefaultTab = model[currentIndex].value

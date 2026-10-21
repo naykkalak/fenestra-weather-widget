@@ -1,5 +1,6 @@
 /*
  * Copyright 2026  Petar Nedyalkov
+ * Modifications Copyright 2026  naykkalak (Fenestra Weather Widget) - modified from Advanced Weather Widget 1.8.1, see CHANGES.txt
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -104,13 +105,14 @@ Rectangle {
     // Resolve the default tab, falling back if the preferred tab is hidden.
     // Returns 0 = Details, 1 = Forecast, 2 = Radar
     function _resolvedDefaultTab() {
-        var want = 0;
-        var pref = Plasmoid.configuration.widgetDefaultTab || "details";
-        if (pref === "forecast") want = 1;
+        var want = 1;   // Fenestra : Prévisions par défaut
+        var pref = Plasmoid.configuration.widgetDefaultTab || "forecast";
+        if (pref === "details") want = 0;
         else if (pref === "radar") want = 2;
+        // repli dans l'ordre affiché : Prévisions, Radar, Détails
         if (want === 0 && !fullView.showDetailsTab)  want = fullView.showForecastTab ? 1 : (fullView.showRadarTab ? 2 : 0);
-        if (want === 1 && !fullView.showForecastTab) want = fullView.showDetailsTab  ? 0 : (fullView.showRadarTab ? 2 : 0);
-        if (want === 2 && !fullView.showRadarTab)    want = fullView.showDetailsTab  ? 0 : (fullView.showForecastTab ? 1 : 0);
+        if (want === 1 && !fullView.showForecastTab) want = fullView.showRadarTab    ? 2 : (fullView.showDetailsTab ? 0 : 1);
+        if (want === 2 && !fullView.showRadarTab)    want = fullView.showForecastTab ? 1 : (fullView.showDetailsTab ? 0 : 2);
         return want;
     }
 
@@ -579,9 +581,10 @@ Rectangle {
                 Repeater {
                     model: {
                         var tabs = [];
-                        if (fullView.showDetailsTab)  tabs.push({ label: i18n("Details"),  logicalIdx: 0 });
+                        // Fenestra : ordre Prévisions, Radar, Détails (les numéros internes ne changent pas)
                         if (fullView.showForecastTab) tabs.push({ label: i18n("Forecast"), logicalIdx: 1 });
                         if (fullView.showRadarTab)    tabs.push({ label: i18n("Radar"),    logicalIdx: 2 });
+                        if (fullView.showDetailsTab)  tabs.push({ label: i18n("Details"),  logicalIdx: 0 });
                         return tabs;
                     }
                     delegate: Rectangle {
@@ -665,7 +668,9 @@ Rectangle {
                     // there is no popup): hidden tabs unload on close, so the
                     // expose-time PlasmaTheme sync storm on reopen only covers
                     // one tab's items instead of every tab ever visited.
-                    active: detailsTab.StackLayout.isCurrentItem || (item !== null && fullView._keepHiddenTabs)
+                    // Fenestra : une fois construit, l'onglet reste prêt (fenêtre fermée comprise) :
+                    // le reconstruire à chaque ouverture bloquait l'ouverture ~2 s
+                    active: detailsTab.StackLayout.isCurrentItem || item !== null
                     sourceComponent: DetailsView {
                         weatherRoot: fullView.weatherRoot
                     }
@@ -685,7 +690,7 @@ Rectangle {
                     id: forecastLoader
                     anchors.fill: parent
                     asynchronous: true
-                    active: forecastTab.StackLayout.isCurrentItem || (item !== null && fullView._keepHiddenTabs)
+                    active: forecastTab.StackLayout.isCurrentItem || item !== null
                     sourceComponent: ScrollView {
                         id: forecastScrollView
                         clip: true

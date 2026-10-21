@@ -1363,19 +1363,21 @@ body {
 
     /* Fenestra : fondu enchaîné radar - lecture fluide entre deux images (couches hors carte de fond) */
 .leaflet-pane:not(.leaflet-tile-pane) .leaflet-layer {
-    transition: opacity 400ms linear;
+    transition: opacity var(--lv-fade, 400ms) linear;   /* Fenestra 1.1 : suit le rythme radar / satellite */
 }
 @media (prefers-reduced-motion: reduce) {
     .leaflet-pane:not(.leaflet-tile-pane) .leaflet-layer {
         transition: none;
     }
 }
-/* Fenestra : curseur radar - glisse en continu pendant la lecture (500 ms = délai entre deux images) */
+/* Fenestra : curseur radar - glisse en continu pendant la lecture. Fenestra 1.1 : la durée
+   (--lv-glide) suit le délai entre deux images (radar 750 ms, satellite 1200 ms) et vaut 0
+   quand la lecture reboucle, pour que le curseur revienne au début sans traverser la frise. */
 .scrubber-thumb {
-    transition: left 500ms linear, box-shadow var(--transition-fast), transform var(--transition-fast);
+    transition: left var(--lv-glide, 500ms) linear, box-shadow var(--transition-fast), transform var(--transition-fast);
 }
 .rail-past {
-    transition: width 500ms linear;
+    transition: width var(--lv-glide, 500ms) linear;
 }
 @media (prefers-reduced-motion: reduce) {
     .scrubber-thumb {
@@ -1627,9 +1629,9 @@ var WIND_LEVEL = PARAMS.get('windlevel') === '700hPa' ? '700hPa' : '10m';
     /* === TIMING / TUNING CONSTANTS === */
     var RADAR_OPACITY = 0.8;
     var SATELLITE_OPACITY = 0.8;
-    var RADAR_ANIMATION_DELAY = 500;   // dwell between frames (ms)
+    var RADAR_ANIMATION_DELAY = 750;   // dwell between frames (ms) - Fenestra 1.1 : 500 -> 750
     var RADAR_ANIMATION_PAUSE = 1500;  // dwell at past/nowcast boundary + loop wrap
-    var SAT_ANIMATION_DELAY = 800;
+    var SAT_ANIMATION_DELAY = 1200;    // Fenestra 1.1 : 800 -> 1200
     var SAT_ANIMATION_PAUSE = 2000;
     var PRELOAD_CONCURRENCY = 3;       // in-flight preload pool size
     var ALERTS_DEBOUNCE_MS = 800;      // viewport -> alerts re-filter debounce
@@ -2334,6 +2336,14 @@ var WIND_LEVEL = PARAMS.get('windlevel') === '700hPa' ? '700hPa' : '10m';
         function updateScrubberPosition() {
             var track = byId('lv-scrubber-track');
             if (!track || !state.scrubberThumb) return;
+            // Fenestra 1.1 : glissement du curseur et fondu au rythme réel des images ;
+            // pas de glissement au rebouclage ni quand on saute à une autre image
+            var avant = state._fenestraPos;
+            state._fenestraPos = state.animationPosition;
+            var pas = state.isPlaying && avant !== undefined && state.animationPosition === avant + 1;
+            var rythme = frameDelay();
+            document.documentElement.style.setProperty('--lv-glide', (pas ? rythme : 0) + 'ms');
+            document.documentElement.style.setProperty('--lv-fade', Math.round(rythme * 0.75) + 'ms');
             if (state.mapFrames.length <= 1) {
                 state.scrubberThumb.style.left = '0%';
             } else {

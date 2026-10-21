@@ -99,6 +99,21 @@ Radar map (components/librewxr-map.html, MIT License)
   unchanged.
 
 
+Fenestra Weather Widget 1.1
+---------------------------
+- Popup tabs are now ordered Forecast, Radar, Details, and Forecast is the default tab
+  (config/main.xml, FullView.qml, config/tabs/ConfigWidgetTab.qml, config/configAppearance.qml).
+- Faster popup: once built, the Forecast and Details tabs stay ready while the popup is
+  closed. Previously the hidden tabs were destroyed on close and the Details tab was
+  rebuilt on every opening, which blocked the popup for about 2 seconds (FullView.qml).
+  The radar tab is unchanged (still unloaded when closed unless "Keep the radar loaded").
+- Smoother radar and satellite animation: the timeline cursor and the crossfade now follow
+  the real frame pace instead of fixed durations, the cursor jumps straight back to the start
+  when the loop restarts instead of racing across the timeline, and playback is slower
+  (750 ms per radar frame instead of 500, 1200 ms per satellite frame instead of 800)
+  (contents/ui/components/librewxr-map.html).
+
+
 Modified files
 --------------
 metadata.json
@@ -107,6 +122,9 @@ contents/ui/main.qml
 contents/ui/WeatherService.qml
 contents/ui/CompactView.qml
 contents/ui/ForecastView.qml
+contents/ui/FullView.qml
+contents/ui/config/configAppearance.qml
+contents/ui/config/tabs/ConfigWidgetTab.qml
 contents/ui/TooltipContent.qml
 contents/ui/providers/openWeather.js
 contents/ui/providers/stormGlass.js
